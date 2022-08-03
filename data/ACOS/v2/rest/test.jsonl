@@ -1,0 +1,583 @@
+{'sentence': 'yum !', 'labels': [[(-1, -1), 'FOOD#QUALITY', (0, 1), 'positive']]}
+{'sentence': 'serves really good sushi .', 'labels': [[(3, 4), 'FOOD#QUALITY', (2, 3), 'positive']]}
+{'sentence': 'not the biggest portions but adequate .', 'labels': [[(3, 4), 'FOOD#STYLE_OPTIONS', (0, 3), 'neutral'], [(3, 4), 'FOOD#STYLE_OPTIONS', (5, 6), 'neutral']]}
+{'sentence': 'green tea creme brulee is a must !', 'labels': [[(0, 4), 'FOOD#QUALITY', (6, 7), 'positive']]}
+{'sentence': 'it has great sushi and even better service .', 'labels': [[(3, 4), 'FOOD#QUALITY', (2, 3), 'positive'], [(7, 8), 'SERVICE#GENERAL', (6, 7), 'positive']]}
+{'sentence': 'the entire staff was extremely accomodating and tended to my every need .', 'labels': [[(2, 3), 'SERVICE#GENERAL', (5, 6), 'positive']]}
+{'sentence': "i ' ve been to this restaurant over a dozen times with no complaints to date .", 'labels': [[(6, 7), 'RESTAURANT#GENERAL', (12, 14), 'positive']]}
+{'sentence': 'the owner is belligerent to guests that have a complaint .', 'labels': [[(1, 2), 'SERVICE#GENERAL', (3, 4), 'negative']]}
+{'sentence': 'good food !', 'labels': [[(1, 2), 'FOOD#QUALITY', (0, 1), 'positive']]}
+{'sentence': 'this is a great place to get a delicious meal .', 'labels': [[(9, 10), 'FOOD#QUALITY', (8, 9), 'positive'], [(4, 5), 'RESTAURANT#GENERAL', (3, 4), 'positive']]}
+{'sentence': 'the staff is pretty friendly .', 'labels': [[(1, 2), 'SERVICE#GENERAL', (4, 5), 'positive']]}
+{'sentence': 'the onion rings are great !', 'labels': [[(1, 3), 'FOOD#QUALITY', (4, 5), 'positive']]}
+{'sentence': 'the lemon chicken tasted like sticky sweet donuts and the honey walnut prawns , the few they actually give you . . . . . were not good .', 'labels': [[(1, 3), 'FOOD#QUALITY', (5, 7), 'negative'], [(10, 13), 'FOOD#QUALITY', (26, 28), 'negative'], [(10, 13), 'FOOD#STYLE_OPTIONS', (26, 28), 'negative']]}
+{'sentence': 'nice ambience , but highly overrated place .', 'labels': [[(1, 2), 'AMBIENCE#GENERAL', (0, 1), 'positive'], [(6, 7), 'RESTAURANT#GENERAL', (5, 6), 'negative']]}
+{'sentence': 'worst service i ever had', 'labels': [[(1, 2), 'SERVICE#GENERAL', (0, 1), 'positive']]}
+{'sentence': 'everyone that sat in the back outside agreed that it was the worst service we had ever received .', 'labels': [[(13, 14), 'SERVICE#GENERAL', (12, 13), 'negative']]}
+{'sentence': 'our waiter was non - existent and after our food finally arrived over an hour after we ordered , we were not given any water or utensils .', 'labels': [[(1, 2), 'SERVICE#GENERAL', (3, 6), 'negative']]}
+{'sentence': 'i complained to the manager , but he was not even apologetic .', 'labels': [[(4, 5), 'SERVICE#GENERAL', (9, 12), 'negative']]}
+{'sentence': 'fabulous italian food !', 'labels': [[(1, 3), 'FOOD#QUALITY', (0, 1), 'positive']]}
+{'sentence': '– i highly recommend mioposto .', 'labels': [[(4, 5), 'RESTAURANT#GENERAL', (3, 4), 'positive']]}
+{'sentence': 'i am so happy to have a wonderful italian restaurant in my neighborhood .', 'labels': [[(8, 10), 'RESTAURANT#GENERAL', (7, 8), 'positive'], [(8, 10), 'RESTAURANT#GENERAL', (3, 4), 'positive']]}
+{'sentence': 'the wine list is wonderful and the food reminds me of my recent trip to italy .', 'labels': [[(1, 3), 'DRINKS#STYLE_OPTIONS', (4, 5), 'positive'], [(7, 8), 'FOOD#QUALITY', (-1, -1), 'positive']]}
+{'sentence': 'i love this restaurant', 'labels': [[(3, 4), 'RESTAURANT#GENERAL', (1, 2), 'positive']]}
+{'sentence': '– i will never forget the amazing meal , service , and ambiance i experience at this restaurant .', 'labels': [[(7, 8), 'FOOD#QUALITY', (6, 7), 'positive'], [(9, 10), 'SERVICE#GENERAL', (6, 7), 'positive'], [(12, 13), 'AMBIENCE#GENERAL', (6, 7), 'positive']]}
+{'sentence': 'the wine list is incredible and extensive and diverse , the food is all incredible and the staff was all very nice , good at their jobs and cultured .', 'labels': [[(1, 3), 'DRINKS#STYLE_OPTIONS', (4, 5), 'positive'], [(1, 3), 'DRINKS#STYLE_OPTIONS', (6, 7), 'positive'], [(1, 3), 'DRINKS#STYLE_OPTIONS', (8, 9), 'positive'], [(11, 12), 'FOOD#QUALITY', (14, 15), 'positive'], [(17, 18), 'SERVICE#GENERAL', (21, 22), 'positive'], [(17, 18), 'SERVICE#GENERAL', (23, 24), 'positive']]}
+{'sentence': 'i have not a bad thing to say about this place .', 'labels': [[(10, 11), 'RESTAURANT#GENERAL', (2, 5), 'positive']]}
+{'sentence': 'the food was great !', 'labels': [[(1, 2), 'FOOD#QUALITY', (3, 4), 'positive']]}
+{'sentence': "it ' s * very * reasonably priced , esp for the quality of the food .", 'labels': [[(15, 16), 'FOOD#QUALITY', (6, 7), 'positive'], [(15, 16), 'FOOD#PRICES', (6, 7), 'positive']]}
+{'sentence': 'i had the kafta plate and it was perfect .', 'labels': [[(3, 5), 'FOOD#QUALITY', (8, 9), 'positive']]}
+{'sentence': '– in a age of incremental cost cutting in restaurants , its nice to see a place that bucks that trend , and just plain delivers high quality food and good service , period .', 'labels': [[(28, 29), 'FOOD#QUALITY', (26, 28), 'positive'], [(31, 32), 'SERVICE#GENERAL', (30, 31), 'positive']]}
+{'sentence': 'this is the place to relax and enjoy the finest quality food the industry can offer .', 'labels': [[(3, 4), 'AMBIENCE#GENERAL', (5, 6), 'positive'], [(3, 4), 'AMBIENCE#GENERAL', (7, 8), 'positive'], [(11, 12), 'FOOD#QUALITY', (9, 11), 'positive']]}
+{'sentence': 'caution - its real food for people who love the best .', 'labels': [[(4, 5), 'FOOD#QUALITY', (3, 4), 'positive'], [(4, 5), 'FOOD#QUALITY', (10, 11), 'positive']]}
+{'sentence': 'i liked the atmosphere very much but the food was not worth the price .', 'labels': [[(3, 4), 'AMBIENCE#GENERAL', (1, 2), 'positive'], [(8, 9), 'FOOD#QUALITY', (10, 12), 'negative'], [(8, 9), 'FOOD#PRICES', (10, 12), 'negative']]}
+{'sentence': 'i may not be a sushi guru but i can tell you that the food here is just okay and that there is not much else to it .', 'labels': [[(14, 15), 'FOOD#QUALITY', (18, 19), 'negative']]}
+{'sentence': "rice is too dry , tuna was n ' t so fresh either .", 'labels': [[(0, 1), 'FOOD#QUALITY', (3, 4), 'negative'], [(5, 6), 'FOOD#QUALITY', (7, 12), 'negative']]}
+{'sentence': 'i have eaten here three times and have found the quality and variety of the fish to be excellent .', 'labels': [[(15, 16), 'FOOD#QUALITY', (18, 19), 'positive'], [(15, 16), 'FOOD#STYLE_OPTIONS', (18, 19), 'positive']]}
+{'sentence': 'however , the value and service are both severely lacking .', 'labels': [[(5, 6), 'SERVICE#GENERAL', (9, 10), 'negative'], [(3, 4), 'RESTAURANT#PRICES', (9, 10), 'negative']]}
+{'sentence': 'furthermore , while the fish is unquestionably fresh , rolls tend to be inexplicably bland .', 'labels': [[(4, 5), 'FOOD#QUALITY', (7, 8), 'positive'], [(9, 10), 'FOOD#QUALITY', (14, 15), 'negative']]}
+{'sentence': 'the service ranges from mediocre to offensive .', 'labels': [[(1, 2), 'SERVICE#GENERAL', (4, 5), 'negative'], [(1, 2), 'SERVICE#GENERAL', (6, 7), 'negative']]}
+{'sentence': 'on a recent trip , our waiter was extremely dismissive , while no less than three staff members waited hand - and - foot on a pair of japanese girls seated nearby .', 'labels': [[(6, 7), 'SERVICE#GENERAL', (9, 10), 'negative'], [(16, 18), 'SERVICE#GENERAL', (-1, -1), 'negative']]}
+{'sentence': 'freshest sushi – i love this restaurant .', 'labels': [[(1, 2), 'FOOD#QUALITY', (0, 1), 'positive'], [(6, 7), 'RESTAURANT#GENERAL', (4, 5), 'positive']]}
+{'sentence': 'they pay such detail to everything from miso soup to complex rolls .', 'labels': [[(7, 9), 'FOOD#QUALITY', (-1, -1), 'positive'], [(11, 12), 'FOOD#QUALITY', (10, 11), 'positive']]}
+{'sentence': 'the sashimi was the freshest and most tender i have ever tasted .', 'labels': [[(1, 2), 'FOOD#QUALITY', (4, 5), 'positive'], [(1, 2), 'FOOD#QUALITY', (7, 8), 'positive']]}
+{'sentence': 'their apps are all delicious .', 'labels': [[(1, 2), 'FOOD#QUALITY', (4, 5), 'positive']]}
+{'sentence': 'the only drawback is that this place is really expensive and the portions are on the small side .', 'labels': [[(6, 7), 'RESTAURANT#PRICES', (9, 10), 'negative'], [(12, 13), 'FOOD#STYLE_OPTIONS', (16, 17), 'negative']]}
+{'sentence': 'but the space is small and lovely , and the service is helpful .', 'labels': [[(2, 3), 'AMBIENCE#GENERAL', (4, 5), 'positive'], [(2, 3), 'AMBIENCE#GENERAL', (6, 7), 'positive'], [(10, 11), 'SERVICE#GENERAL', (12, 13), 'positive']]}
+{'sentence': '– the food was not great & the waiters were rude .', 'labels': [[(2, 3), 'FOOD#QUALITY', (4, 6), 'negative'], [(8, 9), 'SERVICE#GENERAL', (10, 11), 'negative']]}
+{'sentence': 'great service', 'labels': [[(1, 2), 'SERVICE#GENERAL', (0, 1), 'positive']]}
+{'sentence': 'my service was stellar !', 'labels': [[(1, 2), 'SERVICE#GENERAL', (3, 4), 'positive']]}
+{'sentence': 'the bus boy even spotted that my table was shaking a stabilized it for me .', 'labels': [[(1, 3), 'SERVICE#GENERAL', (-1, -1), 'positive']]}
+{'sentence': 'food was fine , with a some little - tastier - than - normal salsa .', 'labels': [[(0, 1), 'FOOD#QUALITY', (2, 3), 'positive'], [(14, 15), 'FOOD#QUALITY', (2, 3), 'positive']]}
+{'sentence': 'the food was great , the margaritas too but the waitress was too busy being nice to her other larger party than to take better care of my friend and me .', 'labels': [[(1, 2), 'FOOD#QUALITY', (3, 4), 'positive'], [(6, 7), 'FOOD#QUALITY', (3, 4), 'positive'], [(10, 11), 'SERVICE#GENERAL', (13, 14), 'negative']]}
+{'sentence': 'mama mia – i live in the neighborhood and feel lucky to live by such a great pizza place .', 'labels': [[(17, 19), 'RESTAURANT#GENERAL', (16, 17), 'positive']]}
+{'sentence': "the only problem is you really have to warm up the pizza before it ' s edible , even when you order ahead .", 'labels': [[(11, 12), 'FOOD#QUALITY', (2, 3), 'negative']]}
+{'sentence': "but once done , it ' s not too much dough , not too much cheese , not too much sauce .", 'labels': [[(-1, -1), 'FOOD#QUALITY', (-1, -1), 'positive']]}
+{'sentence': 'best sushi in town .', 'labels': [[(1, 2), 'FOOD#QUALITY', (0, 1), 'positive']]}
+{'sentence': 'the best calamari in seattle !', 'labels': [[(2, 3), 'FOOD#QUALITY', (1, 2), 'positive']]}
+{'sentence': '– . . . and the best summertime deck experience - - they will even bring you a blanket if you get cold in the seattle evening weather .', 'labels': [[(8, 9), 'AMBIENCE#GENERAL', (6, 7), 'positive'], [(-1, -1), 'SERVICE#GENERAL', (6, 7), 'positive']]}
+{'sentence': 'a perfect place to take out of town guests any time of the year .', 'labels': [[(2, 3), 'RESTAURANT#GENERAL', (1, 2), 'positive']]}
+{'sentence': 'endless fun , awesome music , great staff ! ! !', 'labels': [[(4, 5), 'AMBIENCE#GENERAL', (3, 4), 'positive'], [(7, 8), 'SERVICE#GENERAL', (6, 7), 'positive'], [(-1, -1), 'RESTAURANT#GENERAL', (1, 2), 'positive']]}
+{'sentence': '– by far the best bar in the east village . . .', 'labels': [[(5, 6), 'RESTAURANT#GENERAL', (4, 5), 'positive']]}
+{'sentence': 'great draft and bottle selection and the pizza rocks .', 'labels': [[(1, 5), 'DRINKS#STYLE_OPTIONS', (0, 1), 'positive'], [(7, 8), 'FOOD#QUALITY', (0, 1), 'positive']]}
+{'sentence': "definitely has one of the best jukebox ' s i ' ve seen in a long long time .", 'labels': [[(6, 9), 'AMBIENCE#GENERAL', (5, 6), 'positive']]}
+{'sentence': 'the food is great , the bartenders go that extra mile .', 'labels': [[(1, 2), 'FOOD#QUALITY', (3, 4), 'positive'], [(6, 7), 'SERVICE#GENERAL', (-1, -1), 'positive']]}
+{'sentence': 'the owners are great fun and the beer selection is worth staying for .', 'labels': [[(1, 2), 'SERVICE#GENERAL', (3, 4), 'positive'], [(1, 2), 'SERVICE#GENERAL', (4, 5), 'positive'], [(7, 9), 'DRINKS#STYLE_OPTIONS', (10, 13), 'positive']]}
+{'sentence': 'and the upstairs is a great place to hang out .', 'labels': [[(2, 3), 'AMBIENCE#GENERAL', (5, 6), 'positive']]}
+{'sentence': 'not alot of smoking places left in new york , but i have found my favorite smoking balconey in the city .', 'labels': [[(17, 18), 'RESTAURANT#MISCELLANEOUS', (15, 16), 'positive']]}
+{'sentence': 'the sushi here is delicious !', 'labels': [[(1, 2), 'FOOD#QUALITY', (4, 5), 'positive']]}
+{'sentence': 'they have a wide variety of fish and they even list which oceans they come from ; atlantic or pacific .', 'labels': [[(6, 7), 'FOOD#STYLE_OPTIONS', (3, 4), 'positive']]}
+{'sentence': "i ' ve had the jellyfish , horse mackerel , blue fin tuna and the sake ikura roll among others , and they were all good .", 'labels': [[(5, 6), 'FOOD#QUALITY', (25, 26), 'positive'], [(7, 9), 'FOOD#QUALITY', (25, 26), 'positive'], [(10, 13), 'FOOD#QUALITY', (25, 26), 'positive'], [(15, 18), 'FOOD#QUALITY', (25, 26), 'positive']]}
+{'sentence': 'my only negative comment is that i wish the pieces were a little bigger .', 'labels': [[(9, 10), 'FOOD#STYLE_OPTIONS', (-1, -1), 'negative']]}
+{'sentence': 'the decor is rustic , traditional japanese .', 'labels': [[(1, 2), 'AMBIENCE#GENERAL', (3, 4), 'neutral'], [(1, 2), 'AMBIENCE#GENERAL', (5, 7), 'neutral']]}
+{'sentence': 'the crowd is mixed yuppies , young and old .', 'labels': [[(1, 2), 'RESTAURANT#MISCELLANEOUS', (-1, -1), 'neutral']]}
+{'sentence': 'the service was courteous and attentive .', 'labels': [[(1, 2), 'SERVICE#GENERAL', (3, 4), 'positive'], [(1, 2), 'SERVICE#GENERAL', (5, 6), 'positive']]}
+{'sentence': 'mediocre food', 'labels': [[(1, 2), 'FOOD#QUALITY', (0, 1), 'neutral']]}
+{'sentence': 'the outside patio area has an abbreviated menu .', 'labels': [[(7, 8), 'FOOD#STYLE_OPTIONS', (6, 7), 'neutral']]}
+{'sentence': 'my g / f and i both agreed the food was very mediocre especially considering the price .', 'labels': [[(9, 10), 'FOOD#QUALITY', (12, 13), 'negative'], [(9, 10), 'FOOD#PRICES', (12, 13), 'negative']]}
+{'sentence': 'we are locals , and get the feeling the only way this place survives with such average food is because most customers are probably one - time customer tourists .', 'labels': [[(12, 13), 'RESTAURANT#GENERAL', (-1, -1), 'negative'], [(17, 18), 'FOOD#QUALITY', (16, 17), 'negative']]}
+{'sentence': 'service was decent .', 'labels': [[(0, 1), 'SERVICE#GENERAL', (2, 3), 'neutral']]}
+{'sentence': 'drinks were good .', 'labels': [[(0, 1), 'DRINKS#QUALITY', (2, 3), 'positive']]}
+{'sentence': 'excellent food , nice ambience , fairly expensive', 'labels': [[(1, 2), 'FOOD#QUALITY', (0, 1), 'positive'], [(4, 5), 'AMBIENCE#GENERAL', (3, 4), 'positive'], [(-1, -1), 'RESTAURANT#PRICES', (7, 8), 'negative']]}
+{'sentence': '– i loved the pumpkin ravioli and the goat cheese gnocchi ( 5 big ones to a plate instead of 20 or so little gnocchis ) and my sister loved her filet mignon on top of spinach and mashed potatoes .', 'labels': [[(4, 6), 'FOOD#QUALITY', (2, 3), 'positive'], [(8, 11), 'FOOD#QUALITY', (2, 3), 'positive'], [(8, 11), 'FOOD#STYLE_OPTIONS', (-1, -1), 'positive'], [(31, 40), 'FOOD#QUALITY', (29, 30), 'positive']]}
+{'sentence': 'the ambiance was a peaceful and relaxing break amongst all the kids running around in downtown disney .', 'labels': [[(1, 2), 'AMBIENCE#GENERAL', (4, 5), 'positive'], [(1, 2), 'AMBIENCE#GENERAL', (6, 7), 'positive']]}
+{'sentence': 'best indian food in l . a .', 'labels': [[(1, 3), 'FOOD#QUALITY', (0, 1), 'positive']]}
+{'sentence': 'the chicken curry and chicken tikka masala are my favorite meat dishes .', 'labels': [[(1, 3), 'FOOD#QUALITY', (9, 10), 'positive'], [(4, 7), 'FOOD#QUALITY', (9, 10), 'positive']]}
+{'sentence': 'the chana masala ( garbanzo beans ) are also excellent .', 'labels': [[(1, 7), 'FOOD#QUALITY', (8, 9), 'positive']]}
+{'sentence': "it ' s located in a strip mall near the beverly center , not the greatest location , but the food keeps me coming back for more .", 'labels': [[(16, 17), 'LOCATION#GENERAL', (13, 16), 'neutral'], [(20, 21), 'FOOD#QUALITY', (-1, -1), 'positive']]}
+{'sentence': 'never too crowded and always great service .', 'labels': [[(6, 7), 'SERVICE#GENERAL', (5, 6), 'positive'], [(-1, -1), 'RESTAURANT#MISCELLANEOUS', (0, 3), 'positive']]}
+{'sentence': 'i think i have probably tried each item on their menu at least once it is all excellent .', 'labels': [[(10, 11), 'FOOD#QUALITY', (17, 18), 'positive']]}
+{'sentence': 'i can highly recommend their various saag and paneer and korma .', 'labels': [[(6, 7), 'FOOD#QUALITY', (3, 4), 'positive'], [(8, 9), 'FOOD#QUALITY', (3, 4), 'positive'], [(10, 11), 'FOOD#QUALITY', (3, 4), 'positive']]}
+{'sentence': 'i appreciate their delivery too .', 'labels': [[(3, 4), 'SERVICE#GENERAL', (1, 2), 'positive']]}
+{'sentence': 'nice food but no spice !', 'labels': [[(1, 2), 'FOOD#QUALITY', (0, 1), 'positive'], [(1, 2), 'FOOD#QUALITY', (-1, -1), 'negative']]}
+{'sentence': '– i really enjoyed my meal here .', 'labels': [[(5, 6), 'FOOD#QUALITY', (3, 4), 'positive']]}
+{'sentence': 'i had yummy lamb korma , saag paneer , samosas , naan , etc .', 'labels': [[(3, 5), 'FOOD#QUALITY', (2, 3), 'positive'], [(6, 8), 'FOOD#QUALITY', (2, 3), 'positive'], [(9, 10), 'FOOD#QUALITY', (2, 3), 'positive'], [(11, 12), 'FOOD#QUALITY', (2, 3), 'positive']]}
+{'sentence': 'the food was all good but it was way too mild .', 'labels': [[(1, 2), 'FOOD#QUALITY', (4, 5), 'positive'], [(1, 2), 'FOOD#QUALITY', (9, 11), 'negative']]}
+{'sentence': "the naan was some of the best i ' ve had and i really enjoyed the bhartha , not too tomatoey .", 'labels': [[(1, 2), 'FOOD#QUALITY', (6, 7), 'positive'], [(16, 17), 'FOOD#QUALITY', (14, 15), 'positive']]}
+{'sentence': 'even the chickpeas , which i normally find too dry , were good .', 'labels': [[(2, 3), 'FOOD#QUALITY', (12, 13), 'positive']]}
+{'sentence': "– i do n ' t understand how i was a stranger to this place for so long . . . the fajita salad , the colorado , the fajitas - everything is delicious .", 'labels': [[(22, 24), 'FOOD#QUALITY', (33, 34), 'positive'], [(26, 27), 'FOOD#QUALITY', (33, 34), 'positive'], [(29, 30), 'FOOD#QUALITY', (33, 34), 'positive'], [(-1, -1), 'FOOD#QUALITY', (33, 34), 'positive']]}
+{'sentence': 'i love the warm & cosy environment .', 'labels': [[(6, 7), 'AMBIENCE#GENERAL', (3, 4), 'positive'], [(6, 7), 'AMBIENCE#GENERAL', (5, 6), 'positive']]}
+{'sentence': "i just found out that you can have the place to yourself on nights and weekends for a private party - ca n ' t wait to celebrate my next birthday there .", 'labels': [[(9, 10), 'RESTAURANT#MISCELLANEOUS', (-1, -1), 'positive']]}
+{'sentence': 'best restaurant in the world , great decor , great customer service , friendly manager', 'labels': [[(1, 2), 'RESTAURANT#GENERAL', (0, 1), 'positive'], [(7, 8), 'AMBIENCE#GENERAL', (6, 7), 'positive'], [(10, 12), 'SERVICE#GENERAL', (9, 10), 'positive'], [(14, 15), 'SERVICE#GENERAL', (13, 14), 'positive']]}
+{'sentence': 'i am never disappointed with there food .', 'labels': [[(6, 7), 'FOOD#QUALITY', (2, 4), 'positive']]}
+{'sentence': 'the atmosphere is great .', 'labels': [[(1, 2), 'AMBIENCE#GENERAL', (3, 4), 'positive']]}
+{'sentence': 'great lunch spot', 'labels': [[(1, 3), 'RESTAURANT#GENERAL', (0, 1), 'positive']]}
+{'sentence': '– great financial district mexican spot .', 'labels': [[(4, 6), 'RESTAURANT#GENERAL', (1, 2), 'positive']]}
+{'sentence': 'always busy , but they are good at seating you promptly and have quick service .', 'labels': [[(14, 15), 'SERVICE#GENERAL', (13, 14), 'positive'], [(-1, -1), 'SERVICE#GENERAL', (6, 7), 'positive']]}
+{'sentence': "everything i ' ve had here is good , taco salads , burritos , enchiladas i love this place .", 'labels': [[(9, 11), 'FOOD#QUALITY', (7, 8), 'positive'], [(12, 13), 'FOOD#QUALITY', (7, 8), 'positive'], [(14, 15), 'FOOD#QUALITY', (7, 8), 'positive'], [(18, 19), 'RESTAURANT#GENERAL', (16, 17), 'positive'], [(-1, -1), 'FOOD#QUALITY', (7, 8), 'positive']]}
+{'sentence': 'also have great margaritas !', 'labels': [[(3, 4), 'DRINKS#QUALITY', (2, 3), 'positive']]}
+{'sentence': 'the food is simply unforgettable !', 'labels': [[(1, 2), 'FOOD#QUALITY', (4, 5), 'positive']]}
+{'sentence': 'the presentation of the food was an added bonus , it looked just as great as it tasted !', 'labels': [[(4, 5), 'FOOD#QUALITY', (14, 15), 'positive'], [(4, 5), 'FOOD#STYLE_OPTIONS', (8, 9), 'positive']]}
+{'sentence': 'my best friend had the chicken shawarma and she still raves about it being the best anywhere !', 'labels': [[(5, 7), 'FOOD#QUALITY', (1, 2), 'positive']]}
+{'sentence': 'the staff are friendly and the decor was ethic and colorful .', 'labels': [[(1, 2), 'SERVICE#GENERAL', (3, 4), 'positive'], [(6, 7), 'AMBIENCE#GENERAL', (8, 9), 'positive'], [(6, 7), 'AMBIENCE#GENERAL', (10, 11), 'positive']]}
+{'sentence': 'go to open sesame ! ! !', 'labels': [[(2, 4), 'RESTAURANT#GENERAL', (-1, -1), 'positive']]}
+{'sentence': 'holy hummus !', 'labels': [[(1, 2), 'FOOD#QUALITY', (0, 1), 'positive']]}
+{'sentence': '– the food is here is incredible , though the quality is inconsistent during lunch .', 'labels': [[(2, 3), 'FOOD#QUALITY', (6, 7), 'positive'], [(14, 15), 'FOOD#QUALITY', (12, 13), 'negative']]}
+{'sentence': 'dinners have always been excellent , in terms of food quality .', 'labels': [[(0, 1), 'FOOD#QUALITY', (4, 5), 'positive']]}
+{'sentence': 'the open sesame combo plate is a bargain for the heap of food given .', 'labels': [[(1, 5), 'FOOD#PRICES', (7, 8), 'positive'], [(1, 5), 'FOOD#STYLE_OPTIONS', (-1, -1), 'positive']]}
+{'sentence': 'the side of potatoes is to die for , as is the labne ( yogurt dip ) .', 'labels': [[(1, 4), 'FOOD#QUALITY', (6, 8), 'positive'], [(12, 17), 'FOOD#QUALITY', (6, 8), 'positive']]}
+{'sentence': 'also , they serve the best hummus in america , with a drizzle of fragrant olive oil ( which , i believe is the traditional way ) !', 'labels': [[(6, 7), 'FOOD#QUALITY', (5, 6), 'positive'], [(6, 7), 'FOOD#STYLE_OPTIONS', (5, 6), 'positive']]}
+{'sentence': 'the only drawback is the crowded seating and the slow service .', 'labels': [[(6, 7), 'RESTAURANT#MISCELLANEOUS', (5, 6), 'negative'], [(10, 11), 'SERVICE#GENERAL', (9, 10), 'negative']]}
+{'sentence': "however , this place is a gem , and i wo n ' t stop going back .", 'labels': [[(3, 4), 'RESTAURANT#GENERAL', (6, 7), 'positive']]}
+{'sentence': 'great beer', 'labels': [[(1, 2), 'DRINKS#QUALITY', (0, 1), 'positive']]}
+{'sentence': '– my first time to dine at this restaurant was with my son and it was absolutely horrible !', 'labels': [[(8, 9), 'RESTAURANT#GENERAL', (17, 18), 'negative']]}
+{'sentence': 'i swore never to return for a warm beer and mediocre meal .', 'labels': [[(8, 9), 'DRINKS#QUALITY', (7, 8), 'negative'], [(11, 12), 'FOOD#QUALITY', (10, 11), 'negative']]}
+{'sentence': 'the band was very good and the service was attentive .', 'labels': [[(1, 2), 'AMBIENCE#GENERAL', (4, 5), 'positive'], [(7, 8), 'SERVICE#GENERAL', (9, 10), 'positive']]}
+{'sentence': 'we ordered a selection of the small plates , and the shoe string onions , goat cheese pizza , grilled asparagus and fried brie with fruit were all very good .', 'labels': [[(11, 14), 'FOOD#QUALITY', (29, 30), 'positive'], [(15, 18), 'FOOD#QUALITY', (29, 30), 'positive'], [(19, 21), 'FOOD#QUALITY', (29, 30), 'positive'], [(22, 26), 'FOOD#QUALITY', (29, 30), 'positive']]}
+{'sentence': "seattle ' s best winelist", 'labels': [[(4, 5), 'DRINKS#STYLE_OPTIONS', (3, 4), 'positive']]}
+{'sentence': "– ray ' s ( suprisingly ) has the city ' s best & most diverse wine list .", 'labels': [[(15, 17), 'DRINKS#STYLE_OPTIONS', (14, 15), 'positive']]}
+{'sentence': 'the sommelier is fantastic , down - to - earth , & extremely knowlegable .', 'labels': [[(1, 2), 'SERVICE#GENERAL', (3, 4), 'positive'], [(1, 2), 'SERVICE#GENERAL', (5, 10), 'positive'], [(1, 2), 'SERVICE#GENERAL', (13, 14), 'positive']]}
+{'sentence': 'i would go back for the wine experience alone .', 'labels': [[(6, 7), 'DRINKS#QUALITY', (-1, -1), 'negative']]}
+{'sentence': 'not the place it once was', 'labels': [[(2, 3), 'RESTAURANT#GENERAL', (-1, -1), 'negative']]}
+{'sentence': "perhaps now , scooner or later falls into the ` ` dive ' ' category .", 'labels': [[(3, 6), 'RESTAURANT#GENERAL', (-1, -1), 'negative']]}
+{'sentence': "– it is sad to see a place that was once ` ` the ' ' place to meet and eat for bfast or lunch , now be the place that is a big ` ` dont bother . ' '", 'labels': [[(7, 8), 'RESTAURANT#GENERAL', (3, 4), 'negative']]}
+{'sentence': 'the food is not what it once was ( potions have seriously seen downsizing ) prices have gone up , and the service is the worst i have experienced anywhere ( including mainland europe ) .', 'labels': [[(1, 2), 'FOOD#QUALITY', (-1, -1), 'negative'], [(1, 2), 'FOOD#PRICES', (-1, -1), 'negative'], [(21, 22), 'SERVICE#GENERAL', (24, 25), 'negative'], [(22, 23), 'SERVICE#GENERAL', (25, 26), 'negative']]}
+{'sentence': 'what may be interesting to most is the worst sevice / attitude comes from the owners of this establishment .', 'labels': [[(15, 16), 'SERVICE#GENERAL', (8, 9), 'negative']]}
+{'sentence': "this establishment really made a marked decline after ( and this is recurring story ) the airing of food televisions ` ` diners , drive - ins , and dives ' ' hosted by guy fieri , in which schooner or later was subject of .", 'labels': [[(1, 2), 'RESTAURANT#GENERAL', (-1, -1), 'negative']]}
+{'sentence': 'open & cool place with the best pizza and coffee', 'labels': [[(3, 4), 'AMBIENCE#GENERAL', (2, 3), 'positive'], [(7, 8), 'FOOD#QUALITY', (6, 7), 'positive'], [(9, 10), 'FOOD#QUALITY', (6, 7), 'positive']]}
+{'sentence': '– mioposto has a very creative & delicious pizza menu .', 'labels': [[(8, 10), 'FOOD#QUALITY', (7, 8), 'positive'], [(8, 10), 'FOOD#STYLE_OPTIONS', (5, 6), 'positive']]}
+{'sentence': 'the coffe is very good , too .', 'labels': [[(1, 2), 'DRINKS#QUALITY', (4, 5), 'positive']]}
+{'sentence': 'great open and friendly ambience .', 'labels': [[(4, 5), 'AMBIENCE#GENERAL', (0, 1), 'positive'], [(4, 5), 'AMBIENCE#GENERAL', (1, 2), 'positive'], [(4, 5), 'AMBIENCE#GENERAL', (3, 4), 'positive']]}
+{'sentence': 'this place is charming and relaxing .', 'labels': [[(1, 2), 'AMBIENCE#GENERAL', (3, 4), 'positive'], [(1, 2), 'AMBIENCE#GENERAL', (5, 6), 'positive']]}
+{'sentence': 'the servers behind the counter are always friendly and helpful .', 'labels': [[(1, 5), 'SERVICE#GENERAL', (7, 8), 'positive'], [(1, 5), 'SERVICE#GENERAL', (9, 10), 'positive']]}
+{'sentence': "it ' s a great place to enjoy food and meet friends .", 'labels': [[(8, 9), 'FOOD#QUALITY', (7, 8), 'positive'], [(5, 6), 'RESTAURANT#MISCELLANEOUS', (4, 5), 'positive']]}
+{'sentence': 'great food , spectacular location , and friendly service keep us coming back year after year .', 'labels': [[(1, 2), 'FOOD#QUALITY', (0, 1), 'positive'], [(4, 5), 'LOCATION#GENERAL', (3, 4), 'positive'], [(8, 9), 'SERVICE#GENERAL', (7, 8), 'positive']]}
+{'sentence': 'enjoyed the food', 'labels': [[(2, 3), 'FOOD#QUALITY', (0, 1), 'positive']]}
+{'sentence': 'food was good and cheap .', 'labels': [[(0, 1), 'FOOD#QUALITY', (2, 3), 'positive'], [(0, 1), 'FOOD#PRICES', (4, 5), 'positive']]}
+{'sentence': 'i had the kafta plate and i enjoyed it .', 'labels': [[(3, 5), 'FOOD#QUALITY', (7, 8), 'positive']]}
+{'sentence': 'atmosphere was nice .', 'labels': [[(0, 1), 'AMBIENCE#GENERAL', (2, 3), 'positive']]}
+{'sentence': "service was kind of slow , our waitress took forever to give us our check even though it was n ' t that busy .", 'labels': [[(0, 1), 'SERVICE#GENERAL', (4, 5), 'negative'], [(7, 8), 'SERVICE#GENERAL', (-1, -1), 'negative']]}
+{'sentence': 'still i would recommend this place .', 'labels': [[(5, 6), 'RESTAURANT#GENERAL', (3, 4), 'positive']]}
+{'sentence': 'what else can you say nice people amazing food wow', 'labels': [[(8, 9), 'FOOD#QUALITY', (7, 8), 'positive'], [(6, 7), 'SERVICE#GENERAL', (5, 6), 'positive'], [(-1, -1), 'RESTAURANT#GENERAL', (-1, -1), 'positive']]}
+{'sentence': 'great food with an awesome atmosphere !', 'labels': [[(1, 2), 'FOOD#QUALITY', (0, 1), 'positive'], [(5, 6), 'AMBIENCE#GENERAL', (4, 5), 'positive']]}
+{'sentence': '– eggs , pancakes , potatoes , fresh fruit and yogurt - - everything they serve is delicious .', 'labels': [[(1, 2), 'FOOD#QUALITY', (17, 18), 'positive'], [(3, 4), 'FOOD#QUALITY', (17, 18), 'positive'], [(5, 6), 'FOOD#QUALITY', (17, 18), 'positive'], [(7, 9), 'FOOD#QUALITY', (17, 18), 'positive'], [(10, 11), 'FOOD#QUALITY', (17, 18), 'positive'], [(-1, -1), 'FOOD#QUALITY', (17, 18), 'positive']]}
+{'sentence': "the best place for a leisure sunday breakfast amidst yachts , then take a stroll through the nearby farmer ' s market .", 'labels': [[(2, 3), 'RESTAURANT#MISCELLANEOUS', (1, 2), 'positive']]}
+{'sentence': 'great meal – the fish on the omikase platter was absolutely decadent - - there was none of the stringiness that sometimes accompanies fair sushi - - this fish was perfect ! ! ! !', 'labels': [[(1, 2), 'FOOD#QUALITY', (0, 1), 'positive'], [(4, 9), 'FOOD#QUALITY', (11, 12), 'positive'], [(4, 9), 'FOOD#QUALITY', (30, 31), 'positive']]}
+{'sentence': "plus , i am allergic to rice , and the waitstaff was unbelievably accomodating - - did n ' t even bat an eye !", 'labels': [[(10, 11), 'SERVICE#GENERAL', (13, 14), 'positive']]}
+{'sentence': 'and the waiter suggested a perfect sake ! !', 'labels': [[(2, 3), 'SERVICE#GENERAL', (-1, -1), 'positive'], [(6, 7), 'DRINKS#QUALITY', (5, 6), 'positive']]}
+{'sentence': 'unbeatable sushi !', 'labels': [[(1, 2), 'FOOD#QUALITY', (0, 1), 'positive']]}
+{'sentence': 'melt in your mouth nigiri and sashmi , and very tasty rolls too .', 'labels': [[(4, 5), 'FOOD#QUALITY', (-1, -1), 'positive'], [(6, 7), 'FOOD#QUALITY', (-1, -1), 'positive'], [(11, 12), 'FOOD#QUALITY', (10, 11), 'positive']]}
+{'sentence': 'be sure to try the oyster roll .', 'labels': [[(5, 7), 'FOOD#QUALITY', (3, 4), 'positive']]}
+{'sentence': '– how to describe the best sushi in nyc : hmmmm , delicious , amazing , fantastic , suculent , perfect , nah , all of the above .', 'labels': [[(6, 7), 'FOOD#QUALITY', (5, 6), 'positive'], [(6, 7), 'FOOD#QUALITY', (12, 13), 'positive'], [(6, 7), 'FOOD#QUALITY', (14, 15), 'positive'], [(6, 7), 'FOOD#QUALITY', (16, 17), 'positive'], [(6, 7), 'FOOD#QUALITY', (18, 19), 'positive'], [(6, 7), 'FOOD#QUALITY', (20, 21), 'positive']]}
+{'sentence': "i ca n ' t saybenough good things about this restaurant , and i ca n ' t wait for my next several visits .", 'labels': [[(10, 11), 'RESTAURANT#GENERAL', (6, 7), 'positive']]}
+{'sentence': 'the best chuwam mushi i have ever had .', 'labels': [[(2, 4), 'FOOD#QUALITY', (1, 2), 'positive']]}
+{'sentence': 'good sushi , high price', 'labels': [[(1, 2), 'FOOD#QUALITY', (0, 1), 'positive'], [(1, 2), 'FOOD#PRICES', (3, 4), 'negative']]}
+{'sentence': 'one of the best sushi place in town .', 'labels': [[(4, 6), 'RESTAURANT#GENERAL', (3, 4), 'positive']]}
+{'sentence': 'the house special roll is really good .', 'labels': [[(1, 4), 'FOOD#QUALITY', (6, 7), 'positive']]}
+{'sentence': "brunch at murphy ' s is to die for , my specialty . . . egg white omelet , the food is always freshly prepared .", 'labels': [[(0, 1), 'FOOD#QUALITY', (-1, -1), 'positive'], [(15, 18), 'FOOD#QUALITY', (23, 25), 'positive'], [(20, 21), 'FOOD#QUALITY', (23, 25), 'positive']]}
+{'sentence': "it ' s the perfect spot for a romantic date for 2 or a secret rendezvous !", 'labels': [[(5, 6), 'RESTAURANT#MISCELLANEOUS', (4, 5), 'positive'], [(5, 6), 'AMBIENCE#GENERAL', (4, 5), 'positive']]}
+{'sentence': 'save room for scrumptious desserts .', 'labels': [[(4, 5), 'FOOD#QUALITY', (3, 4), 'positive']]}
+{'sentence': "the restaurant offers an extensive wine list and an ambiance you wo n ' t forget !", 'labels': [[(5, 7), 'DRINKS#STYLE_OPTIONS', (4, 5), 'positive'], [(9, 10), 'AMBIENCE#GENERAL', (-1, -1), 'positive']]}
+{'sentence': '– best mexican place for lunch in the financial district .', 'labels': [[(2, 4), 'RESTAURANT#GENERAL', (1, 2), 'positive']]}
+{'sentence': 'love the enchiladas and chicken soup - and be sure to check out their specials .', 'labels': [[(2, 3), 'FOOD#QUALITY', (0, 1), 'positive'], [(4, 6), 'FOOD#QUALITY', (0, 1), 'positive'], [(14, 15), 'FOOD#QUALITY', (-1, -1), 'positive']]}
+{'sentence': 'the cooks have been at the restaurant for years and cook family recipes .', 'labels': [[(1, 2), 'FOOD#QUALITY', (-1, -1), 'positive']]}
+{'sentence': 'can get busy on fridays for a table but once seated , the service is so efficient you can be in and out of there quickly .', 'labels': [[(13, 14), 'SERVICE#GENERAL', (16, 17), 'positive']]}
+{'sentence': 'the sushi was excellent and the wait staff was quick .', 'labels': [[(1, 2), 'FOOD#QUALITY', (3, 4), 'positive'], [(6, 8), 'SERVICE#GENERAL', (9, 10), 'positive']]}
+{'sentence': 'the atmosphere was just okay .', 'labels': [[(1, 2), 'AMBIENCE#GENERAL', (4, 5), 'neutral']]}
+{'sentence': 'space was limited , but the food made up for it .', 'labels': [[(0, 1), 'RESTAURANT#MISCELLANEOUS', (2, 3), 'negative'], [(6, 7), 'FOOD#QUALITY', (-1, -1), 'positive']]}
+{'sentence': 'we stood there for 10 minutes while employees walked back and forth ignoring us .', 'labels': [[(7, 8), 'SERVICE#GENERAL', (12, 13), 'negative']]}
+{'sentence': "finally , my wife stood face to face in front of one of the staff and she asked , ` ` are you waiting for a table ? ' '", 'labels': [[(14, 15), 'SERVICE#GENERAL', (-1, -1), 'negative']]}
+{'sentence': "the caesar salad i ordered had so much lemon i could n ' t eat it .", 'labels': [[(1, 3), 'FOOD#QUALITY', (-1, -1), 'negative']]}
+{'sentence': 'great food , better margaritas !', 'labels': [[(1, 2), 'FOOD#QUALITY', (0, 1), 'positive'], [(4, 5), 'DRINKS#QUALITY', (3, 4), 'positive']]}
+{'sentence': '– this is one of my top lunch spots , huge portions , fast service and amazing margaritas ! !', 'labels': [[(11, 12), 'FOOD#STYLE_OPTIONS', (10, 11), 'positive'], [(14, 15), 'SERVICE#GENERAL', (13, 14), 'positive'], [(17, 18), 'DRINKS#QUALITY', (16, 17), 'positive'], [(-1, -1), 'RESTAURANT#GENERAL', (6, 7), 'positive']]}
+{'sentence': 'it gets really busy , so get there on the early side so you can grab a seat , if you do have to wait , its not bad because the service is quick !', 'labels': [[(31, 32), 'SERVICE#GENERAL', (33, 34), 'positive']]}
+{'sentence': 'check out the art on the walls , very colorful !', 'labels': [[(3, 7), 'AMBIENCE#GENERAL', (9, 10), 'positive']]}
+{'sentence': 'i love this place !', 'labels': [[(3, 4), 'RESTAURANT#GENERAL', (1, 2), 'positive']]}
+{'sentence': '– i have been eating at this place for over 8 years now and i have never had one bad meal .', 'labels': [[(20, 21), 'FOOD#QUALITY', (19, 20), 'positive']]}
+{'sentence': 'i highly recommend this place to all that want to try indain food for the first time .', 'labels': [[(11, 13), 'FOOD#QUALITY', (2, 3), 'positive']]}
+{'sentence': 'the lunch menu is an awesome deal !', 'labels': [[(1, 3), 'FOOD#PRICES', (5, 6), 'positive']]}
+{'sentence': 'plenty of food , trust me .', 'labels': [[(2, 3), 'FOOD#STYLE_OPTIONS', (0, 2), 'positive']]}
+{'sentence': 'fresh ingrediants and super tasty .', 'labels': [[(1, 2), 'FOOD#QUALITY', (0, 1), 'positive'], [(-1, -1), 'FOOD#QUALITY', (3, 4), 'positive']]}
+{'sentence': 'best food , phenominal service', 'labels': [[(1, 2), 'FOOD#QUALITY', (0, 1), 'positive'], [(4, 5), 'SERVICE#GENERAL', (3, 4), 'positive']]}
+{'sentence': 'for the finicky sushi eater and those who have sampled the best nyc has to offer , the fish is the freshest and the service is superb .', 'labels': [[(18, 19), 'FOOD#QUALITY', (21, 22), 'positive'], [(24, 25), 'SERVICE#GENERAL', (26, 27), 'positive']]}
+{'sentence': "not only can the selection be innovative , but there ' s a nice balance of traditional sushi as well .", 'labels': [[(4, 5), 'FOOD#STYLE_OPTIONS', (6, 7), 'positive'], [(17, 18), 'FOOD#STYLE_OPTIONS', (13, 14), 'positive']]}
+{'sentence': 'the nicest waiters in town .', 'labels': [[(2, 3), 'SERVICE#GENERAL', (1, 2), 'positive']]}
+{'sentence': '– this place is unbelievably over - rated .', 'labels': [[(2, 3), 'RESTAURANT#GENERAL', (5, 8), 'negative']]}
+{'sentence': "if i want to stand in line on sunday for an hour to get average brunch food , then i would put murphy ' s at the top of the list .", 'labels': [[(15, 17), 'FOOD#QUALITY', (14, 15), 'neutral'], [(-1, -1), 'SERVICE#GENERAL', (-1, -1), 'negative']]}
+{'sentence': 'the regular menu here is slightly above average that is not worth the snotty attitude that you receive .', 'labels': [[(1, 3), 'FOOD#QUALITY', (6, 8), 'neutral'], [(1, 3), 'FOOD#QUALITY', (10, 12), 'neutral'], [(-1, -1), 'SERVICE#GENERAL', (13, 14), 'negative']]}
+{'sentence': 'your a sushi fan , you love expertly cut fish , great sake , a killer soho location , and of course : salmon , tuna , fluke , yellow tail , cod , mackeral , jellyfish , sea urchin , shrimp , lobster , sea bream , trout , milk fish , blue fin tuna , eel , crab , sardine , monk fish , roe , scallop , oysters , and a varity of toro .', 'labels': [[(2, 3), 'FOOD#QUALITY', (-1, -1), 'positive'], [(9, 10), 'FOOD#STYLE_OPTIONS', (6, 7), 'positive'], [(12, 13), 'DRINKS#QUALITY', (11, 12), 'positive'], [(16, 18), 'LOCATION#GENERAL', (15, 16), 'positive'], [(23, 24), 'FOOD#QUALITY', (-1, -1), 'positive'], [(25, 26), 'FOOD#QUALITY', (-1, -1), 'positive'], [(27, 28), 'FOOD#QUALITY', (-1, -1), 'positive'], [(29, 31), 'FOOD#QUALITY', (-1, -1), 'positive'], [(32, 33), 'FOOD#QUALITY', (-1, -1), 'positive'], [(34, 35), 'FOOD#QUALITY', (-1, -1), 'positive'], [(36, 37), 'FOOD#QUALITY', (-1, -1), 'positive'], [(38, 40), 'FOOD#QUALITY', (-1, -1), 'positive'], [(41, 42), 'FOOD#QUALITY', (-1, -1), 'positive'], [(43, 44), 'FOOD#QUALITY', (-1, -1), 'positive'], [(45, 47), 'FOOD#QUALITY', (-1, -1), 'positive'], [(48, 49), 'FOOD#QUALITY', (-1, -1), 'positive'], [(50, 52), 'FOOD#QUALITY', (-1, -1), 'positive'], [(53, 56), 'FOOD#QUALITY', (-1, -1), 'positive'], [(57, 58), 'FOOD#QUALITY', (-1, -1), 'positive'], [(59, 60), 'FOOD#QUALITY', (-1, -1), 'positive'], [(61, 62), 'FOOD#QUALITY', (-1, -1), 'positive'], [(63, 65), 'FOOD#QUALITY', (-1, -1), 'positive'], [(66, 67), 'FOOD#QUALITY', (-1, -1), 'positive'], [(68, 69), 'FOOD#QUALITY', (-1, -1), 'positive'], [(70, 71), 'FOOD#QUALITY', (-1, -1), 'positive'], [(76, 77), 'FOOD#STYLE_OPTIONS', (-1, -1), 'positive']]}
+{'sentence': 'there is only one place on the east coast that has it all , plus a lot more .', 'labels': [[(4, 5), 'RESTAURANT#GENERAL', (-1, -1), 'positive']]}
+{'sentence': 'bring your cell phone cause you may have to wait to get into the best sushi restaurant in the world : blue ribbon sushi .', 'labels': [[(21, 24), 'RESTAURANT#GENERAL', (14, 15), 'positive']]}
+{'sentence': 'hands down , the best tuna i have ever had .', 'labels': [[(5, 6), 'FOOD#QUALITY', (4, 5), 'positive']]}
+{'sentence': "blue ribbon lives up to it ' s fantastic reputation .", 'labels': [[(0, 2), 'RESTAURANT#GENERAL', (8, 9), 'positive']]}
+{'sentence': 'great value sushi with high quality & nice setting .', 'labels': [[(2, 3), 'FOOD#PRICES', (0, 1), 'positive'], [(2, 3), 'FOOD#PRICES', (1, 2), 'positive'], [(2, 3), 'FOOD#QUALITY', (4, 5), 'positive'], [(8, 9), 'AMBIENCE#GENERAL', (7, 8), 'positive']]}
+{'sentence': "try the chef ' s choice for sushi as the smoked yellowtail was incredible and the rolls were also tasty .", 'labels': [[(2, 8), 'FOOD#QUALITY', (-1, -1), 'positive'], [(16, 17), 'FOOD#QUALITY', (19, 20), 'positive'], [(10, 12), 'FOOD#QUALITY', (13, 14), 'positive']]}
+{'sentence': 'poor customer service / poor pizza .', 'labels': [[(1, 3), 'SERVICE#GENERAL', (0, 1), 'negative'], [(5, 6), 'FOOD#QUALITY', (4, 5), 'negative']]}
+{'sentence': "– as with most restaurants in seattle , mioposto ' s service was bad and the food was overpriced .", 'labels': [[(11, 12), 'SERVICE#GENERAL', (13, 14), 'negative'], [(16, 17), 'FOOD#PRICES', (18, 19), 'negative']]}
+{'sentence': "i know many people have their favorite types of pizza and pizza places , but mioposto ' s pizza lacks quality and good taste .", 'labels': [[(18, 19), 'FOOD#QUALITY', (19, 21), 'negative']]}
+{'sentence': "to be honest , i ' ve had better frozen pizza .", 'labels': [[(10, 11), 'FOOD#QUALITY', (8, 9), 'negative']]}
+{'sentence': 'the only positive thing about mioposto is the nice location .', 'labels': [[(9, 10), 'LOCATION#GENERAL', (8, 9), 'positive'], [(5, 6), 'RESTAURANT#GENERAL', (-1, -1), 'negative']]}
+{'sentence': "i was frankly shocked when i read the bad reviews - this place is fantastic ; it has not let us down in any way , and we ' ve eaten here more than 10 times .", 'labels': [[(12, 13), 'RESTAURANT#GENERAL', (14, 15), 'positive']]}
+{'sentence': "the food is fantastic , and the waiting staff has been perfect every single time we ' ve been there .", 'labels': [[(1, 2), 'FOOD#QUALITY', (3, 4), 'positive'], [(7, 9), 'SERVICE#GENERAL', (11, 12), 'positive']]}
+{'sentence': 'the only problem would be the wait , but we usually just have a drink in the front while waiting .', 'labels': [[(6, 7), 'SERVICE#GENERAL', (-1, -1), 'neutral']]}
+{'sentence': 'seabass on lobster risotto was the best .', 'labels': [[(0, 4), 'FOOD#QUALITY', (6, 7), 'positive']]}
+{'sentence': 'caesar salad was superb .', 'labels': [[(0, 2), 'FOOD#QUALITY', (3, 4), 'positive']]}
+{'sentence': 'great bottle of wine .', 'labels': [[(1, 4), 'DRINKS#QUALITY', (0, 1), 'positive']]}
+{'sentence': 'leave room for dessert .', 'labels': [[(3, 4), 'FOOD#QUALITY', (-1, -1), 'positive']]}
+{'sentence': 'i waited for 10 - 15 minutes for service ordered a beer & was never served again .', 'labels': [[(8, 9), 'SERVICE#GENERAL', (-1, -1), 'neutral']]}
+{'sentence': 'the food was ok , but the service was so poor that the food was cold buy the time everyone in my party was served .', 'labels': [[(1, 2), 'FOOD#QUALITY', (3, 4), 'neutral'], [(7, 8), 'SERVICE#GENERAL', (10, 11), 'negative']]}
+{'sentence': 'avoid the place', 'labels': [[(2, 3), 'RESTAURANT#GENERAL', (0, 1), 'negative']]}
+{'sentence': 'when i got there i sat up stairs where the atmosphere was cozy & the service was horrible !', 'labels': [[(10, 11), 'AMBIENCE#GENERAL', (12, 13), 'positive'], [(15, 16), 'SERVICE#GENERAL', (17, 18), 'negative']]}
+{'sentence': 'we left without ever getting service .', 'labels': [[(5, 6), 'SERVICE#GENERAL', (-1, -1), 'negative']]}
+{'sentence': 'best crab cakes in town', 'labels': [[(1, 3), 'FOOD#QUALITY', (0, 1), 'positive']]}
+{'sentence': "– thats a big statement considering i ' ve been pulling crab traps and making the cakes myself since i was about seven - but something about these little devils gets better every time .", 'labels': [[(16, 17), 'FOOD#QUALITY', (31, 32), 'positive']]}
+{'sentence': 'if you can , come to this place by boat and make it a whole evening .', 'labels': [[(7, 8), 'RESTAURANT#MISCELLANEOUS', (-1, -1), 'positive']]}
+{'sentence': 'great seasonal fish and seafood , with a classy waterfront setting .', 'labels': [[(1, 3), 'FOOD#QUALITY', (0, 1), 'positive'], [(4, 5), 'FOOD#QUALITY', (0, 1), 'positive'], [(9, 11), 'AMBIENCE#GENERAL', (8, 9), 'positive']]}
+{'sentence': 'great pizza , poor service', 'labels': [[(1, 2), 'FOOD#QUALITY', (0, 1), 'positive'], [(4, 5), 'SERVICE#GENERAL', (3, 4), 'negative']]}
+{'sentence': '– love their pizza , especially the mushroom pizza .', 'labels': [[(3, 4), 'FOOD#QUALITY', (1, 2), 'positive'], [(7, 9), 'FOOD#QUALITY', (1, 2), 'positive']]}
+{'sentence': 'also love their caeser salad .', 'labels': [[(3, 5), 'FOOD#QUALITY', (1, 2), 'positive']]}
+{'sentence': "prefer to order it and pick it up though because i do n ' t like the servers , one young woman in particular .", 'labels': [[(17, 18), 'SERVICE#GENERAL', (12, 16), 'negative'], [(20, 22), 'SERVICE#GENERAL', (12, 16), 'negative']]}
+{'sentence': '– this place is famous for their breakfast .', 'labels': [[(7, 8), 'FOOD#QUALITY', (4, 5), 'positive']]}
+{'sentence': "many people talk about the great pizza and poor service , so it ca n ' t just be the rantings of a few dissatisfied customers .", 'labels': [[(6, 7), 'FOOD#QUALITY', (5, 6), 'positive'], [(9, 10), 'SERVICE#GENERAL', (8, 9), 'negative']]}
+{'sentence': "it ' s a great little place with tons of potential to be a neighborhood joint if the service were n ' t so impersonal and corporate - like .", 'labels': [[(6, 7), 'RESTAURANT#GENERAL', (4, 6), 'positive'], [(18, 19), 'SERVICE#GENERAL', (20, 25), 'negative']]}
+{'sentence': 'great breakfast', 'labels': [[(1, 2), 'FOOD#QUALITY', (0, 1), 'positive']]}
+{'sentence': 'the food is great and they make a mean bloody mary .', 'labels': [[(1, 2), 'FOOD#QUALITY', (3, 4), 'positive'], [(9, 11), 'DRINKS#QUALITY', (8, 9), 'positive']]}
+{'sentence': 'i love breakfast here .', 'labels': [[(2, 3), 'FOOD#QUALITY', (1, 2), 'positive']]}
+{'sentence': 'their crab eggs benedict is addicting .', 'labels': [[(1, 4), 'FOOD#QUALITY', (5, 6), 'positive']]}
+{'sentence': 'all their menu items are a hit , and they serve mimosas .', 'labels': [[(2, 4), 'FOOD#QUALITY', (6, 7), 'positive'], [(-1, -1), 'DRINKS#STYLE_OPTIONS', (6, 7), 'positive']]}
+{'sentence': 'best chinese food i have tasted in a long time', 'labels': [[(1, 3), 'FOOD#QUALITY', (0, 1), 'positive']]}
+{'sentence': 'the ambiance of the restaurant was nice and good for fine dinning .', 'labels': [[(1, 2), 'AMBIENCE#GENERAL', (6, 7), 'positive'], [(1, 2), 'AMBIENCE#GENERAL', (8, 9), 'positive']]}
+{'sentence': 'the staff was very nice and courteous and obviously chinese .', 'labels': [[(1, 2), 'SERVICE#GENERAL', (4, 5), 'positive'], [(1, 2), 'SERVICE#GENERAL', (6, 7), 'positive']]}
+{'sentence': 'so about the prawns , they were fresh and had a slight crispiness about the batter . . . soooo good . . . the walnuts were cut in smaller pieces and very crunchy and tasty .', 'labels': [[(3, 4), 'FOOD#QUALITY', (7, 8), 'positive'], [(15, 16), 'FOOD#QUALITY', (12, 13), 'positive'], [(25, 26), 'FOOD#QUALITY', (33, 34), 'positive'], [(25, 26), 'FOOD#QUALITY', (35, 36), 'positive']]}
+{'sentence': 'best honey walnyt prawns that we have every tasted .', 'labels': [[(1, 4), 'FOOD#QUALITY', (0, 1), 'positive']]}
+{'sentence': 'the brocollis were so fresh and tasty .', 'labels': [[(1, 2), 'FOOD#QUALITY', (4, 5), 'positive'], [(1, 2), 'FOOD#QUALITY', (6, 7), 'positive']]}
+{'sentence': 'i would normally not finish the brocolli when i order these kinds of food but for the first time , every piece was as eventful as the first one . . . the scallops and prawns was so fresh and nicely cooked .', 'labels': [[(6, 7), 'FOOD#QUALITY', (-1, -1), 'positive'], [(35, 36), 'FOOD#QUALITY', (38, 39), 'positive'], [(35, 36), 'FOOD#QUALITY', (40, 42), 'positive'], [(33, 34), 'FOOD#QUALITY', (38, 39), 'positive'], [(33, 34), 'FOOD#QUALITY', (40, 42), 'positive']]}
+{'sentence': 'chintzy portions', 'labels': [[(1, 2), 'FOOD#STYLE_OPTIONS', (0, 1), 'negative']]}
+{'sentence': '– the sushi here is perfectly good , but for $ 5 a piece , either the slices of fish should be larger , or there should be no pretense that this is a moderately priced restaurant ( even for nyc ) .', 'labels': [[(2, 3), 'FOOD#QUALITY', (6, 7), 'negative'], [(2, 3), 'FOOD#STYLE_OPTIONS', (-1, -1), 'negative'], [(2, 3), 'FOOD#PRICES', (-1, -1), 'negative'], [(36, 37), 'RESTAURANT#PRICES', (34, 36), 'negative']]}
+{'sentence': 'terrible service , food ok , pricey', 'labels': [[(1, 2), 'SERVICE#GENERAL', (0, 1), 'negative'], [(3, 4), 'FOOD#QUALITY', (4, 5), 'neutral'], [(-1, -1), 'RESTAURANT#PRICES', (6, 7), 'negative']]}
+{'sentence': "food wise , its ok but a bit pricey for what you get considering the restaurant is n ' t a fancy place .", 'labels': [[(0, 1), 'FOOD#QUALITY', (4, 5), 'neutral'], [(0, 1), 'FOOD#PRICES', (8, 9), 'negative'], [(15, 16), 'AMBIENCE#GENERAL', (17, 22), 'neutral']]}
+{'sentence': 'if i needed to name some they would include the location to the beach or golden gate park .', 'labels': [[(10, 11), 'LOCATION#GENERAL', (-1, -1), 'negative']]}
+{'sentence': 'another plus is the open feel of the restaurant with glass walls on all sides .', 'labels': [[(5, 6), 'AMBIENCE#GENERAL', (1, 2), 'positive']]}
+{'sentence': 'amazing spanish mackeral special appetizer and perfect box sushi ( that eel with avodcao - - um um um ) .', 'labels': [[(1, 5), 'FOOD#QUALITY', (0, 1), 'positive'], [(7, 9), 'FOOD#QUALITY', (6, 7), 'positive'], [(10, 13), 'FOOD#QUALITY', (-1, -1), 'positive']]}
+{'sentence': "as usual the omikase did n ' t disappoint in freshness , although it scored low on creativity and selection .", 'labels': [[(3, 4), 'FOOD#QUALITY', (5, 9), 'positive'], [(3, 4), 'FOOD#STYLE_OPTIONS', (-1, -1), 'negative']]}
+{'sentence': "their specialty rolls are impressive , though i ca n ' t remember what we had .", 'labels': [[(1, 3), 'FOOD#QUALITY', (4, 5), 'positive']]}
+{'sentence': 'green tea creme brulee gets better each time i have it .', 'labels': [[(0, 4), 'FOOD#QUALITY', (5, 6), 'positive']]}
+{'sentence': 'great selection of sakes .', 'labels': [[(1, 4), 'DRINKS#STYLE_OPTIONS', (0, 1), 'positive']]}
+{'sentence': "it is n ' t the cheapest sushi but has been worth it every time .", 'labels': [[(7, 8), 'FOOD#PRICES', (2, 7), 'neutral'], [(7, 8), 'FOOD#QUALITY', (11, 12), 'positive']]}
+{'sentence': 'very poor customer service .', 'labels': [[(2, 4), 'SERVICE#GENERAL', (1, 2), 'negative']]}
+{'sentence': "– schooner or later ' s charming location along the marina in long beach and average food does not , unfortunately , compensate for its very poor customer service .", 'labels': [[(7, 14), 'LOCATION#GENERAL', (6, 7), 'positive'], [(16, 17), 'FOOD#QUALITY', (15, 16), 'neutral'], [(27, 29), 'SERVICE#GENERAL', (26, 27), 'negative']]}
+{'sentence': 'while this diner had reasonably good food , the restaurant staff seemed completely indifferent to our presence , and this attitude was reflected in the lack of service .', 'labels': [[(6, 7), 'FOOD#QUALITY', (5, 6), 'positive'], [(9, 11), 'SERVICE#GENERAL', (13, 14), 'negative']]}
+{'sentence': 'the fish was fresh , though it was cut very thin .', 'labels': [[(1, 2), 'FOOD#QUALITY', (3, 4), 'positive'], [(1, 2), 'FOOD#QUALITY', (10, 11), 'negative']]}
+{'sentence': 'great service .', 'labels': [[(1, 2), 'SERVICE#GENERAL', (0, 1), 'positive']]}
+{'sentence': 'good sake selection .', 'labels': [[(1, 3), 'DRINKS#STYLE_OPTIONS', (0, 1), 'positive']]}
+{'sentence': 'dungeness crabs here !', 'labels': [[(0, 2), 'FOOD#QUALITY', (-1, -1), 'positive']]}
+{'sentence': "– ray ' s is the place to go for high quality seafood dinners .", 'labels': [[(12, 14), 'FOOD#QUALITY', (10, 12), 'positive']]}
+{'sentence': "i love dungeness crabs and at ray ' s you can get them served in about 6 different ways !", 'labels': [[(2, 4), 'FOOD#STYLE_OPTIONS', (1, 2), 'positive']]}
+{'sentence': 'we shared the family platter and i especially enjoyed the black cod in sake kasu .', 'labels': [[(10, 15), 'FOOD#QUALITY', (8, 9), 'positive']]}
+{'sentence': 'i ended the meal with the unusual dessert of a port and chocolate tasting . . . . yummy !', 'labels': [[(7, 14), 'FOOD#QUALITY', (6, 7), 'positive'], [(7, 14), 'FOOD#QUALITY', (18, 19), 'positive']]}
+{'sentence': 'and the service was simply spendid - quite a delight .', 'labels': [[(2, 3), 'SERVICE#GENERAL', (5, 6), 'positive'], [(2, 3), 'SERVICE#GENERAL', (9, 10), 'positive']]}
+{'sentence': '– great drinks , corn beef hash , coffee , b fast burritos , gluten free menu .', 'labels': [[(2, 3), 'DRINKS#QUALITY', (1, 2), 'positive'], [(4, 7), 'FOOD#QUALITY', (1, 2), 'positive'], [(8, 9), 'DRINKS#QUALITY', (1, 2), 'positive'], [(10, 13), 'FOOD#QUALITY', (1, 2), 'positive'], [(16, 17), 'FOOD#STYLE_OPTIONS', (1, 2), 'positive']]}
+{'sentence': 'the service is fantastic at this fun place .', 'labels': [[(1, 2), 'SERVICE#GENERAL', (3, 4), 'positive'], [(7, 8), 'RESTAURANT#GENERAL', (6, 7), 'positive']]}
+{'sentence': 'if there is a line very day of the week for the entire time a place is open , you know it is great .', 'labels': [[(15, 16), 'RESTAURANT#GENERAL', (23, 24), 'positive']]}
+{'sentence': 'best neighborhood standby .', 'labels': [[(2, 3), 'RESTAURANT#GENERAL', (0, 1), 'positive']]}
+{'sentence': 'in grammercy / union square / east village this is my neighbors and my favorite spot .', 'labels': [[(15, 16), 'RESTAURANT#GENERAL', (14, 15), 'positive']]}
+{'sentence': 'the music is great , no night better or worse , the bar tenders are generous with the pouring , and the lighthearted atmosphere will lifts you spirits .', 'labels': [[(1, 2), 'AMBIENCE#GENERAL', (3, 4), 'positive'], [(12, 14), 'DRINKS#STYLE_OPTIONS', (15, 16), 'positive'], [(23, 24), 'AMBIENCE#GENERAL', (22, 23), 'positive']]}
+{'sentence': 'oh , and the cheese fries are awesome !', 'labels': [[(4, 6), 'FOOD#QUALITY', (7, 8), 'positive']]}
+{'sentence': 'good food , great service , average prices ( for the strip )', 'labels': [[(1, 2), 'FOOD#QUALITY', (0, 1), 'positive'], [(4, 5), 'SERVICE#GENERAL', (3, 4), 'positive'], [(-1, -1), 'RESTAURANT#PRICES', (6, 7), 'neutral']]}
+{'sentence': 'when i walked in , i was taken aback by their incredible wood decor .', 'labels': [[(12, 14), 'AMBIENCE#GENERAL', (11, 12), 'positive']]}
+{'sentence': 'the music playing was very hip , 20 - 30 something pop music , but the subwoofer to the sound system was located under my seat , which became annoying midway through dinner .', 'labels': [[(1, 2), 'AMBIENCE#GENERAL', (4, 5), 'positive'], [(16, 21), 'AMBIENCE#GENERAL', (29, 30), 'negative']]}
+{'sentence': 'i got the shellfish and shrimp appetizer and it was alright .', 'labels': [[(3, 7), 'FOOD#QUALITY', (10, 11), 'neutral']]}
+{'sentence': "it was n ' t the freshest seafood ever , but the taste and presentation was ok .", 'labels': [[(7, 8), 'FOOD#STYLE_OPTIONS', (16, 17), 'neutral'], [(7, 8), 'FOOD#QUALITY', (16, 17), 'neutral']]}
+{'sentence': 'i picked the asparagus , which turned out to be incredible and perfectly prepared .', 'labels': [[(3, 4), 'FOOD#QUALITY', (10, 11), 'positive'], [(3, 4), 'FOOD#QUALITY', (12, 14), 'positive']]}
+{'sentence': 'the 9 oz steak came next and it tasted great , at least initially .', 'labels': [[(1, 4), 'FOOD#QUALITY', (9, 10), 'positive']]}
+{'sentence': 'the steak was done to my exact liking ( medium rare ) and was nice and juicy .', 'labels': [[(1, 2), 'FOOD#QUALITY', (14, 15), 'positive'], [(1, 2), 'FOOD#QUALITY', (16, 17), 'positive']]}
+{'sentence': 'it ? s served with either a peppercorn sauce or red wine reduction , though both were indistinguishable in taste .', 'labels': [[(10, 13), 'FOOD#QUALITY', (17, 18), 'neutral'], [(7, 9), 'FOOD#QUALITY', (17, 18), 'neutral']]}
+{'sentence': 'though , one thing i realized later on was that the restaurant either used msg or a meat tenderizer on the steak .', 'labels': [[(21, 22), 'FOOD#QUALITY', (-1, -1), 'negative']]}
+{'sentence': 'the desert was the perfect ending to an almost perfect dinner .', 'labels': [[(1, 2), 'FOOD#QUALITY', (4, 5), 'positive'], [(10, 11), 'FOOD#QUALITY', (9, 10), 'positive']]}
+{'sentence': 'overall , i would go back and eat at the restaurant again .', 'labels': [[(10, 11), 'RESTAURANT#GENERAL', (-1, -1), 'positive']]}
+{'sentence': 'but the servers were extremely attentive and very friendly .', 'labels': [[(2, 3), 'SERVICE#GENERAL', (5, 6), 'positive'], [(2, 3), 'SERVICE#GENERAL', (8, 9), 'positive']]}
+{'sentence': "good sake , good food – i honestly do n ' t know much about japanese food at all .", 'labels': [[(1, 2), 'DRINKS#QUALITY', (0, 1), 'positive'], [(4, 5), 'FOOD#QUALITY', (3, 4), 'positive']]}
+{'sentence': 'server made several sake suggestions which were very good .', 'labels': [[(3, 4), 'DRINKS#QUALITY', (8, 9), 'positive'], [(0, 1), 'SERVICE#GENERAL', (8, 9), 'positive']]}
+{'sentence': 'had many dishes but the best was the lobster 3 ways .', 'labels': [[(8, 11), 'FOOD#QUALITY', (5, 6), 'positive']]}
+{'sentence': 'the waiter was a bit unfriendly and the feel of the restaurant was crowded .', 'labels': [[(1, 2), 'SERVICE#GENERAL', (5, 6), 'negative'], [(8, 9), 'AMBIENCE#GENERAL', (13, 14), 'negative']]}
+{'sentence': 'also , there was only one bathroom stall - probably need more for such big crowds .', 'labels': [[(6, 8), 'RESTAURANT#MISCELLANEOUS', (-1, -1), 'positive']]}
+{'sentence': 'most importantly , we were so excited about the food after seeing the very creative menu .', 'labels': [[(15, 16), 'FOOD#STYLE_OPTIONS', (14, 15), 'positive']]}
+{'sentence': 'at best , the food was good and definately overpriced .', 'labels': [[(4, 5), 'FOOD#QUALITY', (6, 7), 'positive'], [(4, 5), 'FOOD#QUALITY', (9, 10), 'negative']]}
+{'sentence': 'for the amount of food we got the prices should have been lower .', 'labels': [[(4, 5), 'FOOD#PRICES', (-1, -1), 'negative'], [(4, 5), 'FOOD#STYLE_OPTIONS', (-1, -1), 'negative']]}
+{'sentence': 'my favortie pizza joint in seattle', 'labels': [[(2, 4), 'RESTAURANT#GENERAL', (1, 2), 'positive']]}
+{'sentence': "– this is my ` ` must bring out of town guests to ' ' restaurant and they always enjoy and rave about it .", 'labels': [[(15, 16), 'RESTAURANT#GENERAL', (19, 20), 'positive'], [(15, 16), 'RESTAURANT#GENERAL', (21, 22), 'positive']]}
+{'sentence': 'the pizza is delicious and the salads are fantastic .', 'labels': [[(1, 2), 'FOOD#QUALITY', (3, 4), 'positive'], [(6, 7), 'FOOD#QUALITY', (8, 9), 'positive']]}
+{'sentence': "i ' ve always found the wait staff and , if you sit at the bar , the cooks very friendly .", 'labels': [[(6, 8), 'SERVICE#GENERAL', (20, 21), 'positive'], [(18, 19), 'SERVICE#GENERAL', (20, 21), 'positive']]}
+{'sentence': 'i also really enjoy the simplicity of the decor and intimate feeling of a small restaurant .', 'labels': [[(8, 9), 'AMBIENCE#GENERAL', (3, 4), 'positive'], [(8, 9), 'AMBIENCE#GENERAL', (5, 6), 'positive'], [(11, 12), 'AMBIENCE#GENERAL', (10, 11), 'positive']]}
+{'sentence': '– my husband and i love eating at mioposto cafe .', 'labels': [[(8, 10), 'RESTAURANT#GENERAL', (5, 6), 'positive']]}
+{'sentence': "we ' re ca n ' t say enough about their delicious gourmet pizza ’ s !", 'labels': [[(11, 12), 'FOOD#QUALITY', (13, 16), 'positive']]}
+{'sentence': 'you won ’ t be disappointed by their menu .', 'labels': [[(8, 9), 'FOOD#STYLE_OPTIONS', (2, 6), 'positive']]}
+{'sentence': "the pizza ' s are thin crust and the menu offers very creative combinations and toppings .", 'labels': [[(1, 4), 'FOOD#STYLE_OPTIONS', (5, 6), 'positive'], [(9, 10), 'FOOD#STYLE_OPTIONS', (12, 13), 'positive']]}
+{'sentence': 'try the pizza ensalata !', 'labels': [[(2, 4), 'FOOD#QUALITY', (0, 1), 'positive']]}
+{'sentence': "the pizza ' s are not huge and the crust is thin … keep that in mind when you ’ re ordering .", 'labels': [[(1, 4), 'FOOD#STYLE_OPTIONS', (5, 7), 'positive'], [(9, 10), 'FOOD#STYLE_OPTIONS', (11, 12), 'positive']]}
+{'sentence': 'the food is sinful .', 'labels': [[(1, 2), 'FOOD#QUALITY', (3, 4), 'positive']]}
+{'sentence': 'the staff was really friendly .', 'labels': [[(1, 2), 'SERVICE#GENERAL', (4, 5), 'positive']]}
+{'sentence': 'the atmosphere was great .', 'labels': [[(1, 2), 'AMBIENCE#GENERAL', (3, 4), 'positive']]}
+{'sentence': "the specialty here is decadent pancakes , but i ' ve been back now four times , and i ' ve been wowed every time .", 'labels': [[(5, 6), 'FOOD#QUALITY', (4, 5), 'positive']]}
+{'sentence': 'nothing on the menu is less than amazing .', 'labels': [[(3, 4), 'FOOD#QUALITY', (7, 8), 'positive']]}
+{'sentence': 'good eats .', 'labels': [[(1, 2), 'FOOD#QUALITY', (0, 1), 'positive']]}
+{'sentence': 'i have been to this place , folks and it is bad .', 'labels': [[(5, 6), 'RESTAURANT#GENERAL', (11, 12), 'negative']]}
+{'sentence': "maybe it is good for that one night once in a blue moon when the chefs decide to use fish that ' s half - way decent .", 'labels': [[(19, 20), 'FOOD#QUALITY', (26, 27), 'negative']]}
+{'sentence': 'i have been here , spent tons of money on a chef special dinner and it was a major dissappointment .', 'labels': [[(11, 14), 'FOOD#QUALITY', (19, 20), 'negative'], [(11, 14), 'FOOD#PRICES', (19, 20), 'negative']]}
+{'sentence': '– the atmosphere is great for any special occasion you might want to celebrate .', 'labels': [[(2, 3), 'AMBIENCE#GENERAL', (4, 5), 'positive']]}
+{'sentence': 'the best dish are the honwy walnut prawns - just outstanding .', 'labels': [[(5, 8), 'FOOD#QUALITY', (10, 11), 'positive'], [(5, 8), 'FOOD#QUALITY', (1, 2), 'positive']]}
+{'sentence': 'fancy pieces of exotic fish on a $ 100 dollar plate and not one was eatable .', 'labels': [[(3, 5), 'FOOD#QUALITY', (-1, -1), 'negative'], [(3, 5), 'FOOD#STYLE_OPTIONS', (0, 1), 'negative'], [(10, 11), 'FOOD#PRICES', (-1, -1), 'negative']]}
+{'sentence': 'the service is really attentive and charming .', 'labels': [[(1, 2), 'SERVICE#GENERAL', (4, 5), 'positive'], [(1, 2), 'SERVICE#GENERAL', (6, 7), 'positive']]}
+{'sentence': 'the service was excellent , the coffee was good even by starbucks standards and the food was outstanding .', 'labels': [[(1, 2), 'SERVICE#GENERAL', (3, 4), 'positive'], [(6, 7), 'DRINKS#QUALITY', (8, 9), 'positive'], [(15, 16), 'FOOD#QUALITY', (17, 18), 'positive']]}
+{'sentence': '– i recently had the pleasure of dining as this delightful restaurant on 2nd street and wow what a great evening we had .', 'labels': [[(11, 12), 'RESTAURANT#GENERAL', (10, 11), 'positive']]}
+{'sentence': 'the food is fantastic , authentic , delicious and very , very affordable .', 'labels': [[(1, 2), 'FOOD#QUALITY', (3, 4), 'positive'], [(1, 2), 'FOOD#QUALITY', (5, 6), 'positive'], [(1, 2), 'FOOD#QUALITY', (7, 8), 'positive'], [(1, 2), 'FOOD#PRICES', (12, 13), 'positive']]}
+{'sentence': 'the decor was beautiful and unique .', 'labels': [[(1, 2), 'AMBIENCE#GENERAL', (3, 4), 'positive'], [(1, 2), 'AMBIENCE#GENERAL', (5, 6), 'positive']]}
+{'sentence': 'there was a really nice vibe about the place . . . good music , atmosphere and happy looking people .', 'labels': [[(13, 14), 'AMBIENCE#GENERAL', (12, 13), 'positive'], [(15, 16), 'AMBIENCE#GENERAL', (12, 13), 'positive'], [(5, 6), 'AMBIENCE#GENERAL', (4, 5), 'positive'], [(19, 20), 'RESTAURANT#MISCELLANEOUS', (17, 18), 'positive']]}
+{'sentence': 'our server was very professional and friendly .', 'labels': [[(1, 2), 'SERVICE#GENERAL', (4, 5), 'positive'], [(1, 2), 'SERVICE#GENERAL', (6, 7), 'positive']]}
+{'sentence': "to the owners of open sesame . . . bravo . . . i ca n ' t wait to come back to dine at your restaurant !", 'labels': [[(4, 6), 'RESTAURANT#GENERAL', (-1, -1), 'positive']]}
+{'sentence': "it ' s a tiny place so if you get there before 8pm on a weekend ( thurs ? sun ) you will find it easier to get a table or a seat at the sushi bar .", 'labels': [[(5, 6), 'RESTAURANT#MISCELLANEOUS', (4, 5), 'neutral']]}
+{'sentence': 'everything , and i mean everything on the menu is delectable .', 'labels': [[(8, 9), 'FOOD#QUALITY', (10, 11), 'positive']]}
+{'sentence': 'the waiters are very experienced and helpful with pairing your drink choice to your food tastes or vice versa .', 'labels': [[(1, 2), 'SERVICE#GENERAL', (4, 5), 'positive'], [(1, 2), 'SERVICE#GENERAL', (6, 7), 'positive']]}
+{'sentence': "the sushi is as fresh as it comes ? you ' d think ocean was in their backyard , no joke !", 'labels': [[(1, 2), 'FOOD#QUALITY', (4, 5), 'positive']]}
+{'sentence': "if you ' re interested in good tasting ( without the fish taste or smell ) , large portions and creative sushi dishes this is your place . . .", 'labels': [[(18, 19), 'FOOD#STYLE_OPTIONS', (17, 18), 'positive'], [(21, 23), 'FOOD#STYLE_OPTIONS', (20, 21), 'positive'], [(-1, -1), 'FOOD#QUALITY', (6, 7), 'positive']]}
+{'sentence': 'big thick pepperoni', 'labels': [[(2, 3), 'FOOD#STYLE_OPTIONS', (0, 1), 'positive'], [(2, 3), 'FOOD#STYLE_OPTIONS', (1, 2), 'positive']]}
+{'sentence': "– the pepperoni ' s cut real thick - - yum .", 'labels': [[(2, 5), 'FOOD#STYLE_OPTIONS', (7, 8), 'positive'], [(2, 5), 'FOOD#STYLE_OPTIONS', (10, 11), 'positive']]}
+{'sentence': "the pizza itself is not exactly the best i ' ve had ever , but still pretty good .", 'labels': [[(1, 2), 'FOOD#QUALITY', (17, 18), 'positive']]}
+{'sentence': 'food was good and appetizing .', 'labels': [[(0, 1), 'FOOD#QUALITY', (2, 3), 'positive'], [(0, 1), 'FOOD#QUALITY', (4, 5), 'positive']]}
+{'sentence': 'portions was just enough for me , but may not be for a big eater .', 'labels': [[(0, 1), 'FOOD#STYLE_OPTIONS', (3, 4), 'neutral']]}
+{'sentence': 'fair menu selection .', 'labels': [[(1, 3), 'FOOD#STYLE_OPTIONS', (0, 1), 'neutral']]}
+{'sentence': 'the appetizer was interesting , but the creme brulee was very savory and delicious .', 'labels': [[(1, 2), 'FOOD#QUALITY', (3, 4), 'positive'], [(7, 9), 'FOOD#QUALITY', (11, 12), 'positive'], [(7, 9), 'FOOD#QUALITY', (13, 14), 'positive']]}
+{'sentence': 'indoor ambience was modern .', 'labels': [[(0, 2), 'AMBIENCE#GENERAL', (3, 4), 'positive']]}
+{'sentence': "if it ' s nice outside , request for a table in the balcony .", 'labels': [[(13, 14), 'AMBIENCE#GENERAL', (4, 5), 'positive']]}
+{'sentence': "it ' s a great place to people watch .", 'labels': [[(5, 6), 'RESTAURANT#MISCELLANEOUS', (4, 5), 'positive']]}
+{'sentence': 'late night dinning with exeptional food .', 'labels': [[(5, 6), 'FOOD#QUALITY', (4, 5), 'positive']]}
+{'sentence': 'we were seated right away , the table was private and nice .', 'labels': [[(7, 8), 'AMBIENCE#GENERAL', (9, 10), 'positive'], [(7, 8), 'AMBIENCE#GENERAL', (11, 12), 'positive'], [(-1, -1), 'SERVICE#GENERAL', (-1, -1), 'positive']]}
+{'sentence': 'the service was exceptional - sometime there was a feeling that we were served by the army of friendly waiters .', 'labels': [[(1, 2), 'SERVICE#GENERAL', (3, 4), 'positive'], [(19, 20), 'SERVICE#GENERAL', (18, 19), 'positive']]}
+{'sentence': "the food was very good , filet mignon was probably the best i ' ve ever try .", 'labels': [[(1, 2), 'FOOD#QUALITY', (4, 5), 'positive'], [(6, 8), 'FOOD#QUALITY', (11, 12), 'positive']]}
+{'sentence': 'the portions are big though , so do not order too much .', 'labels': [[(1, 2), 'FOOD#STYLE_OPTIONS', (3, 4), 'neutral']]}
+{'sentence': 'groovy music made the dinner casual .', 'labels': [[(1, 2), 'AMBIENCE#GENERAL', (5, 6), 'positive']]}
+{'sentence': 'i have a but here - there was a bathroom attendant in the restroom which was odd .', 'labels': [[(13, 14), 'RESTAURANT#MISCELLANEOUS', (16, 17), 'negative']]}
+{'sentence': 'the bathroom itself is very small with two toilets and only one sink , the girl was staying totally on the way hanging out paper towels from the dispenser .', 'labels': [[(1, 2), 'RESTAURANT#MISCELLANEOUS', (5, 6), 'negative']]}
+{'sentence': '– mercedes restaurant is so tasty , the service is undeniably awesome !', 'labels': [[(8, 9), 'SERVICE#GENERAL', (11, 12), 'positive'], [(-1, -1), 'FOOD#QUALITY', (5, 6), 'positive']]}
+{'sentence': 'the catering is out of this world , and raouls chicken vegetable soup rocks my world ! ! !', 'labels': [[(9, 13), 'FOOD#QUALITY', (13, 14), 'positive'], [(1, 2), 'FOOD#QUALITY', (3, 7), 'positive']]}
+{'sentence': 'drinks are suberb , and i feel like i am in a third world country when i walk in the door .', 'labels': [[(0, 1), 'DRINKS#QUALITY', (2, 3), 'positive'], [(-1, -1), 'AMBIENCE#GENERAL', (-1, -1), 'positive']]}
+{'sentence': 'the presentation of snooze is excellent and it is one of those places that you feel more sophisticated just for being there ; but peel back the layers and you have an overpriced ihop with a high brow menu .', 'labels': [[(3, 4), 'AMBIENCE#GENERAL', (5, 6), 'negative'], [(3, 4), 'RESTAURANT#PRICES', (32, 33), 'negative'], [(38, 39), 'FOOD#STYLE_OPTIONS', (36, 38), 'negative']]}
+{'sentence': 'to start off , approximately 8 - 10 oz of orange juice will cost you $ 3 .', 'labels': [[(10, 12), 'DRINKS#PRICES', (-1, -1), 'negative']]}
+{'sentence': 'they serve it in a tall , skinny hour - glass shaped glass to disguise the fact that you a getting a small juice at the price of a half gallon in a supermarket .', 'labels': [[(23, 24), 'DRINKS#STYLE_OPTIONS', (22, 23), 'negative'], [(23, 24), 'DRINKS#PRICES', (22, 23), 'negative']]}
+{'sentence': 'i should have just asked for the check when i saw that ; but their menu was so unique that i continued .', 'labels': [[(15, 16), 'FOOD#STYLE_OPTIONS', (18, 19), 'positive']]}
+{'sentence': "the pancakes were certainly inventive but $ 8 . 50 for 3 - 6 ' ' pancakes ( one of them was more like 5 ' ' ) in the pancake flight ( sample of 3 different pancakes ) is well over - priced .", 'labels': [[(1, 2), 'FOOD#STYLE_OPTIONS', (4, 5), 'positive'], [(1, 2), 'FOOD#PRICES', (41, 44), 'negative']]}
+{'sentence': "the pancakes should be larger ( at least 8 ' ' ) to justify the expense even with the unique offerings .", 'labels': [[(1, 2), 'FOOD#STYLE_OPTIONS', (-1, -1), 'negative'], [(1, 2), 'FOOD#PRICES', (-1, -1), 'negative']]}
+{'sentence': "on my meal i had to send back my eggs for a simple request of breaking the yokes before cooking , and would have had to send them back again if i had n ' t rejected the meal all together .", 'labels': [[(9, 10), 'FOOD#QUALITY', (-1, -1), 'negative'], [(2, 3), 'FOOD#QUALITY', (-1, -1), 'negative']]}
+{'sentence': 'i rejected it because in the process of attempting to fix the eggs they broke something else in the dish and i was too frustrated to continue .', 'labels': [[(19, 20), 'FOOD#QUALITY', (24, 25), 'negative']]}
+{'sentence': 'in the end our check came to $ 27 for 4 small pancakes , a breakfast burrito , an orange juice and an iced tea ( i had water ) .', 'labels': [[(12, 13), 'FOOD#STYLE_OPTIONS', (11, 12), 'negative'], [(12, 13), 'FOOD#PRICES', (11, 12), 'negative'], [(15, 17), 'FOOD#PRICES', (11, 12), 'negative'], [(19, 21), 'DRINKS#PRICES', (11, 12), 'negative'], [(23, 25), 'DRINKS#PRICES', (11, 12), 'negative']]}
+{'sentence': 'much more than just a great view !', 'labels': [[(6, 7), 'LOCATION#GENERAL', (5, 6), 'positive'], [(-1, -1), 'RESTAURANT#GENERAL', (5, 6), 'positive']]}
+{'sentence': "– i am exceedingly pleased to report that my dinner at ray ' s boathouse last friday completely exceeded my expectations .", 'labels': [[(11, 15), 'RESTAURANT#GENERAL', (4, 5), 'positive']]}
+{'sentence': "ray ' s is something of a seattle institution , but given its gorgeous sound views , i had suspected that the accolades were more due to the scenery than to the food and service .", 'labels': [[(14, 16), 'LOCATION#GENERAL', (13, 14), 'positive']]}
+{'sentence': "imagine my happy surprise upon finding that the views are only the third - best thing about ray ' s !", 'labels': [[(8, 9), 'LOCATION#GENERAL', (12, 15), 'positive'], [(17, 20), 'RESTAURANT#GENERAL', (2, 3), 'positive']]}
+{'sentence': 'to start things off , our lovely server brooke was quickly on hand to take my drink order .', 'labels': [[(8, 9), 'SERVICE#GENERAL', (6, 7), 'positive'], [(8, 9), 'SERVICE#GENERAL', (10, 11), 'positive']]}
+{'sentence': "my party of two was feeling particularly ambitious , and we splurged on the shilshole sampler . . . a beautiful assortment of enormous white gulf prawns , smoked albacore tuna , ray ' s fantastic manila clams seasoned with dill , scallops in a tasty soy dressing , and a tiny pile of dungeness crab atop a sublime butter sauce .", 'labels': [[(24, 27), 'FOOD#STYLE_OPTIONS', (23, 24), 'positive'], [(36, 38), 'FOOD#QUALITY', (35, 36), 'positive'], [(46, 48), 'FOOD#QUALITY', (45, 46), 'positive'], [(59, 61), 'FOOD#QUALITY', (58, 59), 'positive']]}
+{'sentence': 'for my entr & eacute ; e , i completely enjoyed the seared alaskan sea scallops complemented by chard , artichoke hearts , fennel , and pecorino toscano .', 'labels': [[(12, 16), 'FOOD#QUALITY', (10, 11), 'positive'], [(12, 16), 'FOOD#STYLE_OPTIONS', (10, 11), 'positive']]}
+{'sentence': 'the scallops are apparently cooked in a black olive butter which really makes them unique ( not to mention tasty ) .', 'labels': [[(1, 2), 'FOOD#QUALITY', (19, 20), 'positive'], [(1, 2), 'FOOD#STYLE_OPTIONS', (14, 15), 'positive']]}
+{'sentence': 'my friend enjoyed the grilled alaskan king salmon with delectable creamed washington russet potatoes and crisp green beans .', 'labels': [[(4, 8), 'FOOD#QUALITY', (2, 3), 'positive'], [(10, 14), 'FOOD#QUALITY', (9, 10), 'positive'], [(16, 18), 'FOOD#QUALITY', (15, 16), 'positive']]}
+{'sentence': 'i had a taste of all three items on her plate , and they were superb .', 'labels': [[(10, 11), 'FOOD#QUALITY', (15, 16), 'positive']]}
+{'sentence': "our server continued to be attentive throughout the night , but i did remain puzzled by one issue : who thinks that ray ' s is an appropriate place to take young children for dinner ?", 'labels': [[(1, 2), 'SERVICE#GENERAL', (5, 6), 'positive'], [(22, 25), 'RESTAURANT#MISCELLANEOUS', (-1, -1), 'neutral']]}
+{'sentence': 'while i could have done without the youth who shared the evening with us , our wonderful server and food made the experience a very positive one .', 'labels': [[(17, 18), 'SERVICE#GENERAL', (16, 17), 'positive'], [(19, 20), 'FOOD#QUALITY', (16, 17), 'positive'], [(-1, -1), 'RESTAURANT#MISCELLANEOUS', (25, 26), 'negative']]}
+{'sentence': 'oh yeah . . . the view was good , too .', 'labels': [[(6, 7), 'LOCATION#GENERAL', (8, 9), 'positive']]}
+{'sentence': 'yum !', 'labels': [[(-1, -1), 'FOOD#QUALITY', (0, 1), 'positive']]}
+{'sentence': "do n ' t leave the restaurant without it .", 'labels': [[(-1, -1), 'FOOD#QUALITY', (-1, -1), 'positive']]}
+{'sentence': 'no comparison', 'labels': [[(-1, -1), 'RESTAURANT#GENERAL', (-1, -1), 'positive']]}
+{'sentence': "– i ca n ' t say enough about this place .", 'labels': [[(10, 11), 'RESTAURANT#GENERAL', (-1, -1), 'positive']]}
+{'sentence': 'snotty attitude', 'labels': [[(-1, -1), 'SERVICE#GENERAL', (0, 1), 'negative']]}
+{'sentence': '– we were treated very rudely here one time for breakfast .', 'labels': [[(-1, -1), 'SERVICE#GENERAL', (5, 6), 'negative']]}
+{'sentence': 'we never had to wait more than 5 minutes .', 'labels': [[(-1, -1), 'SERVICE#GENERAL', (-1, -1), 'positive']]}
+{'sentence': 'they are not greasy or anything .', 'labels': [[(-1, -1), 'FOOD#QUALITY', (2, 4), 'positive']]}
+{'sentence': 'overrated', 'labels': [[(-1, -1), 'RESTAURANT#GENERAL', (0, 1), 'negative']]}
+{'sentence': '– i was highly disappointed in the food at pagoda .', 'labels': [[(7, 8), 'FOOD#QUALITY', (4, 5), 'negative']]}
+{'sentence': 'i will not go back .', 'labels': [[(-1, -1), 'RESTAURANT#GENERAL', (-1, -1), 'negative']]}
+{'sentence': 'i will never return again .', 'labels': [[(-1, -1), 'RESTAURANT#GENERAL', (-1, -1), 'negative']]}
+{'sentence': 'it was absolutely amazing .', 'labels': [[(-1, -1), 'RESTAURANT#GENERAL', (3, 4), 'positive']]}
+{'sentence': 'amazing .', 'labels': [[(-1, -1), 'RESTAURANT#GENERAL', (0, 1), 'positive']]}
+{'sentence': 'i can not wait to go back again this coming weekend !', 'labels': [[(-1, -1), 'RESTAURANT#GENERAL', (-1, -1), 'positive']]}
+{'sentence': 'mmm . . . good !', 'labels': [[(-1, -1), 'RESTAURANT#GENERAL', (4, 5), 'positive']]}
+{'sentence': "we ' re going back . : d", 'labels': [[(-1, -1), 'RESTAURANT#GENERAL', (-1, -1), 'positive']]}
+{'sentence': 'finally a meal that you will remember for a long time !', 'labels': [[(2, 3), 'FOOD#QUALITY', (-1, -1), 'positive']]}
+{'sentence': 'very disappointing', 'labels': [[(-1, -1), 'RESTAURANT#GENERAL', (1, 2), 'negative']]}
+{'sentence': '– i took my parents here for their anniversary - very very disappointed ! ! !', 'labels': [[(-1, -1), 'RESTAURANT#GENERAL', (12, 13), 'negative']]}
+{'sentence': 'nothing really came across as outstanding .', 'labels': [[(-1, -1), 'FOOD#QUALITY', (-1, -1), 'negative']]}
+{'sentence': 'very disappointed .', 'labels': [[(-1, -1), 'RESTAURANT#GENERAL', (1, 2), 'negative']]}
+{'sentence': 'we were then charged for their most expensive sake ( $ 20 + per serving ) when we in fact drank a sake of less than half that price .', 'labels': [[(-1, -1), 'SERVICE#GENERAL', (7, 8), 'negative']]}
+{'sentence': 'you are bound to have a very charming time .', 'labels': [[(-1, -1), 'RESTAURANT#GENERAL', (7, 8), 'positive']]}
+{'sentence': 'not recommanded ! ! !', 'labels': [[(-1, -1), 'RESTAURANT#GENERAL', (0, 2), 'negative']]}
+{'sentence': 'it is not worth going at all and spend your money there ! ! !', 'labels': [[(-1, -1), 'RESTAURANT#GENERAL', (2, 4), 'negative']]}
+{'sentence': '– pretty cheap for sit down mexican and downtown .', 'labels': [[(-1, -1), 'RESTAURANT#PRICES', (2, 3), 'positive'], [(-1, -1), 'LOCATION#GENERAL', (2, 3), 'positive']]}
+{'sentence': "if you ' re in the area you should n ' t be disappointed .", 'labels': [[(-1, -1), 'RESTAURANT#GENERAL', (9, 14), 'positive']]}
+{'sentence': "ok . . . . – maybe i went in on someone ' s bad day . . . .", 'labels': [[(-1, -1), 'RESTAURANT#GENERAL', (14, 15), 'negative']]}
+{'sentence': 'took forever to get our order taken , water refills were too much to ask for and the only time she was fast was when we asked for our bill when we could get her attention .', 'labels': [[(-1, -1), 'SERVICE#GENERAL', (-1, -1), 'negative']]}
+{'sentence': "i do n ' t know if i ' ll be back . . . .", 'labels': [[(-1, -1), 'RESTAURANT#GENERAL', (-1, -1), 'negative']]}
+{'sentence': 'everything you want and more , very fresh .', 'labels': [[(-1, -1), 'FOOD#QUALITY', (7, 8), 'positive'], [(-1, -1), 'FOOD#STYLE_OPTIONS', (-1, -1), 'positive']]}
+{'sentence': "its worth the wait , especially since they ' ll give you a call when the table is ready .", 'labels': [[(-1, -1), 'RESTAURANT#GENERAL', (1, 2), 'positive'], [(-1, -1), 'SERVICE#GENERAL', (1, 2), 'positive']]}
+{'sentence': 'i went there with some friends one night to play bingo and watch the sox game and it was a blast !', 'labels': [[(-1, -1), 'RESTAURANT#GENERAL', (20, 21), 'positive']]}
+{'sentence': "every time ` ` 0 - sixtynine ' ' is called the bartender buys everyone drinks !", 'labels': [[(12, 13), 'SERVICE#GENERAL', (-1, -1), 'positive']]}
+{'sentence': 'been there lots since and its always a good time .', 'labels': [[(-1, -1), 'RESTAURANT#GENERAL', (8, 9), 'positive']]}
+{'sentence': 'i found a new home on second avenue ! ! ! ! ! ! ! ! ! ! ! !', 'labels': [[(-1, -1), 'RESTAURANT#GENERAL', (-1, -1), 'positive']]}
+{'sentence': 'just go there and see for yourself .', 'labels': [[(-1, -1), 'RESTAURANT#GENERAL', (-1, -1), 'positive']]}
+{'sentence': 'you need to watch your game , they will have it on for you .', 'labels': [[(-1, -1), 'SERVICE#GENERAL', (-1, -1), 'positive']]}
+{'sentence': 'kudos to these guys .', 'labels': [[(-1, -1), 'RESTAURANT#GENERAL', (0, 1), 'positive']]}
+{'sentence': 'i found a new home and just moved with a long lease .', 'labels': [[(-1, -1), 'RESTAURANT#GENERAL', (-1, -1), 'positive']]}
+{'sentence': "unless you are just stopping in for a few drinks i would n ' t recommend going here .", 'labels': [[(9, 10), 'DRINKS#QUALITY', (-1, -1), 'positive'], [(-1, -1), 'RESTAURANT#GENERAL', (12, 16), 'negative']]}
+{'sentence': 'you are likely to be disappointed .', 'labels': [[(-1, -1), 'RESTAURANT#GENERAL', (5, 6), 'negative']]}
+{'sentence': 'it was romantic - and even nice even with my sister , reminded me of italy , and had artwork and music that kept up the feeling of being in a mediterrean villa .', 'labels': [[(-1, -1), 'AMBIENCE#GENERAL', (2, 3), 'positive'], [(19, 20), 'AMBIENCE#GENERAL', (-1, -1), 'positive'], [(21, 22), 'AMBIENCE#GENERAL', (-1, -1), 'positive']]}
+{'sentence': 'i recommend it for a night when you want to splurge ! ( it was a bit expensive )', 'labels': [[(-1, -1), 'RESTAURANT#GENERAL', (1, 2), 'positive'], [(-1, -1), 'RESTAURANT#PRICES', (17, 18), 'negative']]}
+{'sentence': 'the best thing is , the prices are also quite reasonable .', 'labels': [[(-1, -1), 'RESTAURANT#PRICES', (10, 11), 'positive']]}
+{'sentence': 'hidden little jem', 'labels': [[(-1, -1), 'RESTAURANT#GENERAL', (2, 3), 'positive']]}
+{'sentence': '– tucked away over by the beverly center .', 'labels': [[(-1, -1), 'LOCATION#GENERAL', (-1, -1), 'neutral']]}
+{'sentence': 'you routinely see indian families and friends dining there , which is always a good sign .', 'labels': [[(-1, -1), 'RESTAURANT#MISCELLANEOUS', (14, 15), 'positive']]}
+{'sentence': "normally , places ask how hot you want it , but they did n ' t .", 'labels': [[(-1, -1), 'SERVICE#GENERAL', (-1, -1), 'negative']]}
+{'sentence': 'i should have thought to bring it up but never expected the food to be that mild .', 'labels': [[(12, 13), 'FOOD#QUALITY', (16, 17), 'positive']]}
+{'sentence': "and they packaged everything nicely so it did n ' t spill .", 'labels': [[(-1, -1), 'SERVICE#GENERAL', (4, 5), 'positive']]}
+{'sentence': 'awesome find', 'labels': [[(-1, -1), 'RESTAURANT#GENERAL', (0, 1), 'positive']]}
+{'sentence': 'you can order to go if you have to get back to the office too !', 'labels': [[(-1, -1), 'SERVICE#GENERAL', (-1, -1), 'positive']]}
+{'sentence': 'lebanese food ! yum !', 'labels': [[(0, 2), 'FOOD#QUALITY', (3, 4), 'positive']]}
+{'sentence': "– i ' ve been to open sesame only once , but i ' m still reeling from the experience ! !", 'labels': [[(6, 8), 'RESTAURANT#GENERAL', (-1, -1), 'positive']]}
+{'sentence': 'what a tastly , flaky treat !', 'labels': [[(-1, -1), 'FOOD#QUALITY', (2, 3), 'positive'], [(-1, -1), 'FOOD#QUALITY', (4, 5), 'positive']]}
+{'sentence': "there have been several occasions when we ' ve just not gotten some side dishes we ' ve ordered .", 'labels': [[(-1, -1), 'SERVICE#GENERAL', (-1, -1), 'negative']]}
+{'sentence': 'we waited over 30 minutes for our drinks and over 1 1 / 2 hours for our food .', 'labels': [[(-1, -1), 'SERVICE#GENERAL', (-1, -1), 'negative']]}
+{'sentence': 'however , one sunday afternoon my husband and i did go ( although with my loud protests ) and were pleasantly surprised .', 'labels': [[(-1, -1), 'RESTAURANT#GENERAL', (20, 21), 'positive']]}
+{'sentence': 'it was like dining at a completely different restaurant .', 'labels': [[(-1, -1), 'RESTAURANT#GENERAL', (-1, -1), 'positive']]}
+{'sentence': 'we have since returned and also had a great experience , sampling more small plates and a variety of the beer ( cold and good ) .', 'labels': [[(20, 21), 'DRINKS#QUALITY', (21, 22), 'positive'], [(20, 21), 'DRINKS#QUALITY', (23, 24), 'positive'], [(-1, -1), 'RESTAURANT#GENERAL', (8, 9), 'positive']]}
+{'sentence': 'we did have the same waiter the second time , so maybe the service is spotty and our luck is good .', 'labels': [[(5, 6), 'SERVICE#GENERAL', (20, 21), 'positive']]}
+{'sentence': 'sunday afternoons there is a band playing and it is lots of fun .', 'labels': [[(5, 6), 'AMBIENCE#GENERAL', (12, 13), 'negative']]}
+{'sentence': 'nice job !', 'labels': [[(-1, -1), 'RESTAURANT#GENERAL', (0, 1), 'positive']]}
+{'sentence': 'this is sad for what once was one of the best places you could ever eat .', 'labels': [[(-1, -1), 'RESTAURANT#GENERAL', (2, 3), 'negative']]}
+{'sentence': 'i hope one day scooner or later returns to what it once was .', 'labels': [[(4, 7), 'RESTAURANT#GENERAL', (-1, -1), 'negative']]}
+{'sentence': 'untill this happens , my advice is to stay away .', 'labels': [[(-1, -1), 'RESTAURANT#GENERAL', (-1, -1), 'negative']]}
+{'sentence': 'old reliable', 'labels': [[(-1, -1), 'RESTAURANT#GENERAL', (1, 2), 'positive']]}
+{'sentence': "– after 12 years in seattle ray ' s rates as the place we always go back to .", 'labels': [[(6, 9), 'RESTAURANT#GENERAL', (-1, -1), 'positive']]}
+{'sentence': 'i liked it .', 'labels': [[(-1, -1), 'RESTAURANT#GENERAL', (1, 2), 'positive']]}
+{'sentence': 'it was so much though that i could barely finish but i did , since it was delicious .', 'labels': [[(-1, -1), 'FOOD#STYLE_OPTIONS', (-1, -1), 'neutral'], [(-1, -1), 'FOOD#QUALITY', (17, 18), 'positive']]}
+{'sentence': 'wow ! ! ! ! ! ! ! !', 'labels': [[(-1, -1), 'RESTAURANT#GENERAL', (-1, -1), 'positive']]}
+{'sentence': '– it cant get any better ! ! ! ! !', 'labels': [[(-1, -1), 'RESTAURANT#GENERAL', (5, 6), 'positive']]}
+{'sentence': 'absolutely fabulous ! ! !', 'labels': [[(-1, -1), 'RESTAURANT#GENERAL', (1, 2), 'positive']]}
+{'sentence': 'two thumbs up !', 'labels': [[(-1, -1), 'FOOD#QUALITY', (1, 3), 'positive']]}
+{'sentence': 'this is right up there with places in tokyo as far as the freshness is concerned .', 'labels': [[(-1, -1), 'FOOD#QUALITY', (-1, -1), 'positive']]}
+{'sentence': 'splendid', 'labels': [[(-1, -1), 'RESTAURANT#GENERAL', (0, 1), 'positive']]}
+{'sentence': 'perfect on a cold day .', 'labels': [[(-1, -1), 'FOOD#QUALITY', (0, 1), 'positive']]}
+{'sentence': '$ 6 with tip .', 'labels': [[(-1, -1), 'RESTAURANT#PRICES', (-1, -1), 'positive']]}
+{'sentence': 'perfection .', 'labels': [[(-1, -1), 'RESTAURANT#GENERAL', (0, 1), 'positive']]}
+{'sentence': 'on weekends , you might have to wait for couple hours .', 'labels': [[(-1, -1), 'SERVICE#GENERAL', (-1, -1), 'neutral']]}
+{'sentence': 'however , they do take your cellphone numbers so that you can go hang out somewhere else till they call you up on your cellphone .', 'labels': [[(-1, -1), 'SERVICE#GENERAL', (-1, -1), 'positive']]}
+{'sentence': "that ' s a huge compliment , especially in the fickled restaurant business , . . . enough already !", 'labels': [[(-1, -1), 'RESTAURANT#GENERAL', (5, 6), 'positive']]}
+{'sentence': "i guarantee you wo n ' t be disappointed , there ' s also valet parking .", 'labels': [[(-1, -1), 'RESTAURANT#GENERAL', (4, 9), 'positive'], [(-1, -1), 'RESTAURANT#MISCELLANEOUS', (4, 9), 'positive']]}
+{'sentence': 'a cozy spot for 2', 'labels': [[(2, 3), 'AMBIENCE#GENERAL', (1, 2), 'positive']]}
+{'sentence': "– i ca n ' t believe murphy ' s has been around for over 25 years , amazing .", 'labels': [[(7, 10), 'RESTAURANT#MISCELLANEOUS', (18, 19), 'positive']]}
+{'sentence': 'addicting !', 'labels': [[(-1, -1), 'RESTAURANT#GENERAL', (0, 1), 'positive']]}
+{'sentence': 'i went there with a friend from out of town . . . and we were both very impressed !', 'labels': [[(-1, -1), 'RESTAURANT#GENERAL', (18, 19), 'positive']]}
+{'sentence': 'the price was right too .', 'labels': [[(-1, -1), 'RESTAURANT#PRICES', (3, 4), 'positive']]}
+{'sentence': "i ' d go back there in a heartbeat .", 'labels': [[(-1, -1), 'RESTAURANT#GENERAL', (-1, -1), 'positive']]}
+{'sentence': "well i guess it ' s hard to be seated when one is invisible to the staff .", 'labels': [[(16, 17), 'SERVICE#GENERAL', (-1, -1), 'negative']]}
+{'sentence': 'once seated it took about 30 minutes to finally get the meal .', 'labels': [[(-1, -1), 'SERVICE#GENERAL', (-1, -1), 'negative']]}
+{'sentence': 'the prior reviews said kid friendly . . . give me a break with two young children that is light years .', 'labels': [[(-1, -1), 'RESTAURANT#MISCELLANEOUS', (-1, -1), 'negative']]}
+{'sentence': 'it was decent but nothing exceptional .', 'labels': [[(-1, -1), 'FOOD#QUALITY', (2, 3), 'positive'], [(-1, -1), 'FOOD#QUALITY', (4, 6), 'neutral']]}
+{'sentence': 'the place is the next best thing to my moms cooking .', 'labels': [[(-1, -1), 'FOOD#QUALITY', (5, 6), 'positive']]}
+{'sentence': 'way over - rated ! ! ! !', 'labels': [[(-1, -1), 'RESTAURANT#GENERAL', (1, 4), 'negative']]}
+{'sentence': '10 !', 'labels': [[(-1, -1), 'RESTAURANT#GENERAL', (0, 1), 'positive']]}
+{'sentence': 'cut to the chase - this is amazing !', 'labels': [[(-1, -1), 'RESTAURANT#GENERAL', (7, 8), 'positive']]}
+{'sentence': "it ' s unpretentious and underground .", 'labels': [[(-1, -1), 'AMBIENCE#GENERAL', (3, 4), 'positive']]}
+{'sentence': "it ' s fresh , welcoming , delicious , and relaxing .", 'labels': [[(-1, -1), 'FOOD#QUALITY', (3, 4), 'positive'], [(-1, -1), 'FOOD#QUALITY', (7, 8), 'positive'], [(-1, -1), 'AMBIENCE#GENERAL', (5, 6), 'positive'], [(-1, -1), 'AMBIENCE#GENERAL', (10, 11), 'positive']]}
+{'sentence': 'i went here on a recommendation and will surely return time and time again .', 'labels': [[(-1, -1), 'RESTAURANT#GENERAL', (-1, -1), 'positive']]}
+{'sentence': 'what a find !', 'labels': [[(-1, -1), 'RESTAURANT#GENERAL', (-1, -1), 'positive']]}
+{'sentence': 'well worth it', 'labels': [[(-1, -1), 'RESTAURANT#GENERAL', (1, 2), 'positive']]}
+{'sentence': 'good for late night dining ( last minute planning ) without reservations .', 'labels': [[(-1, -1), 'RESTAURANT#MISCELLANEOUS', (-1, -1), 'positive']]}
+{'sentence': 'love it every time', 'labels': [[(-1, -1), 'RESTAURANT#GENERAL', (0, 1), 'positive']]}
+{'sentence': 'never had one single problem there .', 'labels': [[(-1, -1), 'RESTAURANT#GENERAL', (-1, -1), 'positive']]}
+{'sentence': 'seafood plus', 'labels': [[(0, 1), 'FOOD#QUALITY', (1, 2), 'positive']]}
+{'sentence': '– this was great dining experience .', 'labels': [[(-1, -1), 'RESTAURANT#GENERAL', (3, 4), 'positive']]}
+{'sentence': "if you ' re going to see danny gans or just staying at the mirage , do n ' t miss this one .", 'labels': [[(-1, -1), 'RESTAURANT#GENERAL', (-1, -1), 'positive']]}
+{'sentence': 'completely over rated !', 'labels': [[(-1, -1), 'RESTAURANT#GENERAL', (1, 3), 'negative']]}
+{'sentence': 'even then , the order was not correct and we were still waiting for a couple items .', 'labels': [[(-1, -1), 'SERVICE#GENERAL', (-1, -1), 'negative']]}
+{'sentence': "we had a very hard time getting the waitress ' attention and finally had to get up and go inside to speak to a manager .", 'labels': [[(8, 9), 'SERVICE#GENERAL', (-1, -1), 'negative']]}
+{'sentence': 'as it turns out the owner was seated right next to us and when he came over to check on our problems was very dismissive and offered a token 20 % discount on our bill .', 'labels': [[(5, 6), 'SERVICE#GENERAL', (24, 25), 'negative']]}
+{'sentence': 'when the bill came , he only took the discount off the food and not the drinks .', 'labels': [[(-1, -1), 'SERVICE#GENERAL', (-1, -1), 'negative']]}
+{'sentence': 'it was clear he didn ’ t really care .', 'labels': [[(-1, -1), 'SERVICE#GENERAL', (-1, -1), 'negative']]}
+{'sentence': '– save yourself the waste of time & do not visit .', 'labels': [[(-1, -1), 'RESTAURANT#GENERAL', (-1, -1), 'negative']]}
+{'sentence': 'after sitting there with my empty glass for over 20 minutes i left .', 'labels': [[(-1, -1), 'SERVICE#GENERAL', (-1, -1), 'negative']]}
+{'sentence': "i went home & looked them up online again where i discovered there is a link for a give away that does n ' t work so emailed the restaurant about the non existent service & deceptive link .", 'labels': [[(29, 30), 'RESTAURANT#MISCELLANEOUS', (-1, -1), 'negative']]}
+{'sentence': 'i never heard back from anyone more than a month ago .', 'labels': [[(-1, -1), 'RESTAURANT#MISCELLANEOUS', (-1, -1), 'negative']]}
+{'sentence': "after sitting at the bar for over 20 minutes the bar keep had made only 2 drinks & kept telling us she ' d be right with us .", 'labels': [[(10, 12), 'SERVICE#GENERAL', (-1, -1), 'negative']]}
+{'sentence': "as of writing this i just tried their give away a link again & it still does n ' t work .", 'labels': [[(-1, -1), 'RESTAURANT#MISCELLANEOUS', (-1, -1), 'negative']]}
+{'sentence': 'always a winner .', 'labels': [[(-1, -1), 'RESTAURANT#GENERAL', (-1, -1), 'positive']]}
+{'sentence': "she does n ' t make you feel welcome and treats you like an annoyance .", 'labels': [[(-1, -1), 'SERVICE#GENERAL', (14, 15), 'negative']]}
+{'sentence': 'but she is very friendly with certain people , making it even more annoying .', 'labels': [[(-1, -1), 'SERVICE#GENERAL', (13, 14), 'negative']]}
+{'sentence': 'management should really take notice and train their waitstaff and teach them some proper manners .', 'labels': [[(0, 1), 'SERVICE#GENERAL', (-1, -1), 'negative'], [(8, 9), 'SERVICE#GENERAL', (-1, -1), 'negative']]}
+{'sentence': 'they have been featured on the food network and they deserve it .', 'labels': [[(-1, -1), 'RESTAURANT#MISCELLANEOUS', (-1, -1), 'positive']]}
+{'sentence': "does n ' t get any better than that .", 'labels': [[(-1, -1), 'RESTAURANT#GENERAL', (6, 7), 'positive']]}
+{'sentence': 'you can easily hear him though so it was a pleasant sound and not overbearing .', 'labels': [[(-1, -1), 'AMBIENCE#GENERAL', (10, 11), 'positive']]}
+{'sentence': 'not too fine thought that you feel uncomfortable and have to dress up .', 'labels': [[(-1, -1), 'AMBIENCE#GENERAL', (-1, -1), 'positive']]}
+{'sentence': 'first off , the food came fast and all together : ) i like that . . . i hate the pretentiousness of things coming in one after the other .', 'labels': [[(-1, -1), 'SERVICE#GENERAL', (6, 7), 'positive']]}
+{'sentence': 'yummy .', 'labels': [[(-1, -1), 'FOOD#QUALITY', (0, 1), 'positive']]}
+{'sentence': 'not chewy at all .', 'labels': [[(-1, -1), 'FOOD#QUALITY', (0, 2), 'positive']]}
+{'sentence': 'for desert we had the mango ginger creme brulee . . . oh la la yummy ! ! !', 'labels': [[(5, 9), 'FOOD#QUALITY', (15, 16), 'positive']]}
+{'sentence': 'melt in your mouth .', 'labels': [[(-1, -1), 'FOOD#QUALITY', (-1, -1), 'positive']]}
+{'sentence': 'we are for sure coming back to this restaurant .', 'labels': [[(8, 9), 'RESTAURANT#GENERAL', (-1, -1), 'positive']]}
+{'sentence': 'it is sad there is not many people who frequent eating at places like these that look pricey because they are at the hotel . . . but they are definitely one you dont want to miss , esp if your in downtown san jose .', 'labels': [[(-1, -1), 'RESTAURANT#GENERAL', (-1, -1), 'positive']]}
+{'sentence': 'we easily spent more than $ 40 per person ( not including alcohol ) and were still hungry .', 'labels': [[(-1, -1), 'RESTAURANT#PRICES', (-1, -1), 'negative'], [(-1, -1), 'FOOD#STYLE_OPTIONS', (-1, -1), 'negative']]}
+{'sentence': "i ' m astonished that this restaurant is categorized as $ $ $ rather than $ $ $ $ .", 'labels': [[(6, 7), 'RESTAURANT#PRICES', (3, 4), 'negative']]}
+{'sentence': "we put out name down and although there were open tables we were told that it ' d be a 30 minute wait .", 'labels': [[(-1, -1), 'SERVICE#GENERAL', (-1, -1), 'negative']]}
+{'sentence': 'we went back to the restaurant and low and behold , we were seated at one of the tables that was available 30 minutes ago ! !', 'labels': [[(-1, -1), 'SERVICE#GENERAL', (-1, -1), 'negative']]}
+{'sentence': 'none that i can think of .', 'labels': [[(-1, -1), 'RESTAURANT#GENERAL', (-1, -1), 'negative']]}
+{'sentence': "we put in our order and although we ordered 4 appetizers , the food did n ' t arrive until 45 minutes later . . . with our main course .", 'labels': [[(-1, -1), 'SERVICE#GENERAL', (-1, -1), 'negative']]}
+{'sentence': 'um so now what are appetizers for ? ? ?', 'labels': [[(-1, -1), 'SERVICE#GENERAL', (-1, -1), 'negative']]}
+{'sentence': "oh i forgot to mention that they do n ' t have bread service .", 'labels': [[(-1, -1), 'SERVICE#GENERAL', (-1, -1), 'negative']]}
+{'sentence': "my wife also ordered a teapot of hot water ( she had a sore throat ) and i guess that since it was only water , it was n ' t a priority for them to actually bring it .", 'labels': [[(-1, -1), 'SERVICE#GENERAL', (-1, -1), 'negative']]}
+{'sentence': "in other words , if they are n ' t making $ $ off of you then you do n ' t rate high on their ' service scale ' .", 'labels': [[(27, 28), 'SERVICE#GENERAL', (-1, -1), 'negative']]}
+{'sentence': "its great if you spent the day there and did n ' t want to drive to eat .", 'labels': [[(-1, -1), 'LOCATION#GENERAL', (1, 2), 'positive']]}
+{'sentence': 'parking is reasonably good , they have their own lot and you can park in the park nearby .', 'labels': [[(-1, -1), 'RESTAURANT#MISCELLANEOUS', (3, 4), 'positive']]}
+{'sentence': 'always good .', 'labels': [[(-1, -1), 'RESTAURANT#GENERAL', (1, 2), 'positive']]}
+{'sentence': '6pm on a sat before a broadway play and we were quickly seated and served .', 'labels': [[(-1, -1), 'SERVICE#GENERAL', (-1, -1), 'positive']]}
+{'sentence': 'as part of a small party of four , our food was dropped off without comment ;', 'labels': [[(-1, -1), 'SERVICE#GENERAL', (-1, -1), 'negative']]}
+{'sentence': 'any further needs we may have had could not have been met since no one stopped by the table .', 'labels': [[(-1, -1), 'SERVICE#GENERAL', (-1, -1), 'negative']]}
+{'sentence': 'when we finally were able to flag someone down , it was someone entirely different from the person who had dropped off the food , who was also not the same person who had taken our order .', 'labels': [[(-1, -1), 'SERVICE#GENERAL', (-1, -1), 'negative']]}
+{'sentence': "a brief conversation with the manager at the end of the meal was the greatest disappointment - - to say we had been ` ` blown off ' ' would be an understatement .", 'labels': [[(5, 6), 'SERVICE#GENERAL', (15, 16), 'negative']]}
+{'sentence': 'the manager continually interrupted with ` ` is there anything else i can do for you ? ` ` , a strange comment because she had hardly listened , let alone responded to our expression of disappointment at our experience .', 'labels': [[(1, 2), 'SERVICE#GENERAL', (36, 37), 'negative']]}
+{'sentence': "she promised to speak to the waitress who had flown off in a rage , but we could hardly take her promise seriously , seeing as she had n ' t bothered to get the waitresses name .", 'labels': [[(-1, -1), 'SERVICE#GENERAL', (-1, -1), 'negative']]}
+{'sentence': "in short , schooner or later could n ' t have cared less about our being at their establishment .", 'labels': [[(-1, -1), 'SERVICE#GENERAL', (-1, -1), 'negative']]}
+{'sentence': 'you are with a hot date and he / she has an urge for sushi . . . then this might be the place .', 'labels': [[(14, 15), 'FOOD#QUALITY', (-1, -1), 'positive']]}
+{'sentence': 'and they give good quantity for the price .', 'labels': [[(-1, -1), 'FOOD#STYLE_OPTIONS', (3, 4), 'positive'], [(-1, -1), 'FOOD#PRICES', (-1, -1), 'positive']]}
+{'sentence': "we were only in seattle for one night and i ' m so glad we picked rays for dinner !", 'labels': [[(16, 17), 'RESTAURANT#GENERAL', (13, 14), 'positive']]}
+{'sentence': 'this is the case at this gem .', 'labels': [[(-1, -1), 'RESTAURANT#GENERAL', (-1, -1), 'positive']]}
+{'sentence': "you ca n ' t go wrong here .", 'labels': [[(-1, -1), 'RESTAURANT#GENERAL', (-1, -1), 'positive']]}
+{'sentence': "seriously , you ca n ' t go wrong , if it is unpretentious local fun you seek .", 'labels': [[(-1, -1), 'AMBIENCE#GENERAL', (15, 16), 'positive']]}
+{'sentence': 'my mouth felt very dry afterwards and i had that signature ? msg ? taste lingering in my throat after i left the restaurant .', 'labels': [[(-1, -1), 'FOOD#QUALITY', (-1, -1), 'negative']]}
+{'sentence': 'they came in their own nifty take out box and with some homemade frosting ; very light and not - too - sweet .', 'labels': [[(-1, -1), 'FOOD#QUALITY', (16, 17), 'positive'], [(-1, -1), 'FOOD#QUALITY', (18, 23), 'positive']]}
+{'sentence': 'the dinner only took us about an hour and the prices were alright for the strip , almost $ 50 / pp after tax and tip ( about average ) .', 'labels': [[(-1, -1), 'RESTAURANT#PRICES', (12, 13), 'neutral'], [(-1, -1), 'SERVICE#GENERAL', (-1, -1), 'positive']]}
+{'sentence': 'just remember to dress a little urban - chic so you don ? t look too far out of place .', 'labels': [[(-1, -1), 'RESTAURANT#MISCELLANEOUS', (-1, -1), 'neutral']]}
+{'sentence': 'very good !', 'labels': [[(-1, -1), 'RESTAURANT#GENERAL', (1, 2), 'positive']]}
+{'sentence': 'overpriced', 'labels': [[(-1, -1), 'RESTAURANT#PRICES', (0, 1), 'negative']]}
+{'sentence': 'waited 35 minutes for a table for 8 which was ok for such a big crowd .', 'labels': [[(-1, -1), 'SERVICE#GENERAL', (10, 11), 'neutral']]}
+{'sentence': 'not sure if i would go back .', 'labels': [[(-1, -1), 'RESTAURANT#GENERAL', (-1, -1), 'negative']]}
+{'sentence': 'in fact , many want to return a second time during their visit .', 'labels': [[(-1, -1), 'RESTAURANT#GENERAL', (-1, -1), 'positive']]}
+{'sentence': "they are n ' t the most talkative , but everytime i ' ve been there they have been very busy , which probably accounts for the lack of conversation .", 'labels': [[(-1, -1), 'SERVICE#GENERAL', (-1, -1), 'neutral']]}
+{'sentence': "it ' s just the right size for the menu .", 'labels': [[(-1, -1), 'RESTAURANT#MISCELLANEOUS', (5, 6), 'positive']]}
+{'sentence': 'excellent', 'labels': [[(-1, -1), 'RESTAURANT#GENERAL', (0, 1), 'positive']]}
+{'sentence': 'you never feel icky and stuffed after you eat there .', 'labels': [[(-1, -1), 'FOOD#QUALITY', (-1, -1), 'positive']]}
+{'sentence': "the pizza ' s are light and scrumptious .", 'labels': [[(1, 4), 'FOOD#QUALITY', (5, 6), 'positive'], [(1, 4), 'FOOD#QUALITY', (7, 8), 'positive']]}
+{'sentence': 'worth the wait', 'labels': [[(-1, -1), 'RESTAURANT#GENERAL', (0, 1), 'positive']]}
+{'sentence': '– had to wait thirty minutes to get in the door on a tuesday morning , but it was so worth it .', 'labels': [[(-1, -1), 'RESTAURANT#MISCELLANEOUS', (-1, -1), 'negative'], [(-1, -1), 'RESTAURANT#GENERAL', (20, 21), 'positive']]}
+{'sentence': 'go with some friends , wait the half hour or so with a cup of joe , and enjoy more than your average breakfast .', 'labels': [[(-1, -1), 'RESTAURANT#GENERAL', (-1, -1), 'positive'], [(23, 24), 'FOOD#QUALITY', (18, 19), 'positive']]}
+{'sentence': "i do n ' t know why anyone would want to write a great review about this place .", 'labels': [[(17, 18), 'RESTAURANT#GENERAL', (-1, -1), 'negative']]}
+{'sentence': 'donot go !', 'labels': [[(-1, -1), 'RESTAURANT#GENERAL', (-1, -1), 'negative']]}
+{'sentence': 'delicious', 'labels': [[(-1, -1), 'FOOD#QUALITY', (0, 1), 'positive']]}
+{'sentence': 'we waited for an hour to be seated .', 'labels': [[(-1, -1), 'SERVICE#GENERAL', (-1, -1), 'negative']]}
+{'sentence': 'it was worth the wait .', 'labels': [[(-1, -1), 'RESTAURANT#GENERAL', (2, 3), 'positive']]}
+{'sentence': 'plan on waiting 30 - 70 minutes .', 'labels': [[(-1, -1), 'SERVICE#GENERAL', (-1, -1), 'neutral']]}
+{'sentence': 'will definitely be back .', 'labels': [[(-1, -1), 'RESTAURANT#GENERAL', (-1, -1), 'positive']]}
+{'sentence': 'delicious . . . !', 'labels': [[(-1, -1), 'FOOD#QUALITY', (0, 1), 'positive']]}
+{'sentence': 'delectable', 'labels': [[(-1, -1), 'FOOD#QUALITY', (0, 1), 'positive']]}
+{'sentence': "once you ' re inside , the real experience begins .", 'labels': [[(-1, -1), 'RESTAURANT#GENERAL', (-1, -1), 'positive']]}
+{'sentence': "i probably would n ' t go back though ' cuz i do n ' t know if it ' s worth it .", 'labels': [[(-1, -1), 'RESTAURANT#GENERAL', (-1, -1), 'negative']]}
+{'sentence': "maybe i ' ll go back once more many years from now when i ' ve forgotten i went there already .", 'labels': [[(-1, -1), 'RESTAURANT#GENERAL', (-1, -1), 'negative']]}
+{'sentence': 'sit in the balcony', 'labels': [[(3, 4), 'AMBIENCE#GENERAL', (-1, -1), 'neutral']]}
+{'sentence': '– not bad .', 'labels': [[(-1, -1), 'RESTAURANT#GENERAL', (1, 3), 'neutral']]}
+{'sentence': 'although the service could be improved considering the money you put in .', 'labels': [[(-1, -1), 'RESTAURANT#PRICES', (-1, -1), 'negative'], [(2, 3), 'SERVICE#GENERAL', (-1, -1), 'negative']]}
+{'sentence': 'our drinks kept coming but our server came by a couple times .', 'labels': [[(-1, -1), 'SERVICE#GENERAL', (-1, -1), 'positive'], [(6, 7), 'SERVICE#GENERAL', (-1, -1), 'negative']]}
+{'sentence': "should check - up on us more frequently , do n ' t you think ?", 'labels': [[(-1, -1), 'SERVICE#GENERAL', (-1, -1), 'negative']]}
+{'sentence': 'the most pleasant surprise was the check that did not exceed my expectations as it always happens in most of the places .', 'labels': [[(-1, -1), 'RESTAURANT#PRICES', (2, 3), 'positive']]}
+{'sentence': 'i felt ackward and next time went to the casino bathroom .', 'labels': [[(-1, -1), 'RESTAURANT#MISCELLANEOUS', (2, 3), 'negative']]}
+{'sentence': 'this place rocks ! !', 'labels': [[(1, 2), 'RESTAURANT#GENERAL', (2, 3), 'positive']]}
+{'sentence': 'the chips and salsa are so yummy , and the prices are fabulous .', 'labels': [[(1, 2), 'FOOD#QUALITY', (6, 7), 'positive'], [(3, 4), 'FOOD#QUALITY', (6, 7), 'positive'], [(-1, -1), 'RESTAURANT#PRICES', (12, 13), 'positive']]}
+{'sentence': 'the atmosphere is aspiring , and the decor is festive and amazing . .', 'labels': [[(1, 2), 'AMBIENCE#GENERAL', (3, 4), 'positive'], [(7, 8), 'AMBIENCE#GENERAL', (9, 10), 'positive'], [(7, 8), 'AMBIENCE#GENERAL', (11, 12), 'positive']]}
+{'sentence': 'insultingly overpriced', 'labels': [[(-1, -1), 'RESTAURANT#PRICES', (1, 2), 'negative']]}
+{'sentence': '- mediocre service / quality', 'labels': [[(2, 3), 'SERVICE#GENERAL', (1, 2), 'neutral']]}
+{'sentence': 'to their credit they removed the dish from the check ; but no manager stopped by to ask what the problem was .', 'labels': [[(13, 14), 'SERVICE#GENERAL', (-1, -1), 'negative'], [(-1, -1), 'SERVICE#GENERAL', (0, 3), 'positive']]}
+{'sentence': 'two rascally kids were seated near us for the first part of our dinner . . . they were replaced by a delightful preteen who pretended to gag every time seafood was mentioned at her table .', 'labels': [[(-1, -1), 'RESTAURANT#MISCELLANEOUS', (-1, -1), 'negative']]}
+{'sentence': "all considered , i have to say that ray ' s boathouse is deserving of its title as a seattle institution .", 'labels': [[(8, 12), 'RESTAURANT#GENERAL', (-1, -1), 'positive']]}
