@@ -13,6 +13,6 @@ Use BMRC to complete ACOS tasks
 | Double-Propagation-ACOS | 34.67 | 15.08 | 21.04 |
 | JET-ACOS | 59.81 | 28.94 | 39.01 |
 | Extract-Classify-ACOS | 38.54 | 52.96 | 44.61 |
-| Span-ACOS | 64.37 | 48.91 | 55.58 |
+| Span-ACOS | **64.37** | 48.91 | 55.58 |
 | Seq2Path(k=8) | - | - | 57.37 |
-| BMRC-ACOS | 58.91 | 56.66 | 57.76 |
+| BMRC-ACOS | 58.91 | **56.66** | **57.76** |
