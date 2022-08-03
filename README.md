@@ -15,4 +15,4 @@ Use BMRC to complete ACOS tasks
 | Extract-Classify-ACOS | 38.54 | 52.96 | 44.61 |
 | Span-ACOS | **64.37** | 48.91 | 55.58 |
 | Seq2Path(k=8) | - | - | 57.37 |
-| BMRC-ACOS | 58.91 | **56.66** | **57.76** |
+| BMRC-ACOS(Ours) | 58.91 | **56.66** | **57.76** |
