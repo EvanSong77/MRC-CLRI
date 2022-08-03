@@ -2,7 +2,7 @@
 Use BMRC to complete ACOS tasks
 
 # Contributions
-- 我们在显式三元组ASTE任务中修改了原模型使其能做隐式四元组ACOS任务 最终结果比之前的bert baseline都高，比Extract-Classify-ACOS高**10.97**个点，精度也达到了惊人的**64.37**。
+- 我们在显式三元组ASTE任务中修改了原模型使其能做隐式四元组ACOS任务 最终结果比之前的bert baseline都高，比Extract-Classify-ACOS高**10.97**个点，精度也达到了最高的**64.37**。
 - 我们首次用阅读理解模型来完成含隐式的四元组抽取任务。
 - 我们模型BMRC-ACOS的效果比之前的baseline还有我们修改的Span-ACOS以及生成式Seq2Path(k=8)都高，结果为**57.76**，分别比Extract-Classify-ACOS、Span-ACOS、Seq2Path(k=8)高了**13.15**、**2.18**、**0.39**。
 
