@@ -16,4 +16,4 @@ Use BMRC to complete ACOS tasks
 | Span-ACOS | **64.37** | 48.91 | 55.58 |
 | Seq2Path(k=8) | - | - | 57.37 |
 | BMRC-ACOS(Ours) | 58.91 | **56.66** | **57.76** |
-| Seq2Path(k=10) | - | - | 58.41 |
+| Seq2Path(k=10) | - | - | **58.41** |
