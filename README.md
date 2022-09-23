@@ -6,7 +6,27 @@ Use BMRC to complete ACOS tasks
 - 我们首次用阅读理解模型来完成含隐式的四元组抽取任务。
 - 我们模型BMRC-ACOS的效果比之前的baseline还有我们修改的Span-ACOS以及生成式Seq2Path(k=8)都高，结果为**57.76**，分别比Extract-Classify-ACOS、Span-ACOS、Seq2Path(k=8)高了**13.15**、**2.18**、**0.39**。
 
-# Result
+# 英文版MRC
+## 英文问题模板
+```bash
+Forward:
+
+Q1:[CLS] What aspects ? [SEP] null sentence
+
+Q2:[CLS] What opinions given the aspect1 ? [SEP] null sentence
+
+Backward:
+
+Q1:[CLS] What opinions ? [SEP] null sentence
+
+Q2:[CLS] What aspects given the opinion1 ? [SEP] null sentence
+
+Q3:[CLS] What category given the aspect1 and the opinion1 ? [SEP] sentence
+
+Q4:[CLS] What sentiment given the aspect1 and the opinion1 ? [SEP] sentence
+```
+
+## Result
 **Restaurant-ACOS**
 |  | Precision | Recall | F1 |
 | :----:| :----: | :----: | :----: |
@@ -17,6 +37,27 @@ Use BMRC to complete ACOS tasks
 | Seq2Path(k=8) | - | - | 57.37 |
 | BMRC-ACOS(Ours) | 58.91 | **56.66** | **57.76** |
 | Seq2Path(k=10) | - | - | **58.41** |
+
+
+# 中文版MRC
+## 中文问题模板
+```bash
+Forward:
+
+Q1:[CLS] 哪些方面？ [SEP] null sentence
+
+Q2:[CLS] 哪些意见对于方面1？ [SEP] null sentence
+
+Backward:
+
+Q1:[CLS] 哪些意见？ [SEP] null sentence
+
+Q2:[CLS] 哪些方面对于意见1？ [SEP] null sentence
+
+Q3:[CLS] 什么情感对于方面1是意见2？ [SEP] sentence
+
+Q4:[CLS] 什么种类对于方面1是意见2？ [SEP] sentence
+```
 
 ## 严格计算结果
 <table>
@@ -54,7 +95,7 @@ Use BMRC to complete ACOS tasks
   </tr>
 </table>
 
-## 非严格结果（师兄计算方式）
+## 非严格计算结果（师兄计算方式）
 <table>
   <tr>
     <td></td>
