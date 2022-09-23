@@ -27,10 +27,10 @@ Use BMRC to complete ACOS tasks
   <tr>
     <td></td>
     <td align="center">pre</td>
-    <td align="center">reacll</td>
+    <td align="center">recall</td>
     <td align="center">f1</td>
     <td align="center">pre</td>
-    <td align="center">reacll</td>
+    <td align="center">recall</td>
     <td align="center">f1</td>
   </tr>
   <tr>
