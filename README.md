@@ -54,7 +54,7 @@ Use BMRC to complete ACOS tasks
   </tr>
 </table>
 
-# 非严格结果（师兄计算方式）
+## 非严格结果（师兄计算方式）
 <table>
   <tr>
     <td></td>
