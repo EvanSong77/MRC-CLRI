@@ -1,12 +1,9 @@
 # BMRC-ACOS
-Use BMRC to complete ACOS tasks
+Use BMRC to complete Aspect Sentiment Quadruple Extraction tasks in ACOS(rest,laptop), QUAD(rest15,rest16) and ASQE dataset.
 
 # Contributions
-- 我们在显式三元组ASTE任务中修改了原模型使其能做隐式四元组ACOS任务 最终结果比之前的bert baseline都高，比Extract-Classify-ACOS高**10.97**个点，精度也达到了最高的**64.37**。
-- 我们首次用阅读理解模型来完成含隐式的四元组抽取任务。
-- 我们模型BMRC-ACOS的效果比之前的baseline还有我们修改的Span-ACOS以及生成式Seq2Path(k=8)都高，结果为**57.76**，分别比Extract-Classify-ACOS、Span-ACOS、Seq2Path(k=8)高了**13.15**、**2.18**、**0.39**。
 
-# 英文版MRC
+# 英文版MRC(dataset为ACOS和QUAD)
 ## 英文问题模板
 ```bash
 Forward:
@@ -38,8 +35,19 @@ Q4:[CLS] What sentiment given the aspect1 and the opinion1 ? [SEP] sentence
 | BMRC-ACOS(Ours) | 58.91 | **56.66** | **57.76** |
 | Seq2Path(k=10) | - | - | **58.41** |
 
+**QUAD**
+| model | Res15-Precision | Res15-Recall | Res15-F1 | Res16-Precision | Res16-Recall | Res16-F1 |
+| :----:| :----: | :----: | :----: | :----: | :----: | :----: |
+| HGCN-BERT + BERT-Linear | 0.2443 | 0.2025 | 0.2215 | 0.2536 | 0.2403 | 0.2468 |
+| HGCN-BERT + BERT-TFM | 0.2555 | 0.2201 | 0.2365 | 0.2740 | 0.2641 | 0.2690 |
+| TASO-BERT-Linear | 0.4186 | 0.2650 | 0.3246 | 0.4973 | 0.4070 | 0.4477 |
+| TASO-BERT-CRF | 0.4424 | 0.2866 | 0.3478 | 0.4865 | 0.3968 | 0.4371 |
+| GAS | 0.4531 | 0.4670 | 0.4598 | 0.5454 | 0.5762 | 0.5604 |
+| PARAPHRASE | 0.4616 | **0.4772** | 0.4693 | 0.5663 | **0.5930** | **0.5793** |
+| BMRC-ACOS(Ours) | **0.5353** | 0.4478 | **0.4877** | **0.5794** | 0.5707 | 0.5750 |
 
-# 中文版MRC
+
+# 中文版MRC(dataset为ASQE)
 ## 中文问题模板
 ```bash
 Forward:
