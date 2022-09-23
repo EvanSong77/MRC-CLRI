@@ -17,3 +17,38 @@ Use BMRC to complete ACOS tasks
 | Seq2Path(k=8) | - | - | 57.37 |
 | BMRC-ACOS(Ours) | 58.91 | **56.66** | **57.76** |
 | Seq2Path(k=10) | - | - | **58.41** |
+
+<table>
+  <tr>
+    <td></td>
+    <td colspan="3" align="center">Pair</td>
+    <td colspan="3" align="center">Quadruple</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td align="center">pre</td>
+    <td align="center">reacll</td>
+    <td align="center">f1</td>
+    <td align="center">pre</td>
+    <td align="center">reacll</td>
+    <td align="center">f1</td>
+  </tr>
+  <tr>
+    <td><B>Roberta+Bilstm</B></td>
+    <td>0.8240</td>
+    <td>0.7441</td>
+    <td>0.7820</td>
+    <td>0.7958</td>
+    <td>0.7187</td>
+    <td>0.7553</td>
+  </tr>
+  <tr>
+    <td><B>BMRC-ACOS(Ours)</B></td>
+    <td>0.8058</td>
+    <td><B>0.8449</B></td>
+    <td><B>0.8249</B></td>
+    <td>0.7729</td>
+    <td><B>0.8103</B></td>
+    <td><B>0.7911</B></td>
+  </tr>
+</table>
