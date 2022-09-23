@@ -18,6 +18,7 @@ Use BMRC to complete ACOS tasks
 | BMRC-ACOS(Ours) | 58.91 | **56.66** | **57.76** |
 | Seq2Path(k=10) | - | - | **58.41** |
 
+## 严格计算结果
 <table>
   <tr>
     <td></td>
@@ -47,6 +48,32 @@ Use BMRC to complete ACOS tasks
     <td>0.8058</td>
     <td><B>0.8449</B></td>
     <td><B>0.8249</B></td>
+    <td>0.7729</td>
+    <td><B>0.8103</B></td>
+    <td><B>0.7911</B></td>
+  </tr>
+</table>
+
+# 非严格结果（师兄计算方式）
+<table>
+  <tr>
+    <td></td>
+    <td colspan="3" align="center">Quadruple</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td align="center">pre</td>
+    <td align="center">recall</td>
+    <td align="center">f1</td>
+  </tr>
+  <tr>
+    <td><B>Roberta+Bilstm</B></td>
+    <td>0.7958</td>
+    <td>0.7187</td>
+    <td>0.7553</td>
+  </tr>
+  <tr>
+    <td><B>BMRC-ACOS(Ours)</B></td>
     <td>0.7729</td>
     <td><B>0.8103</B></td>
     <td><B>0.7911</B></td>
