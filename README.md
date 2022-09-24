@@ -128,3 +128,6 @@ Q4:[CLS] 什么种类对于方面1是意见2？ [SEP] sentence
     <td><B>0.8893</B></td>
   </tr>
 </table>
+
+![image](https://user-images.githubusercontent.com/48975863/192074115-b278205d-4a18-42a8-a653-f883fdea6602.png)
+
