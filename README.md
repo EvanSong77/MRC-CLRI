@@ -117,14 +117,14 @@ Q4:[CLS] 什么种类对于方面1是意见2？ [SEP] sentence
   </tr>
   <tr>
     <td><B>Roberta+Bilstm</B></td>
-    <td>0.7958</td>
-    <td>0.7187</td>
-    <td>0.7553</td>
+    <td>0.8619</td>
+    <td>0.7865</td>
+    <td>0.8224</td>
   </tr>
   <tr>
     <td><B>BMRC-ACOS(Ours)</B></td>
-    <td>0.7729</td>
-    <td><B>0.8103</B></td>
-    <td><B>0.7911</B></td>
+    <td>**0.8668**</td>
+    <td><B>0.9130</B></td>
+    <td><B>0.8893</B></td>
   </tr>
 </table>
