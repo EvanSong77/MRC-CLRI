@@ -123,7 +123,7 @@ Q4:[CLS] 什么种类对于方面1是意见2？ [SEP] sentence
   </tr>
   <tr>
     <td><B>BMRC-ACOS(Ours)</B></td>
-    <td>**0.8668**</td>
+    <td><B>0.8668</B></td>
     <td><B>0.9130</B></td>
     <td><B>0.8893</B></td>
   </tr>
