@@ -27,7 +27,7 @@ Q4:[CLS] What sentiment given the aspect1 and the opinion1 ? [SEP] sentence
 ```
 
 ## Result
-**Restaurant-ACOS**
+**ACOS-Restaurant**
 |  | Precision | Recall | F1 |
 | :----:| :----: | :----: | :----: |
 | Double-Propagation-ACOS | 34.67 | 15.08 | 21.04 |
