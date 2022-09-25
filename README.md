@@ -134,6 +134,9 @@ Q4:[CLS] 什么种类对于方面1是意见2？ [SEP] sentence
 
 ![image](https://user-images.githubusercontent.com/48975863/192074115-b278205d-4a18-42a8-a653-f883fdea6602.png)
 
+![image](https://user-images.githubusercontent.com/48975863/192125196-49ca129e-e118-4101-ad02-4c58350f468d.png)
+
+
 
 # 英文版Span
 
