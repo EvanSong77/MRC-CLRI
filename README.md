@@ -37,7 +37,7 @@ Q4:[CLS] What sentiment given the aspect1 and the opinion1 ? [SEP] sentence
 | Seq2Path(k=8) | - | - | 57.37 |
 | BMRC-ACOS(Ours) | 58.91 | **56.66** | **57.76** |
 | Seq2Path(k=10) | - | - | **58.41** |
-| Tree Generation | 0.6396 | 0.6174 | 0.6283 |
+| Tree Generation | 63.96 | 61.74 | 62.83 |
 
 **QUAD**
 | model | Res15-Precision | Res15-Recall | Res15-F1 | Res16-Precision | Res16-Recall | Res16-F1 |
