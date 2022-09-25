@@ -89,18 +89,27 @@ Q4:[CLS] 什么种类对于方面1是意见2？ [SEP] sentence
   </tr>
   <tr>
     <td><B>Roberta+Bilstm</B></td>
-    <td>0.8240</td>
+    <td><B>0.8240</B></td>
     <td>0.7441</td>
     <td>0.7820</td>
-    <td>0.7958</td>
+    <td><B>0.7958</B></td>
     <td>0.7187</td>
     <td>0.7553</td>
   </tr>
   <tr>
-    <td><B>BMRC-ACOS(Ours)</B></td>
+    <td><B>BMRC-ACOS(Ours chinese-bert-wwm)</B></td>
+    <td>0.8058</td>
+    <td>0.8449</td>
+    <td><B>0.8249</B></td>
+    <td>0.7729</td>
+    <td>0.8103</td>
+    <td>0.7911</td>
+  </tr>
+  <tr>
+    <td><B>BMRC-ACOS(Ours chinese-roberta-wwm-ext)</B></td>
     <td>0.8038</td>
     <td><B>0.8458</B></td>
-    <td><B>0.8243</B></td>
+    <td>0.8243</td>
     <td>0.7756</td>
     <td><B>0.8162</B></td>
     <td><B>0.7954</B></td>
@@ -126,17 +135,18 @@ Q4:[CLS] 什么种类对于方面1是意见2？ [SEP] sentence
     <td>0.8224</td>
   </tr>
   <tr>
-    <td><B>BMRC-ACOS(Ours)</B></td>
+    <td><B>BMRC-ACOS(Ours chinese-bert-wwm)</B></td>
+    <td>0.8582</td>
+    <td><B>0.9150</B></td>
+    <td>0.8857</td>
+  </tr>
+    <tr>
+    <td><B>BMRC-ACOS(Ours chinese-roberta-wwm-ext)</B></td>
     <td><B>0.8668</B></td>
-    <td><B>0.9130</B></td>
+    <td>0.9130</td>
     <td><B>0.8893</B></td>
   </tr>
 </table>
-
-![image](https://user-images.githubusercontent.com/48975863/192074115-b278205d-4a18-42a8-a653-f883fdea6602.png)
-
-![image](https://user-images.githubusercontent.com/48975863/192125196-49ca129e-e118-4101-ad02-4c58350f468d.png)
-
 
 
 # 英文版Span
