@@ -97,12 +97,12 @@ Q4:[CLS] 什么种类对于方面1是意见2？ [SEP] sentence
   </tr>
   <tr>
     <td><B>BMRC-ACOS(Ours)</B></td>
-    <td>0.8058</td>
-    <td><B>0.8449</B></td>
-    <td><B>0.8249</B></td>
-    <td>0.7729</td>
-    <td><B>0.8103</B></td>
-    <td><B>0.7911</B></td>
+    <td>0.8038</td>
+    <td><B>0.8458</B></td>
+    <td><B>0.8243</B></td>
+    <td>0.7756</td>
+    <td><B>0.8162</B></td>
+    <td><B>0.7954</B></td>
   </tr>
 </table>
 
