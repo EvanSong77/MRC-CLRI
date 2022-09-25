@@ -4,7 +4,7 @@ Use BMRC to complete Aspect Sentiment Quadruple Extraction tasks in ACOS(rest,la
 # Contributions
 - 我们的模型巧妙的解决了aspect或者opinion中含有隐式的情况，将含隐式抽取问题转化为“显式”抽取
 - 我们的MRC模型既可以适用英文也可以适用中文，针对中英文设计出了中英文两种模板，且在中文效果显著，英文的效果不逊色T5生成式模型
-- 我们的模型在QUAD的两个数据集都达到了SOTA，在ASQE数据集也达到SOTA（超过此前SOTA 6.69%）
+- 我们的模型在QUAD的两个数据集都达到了SOTA，在ASQE数据集也达到SOTA（超过此前SOTA 严格(4.01%) 不严格(6.69%)）
 
 # 英文版MRC(dataset为ACOS和QUAD)
 ## 英文问题模板
