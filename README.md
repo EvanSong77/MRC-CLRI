@@ -49,6 +49,7 @@ Q4:[CLS] What sentiment given the aspect1 and the opinion1 ? [SEP] sentence
 | GAS | 0.4531 | 0.4670 | 0.4598 | 0.5454 | 0.5762 | 0.5604 |
 | PARAPHRASE | 0.4616 | **0.4772** | 0.4693 | 0.5663 | **0.5930** | **0.5793** |
 | BMRC-ACOS(Ours) | **0.5353** | 0.4478 | **0.4877** | **0.5794** | 0.5707 | 0.5750 |
+| BMRC-ACOS(Ours不严格计算) |  |  |  |  |  |  |
 
 
 # 中文版MRC(dataset为ASQE)
@@ -149,6 +150,38 @@ Q4:[CLS] 什么种类对于方面1是意见2？ [SEP] sentence
 </table>
 
 
-# 英文版Span
+# 中文版划分数据集之后
+我们划分数据集的方法是：总数据量：3199，train:dev:test = 8:1:1，随机打乱后取其中的80%作为训练集，10%作为验证集，10%作为测试集。
+<font color="red">注：我们采用的计算方式与英文的一致，也就是严格计算方式!</font>
 
-# 中文版Span
+<table>
+  <tr>
+    <td></td>
+    <td colspan="3" align="center">Quadruple</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td align="center">pre</td>
+    <td align="center">recall</td>
+    <td align="center">f1</td>
+  </tr>
+  <tr>
+    <td><B>Roberta+Bilstm</B></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><B>BMRC-ACOS(Ours chinese-bert-wwm)</B></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+    <tr>
+    <td><B>BMRC-ACOS(Ours chinese-roberta-wwm-ext)</B></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
+
