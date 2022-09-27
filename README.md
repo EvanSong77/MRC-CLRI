@@ -49,7 +49,7 @@ Q4:[CLS] What sentiment given the aspect1 and the opinion1 ? [SEP] sentence
 | GAS | 0.4531 | 0.4670 | 0.4598 | 0.5454 | 0.5762 | 0.5604 |
 | PARAPHRASE | 0.4616 | **0.4772** | 0.4693 | 0.5663 | **0.5930** | **0.5793** |
 | BMRC-ACOS(Ours) | **0.5353** | 0.4478 | **0.4877** | **0.5794** | 0.5707 | 0.5750 |
-| BMRC-ACOS(Ours不严格计算) |  |  |  |  |  |  |
+| BMRC-ACOS(Ours不严格计算) | 0.5698 | 0.4679 | 0.5138 |  |  |  |
 
 
 # 中文版MRC(dataset为ASQE)
