@@ -154,6 +154,8 @@ Q4:[CLS] 什么种类对于方面1是意见2？ [SEP] sentence
 我们划分数据集的方法是：总数据量：3199，train:dev:test = 8:1:1，随机打乱后取其中的80%作为训练集，10%作为验证集，10%作为测试集。
 <font color="red">注：我们采用的计算方式与英文的一致，也就是严格计算方式！</font>
 
+结果选取方式：所有epoch中best validation所对应的test result
+
 <table>
   <tr>
     <td></td>
