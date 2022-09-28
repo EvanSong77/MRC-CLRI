@@ -173,9 +173,9 @@ Q4:[CLS] 什么种类对于方面1是意见2？ [SEP] sentence
   </tr>
   <tr>
     <td><B>BMRC-ACOS(Ours chinese-bert-wwm)</B></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>0.7493</td>
+    <td>0.7803</td>
+    <td>0.7649td>
   </tr>
     <tr>
     <td><B>BMRC-ACOS(Ours chinese-roberta-wwm-ext)</B></td>
