@@ -29,6 +29,25 @@ Q3:[CLS] What category given the aspect1 and the opinion1 ? [SEP] sentence
 Q4:[CLS] What sentiment given the aspect1 and the opinion1 ? [SEP] sentence
 ```
 
+```bash
+Forward:
+
+Q1:[CLS] What aspects ? [SEP] null sentence
+
+Q2:[CLS] What opinions given aspect1 ? [SEP] null sentence
+
+Backward:
+
+Q1:[CLS] What opinions ? [SEP] null sentence
+
+Q2:[CLS] What aspects given opinion1 ? [SEP] null sentence
+
+Q3:[CLS] What category given aspect1 is opinion1 ? [SEP] sentence
+
+Q4:[CLS] What sentiment given aspect1 is opinion1 ? [SEP] sentence
+```
+
+
 ## Result
 **ACOS-Restaurant**
 |  | Precision | Recall | F1 |
