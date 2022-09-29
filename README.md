@@ -177,15 +177,15 @@ Q4:[CLS] 什么种类对于方面1是意见2？ [SEP] sentence
   </tr>
   <tr>
     <td align="center"><B>Roberta+Bilstm</B></td>
-    <td align="center"></td>
-    <td align="center"></td>
-    <td align="center"></td>
-    <td align="center"></td>
-    <td align="center"></td>
-    <td align="center"></td>
-    <td align="center">0.7612</td>
-    <td align="center">0.7051</td>
-    <td align="center">0.7321</td>
+    <td align="center">0.7831</td>
+    <td align="center">0.7266</td>
+    <td align="center">0.7538</td>
+    <td align="center">0.7616</td>
+    <td align="center">0.7055</td>
+    <td align="center">0.7325</td>
+    <td align="center">0.7483</td>
+    <td align="center">0.6943</td>
+    <td align="center">0.7203</td>
   </tr>
   <tr>
     <td align="center"><B>BMRC-ACOS(Ours chinese-bert-wwm)</B></td>
