@@ -159,28 +159,54 @@ Q4:[CLS] 什么种类对于方面1是意见2？ [SEP] sentence
 <table>
   <tr>
     <td></td>
+    <td colspan="3" align="center">Pair</td>
+    <td colspan="3" align="center">Triplet</td>
     <td colspan="3" align="center">Quadruple</td>
   </tr>
   <tr>
     <td></td>
-    <td align="center">pre</td>
-    <td align="center">recall</td>
-    <td align="center">f1</td>
+    <td align="center">Precision</td>
+    <td align="center">Recall</td>
+    <td align="center">F1</td>
+    <td align="center">Precision</td>
+    <td align="center">Recall</td>
+    <td align="center">F1</td>
+    <td align="center">Precision</td>
+    <td align="center">Recall</td>
+    <td align="center">F1</td>
   </tr>
   <tr>
     <td><B>Roberta+Bilstm</B></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
     <td>0.7612</td>
     <td>0.7051</td>
     <td>0.7321</td>
   </tr>
   <tr>
     <td><B>BMRC-ACOS(Ours chinese-bert-wwm)</B></td>
+    <td>0.7965</td>
+    <td>0.8295</td>
+    <td>0.8126</td>
+    <td>0.7832</td>
+    <td>0.8157</td>
+    <td>0.7991</td>
     <td>0.7493</td>
     <td><B>0.7803</B></td>
     <td>0.7649</td>
   </tr>
     <tr>
     <td><B>BMRC-ACOS(Ours chinese-roberta-wwm-ext)</B></td>
+    <td>0.8305</td>
+    <td>0.8280</td>
+    <td>0.8292</td>
+    <td>0.8166</td>
+    <td>0.8141</td>
+    <td>0.8154</td>
     <td><B>0.7797</B></td>
     <td>0.7773</td>
     <td><B>0.7785</B></td>
