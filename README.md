@@ -201,12 +201,12 @@ Q4:[CLS] 什么种类对于方面1是意见2？ [SEP] sentence
   </tr>
     <tr>
     <td align="center"><B>BMRC-ACOS(Ours chinese-roberta-wwm-ext)</B></td>
-    <td align="center">0.8305</td>
+    <td align="center"><B>0.8305</B></td>
     <td align="center">0.8280</td>
-    <td align="center">0.8292</td>
-    <td align="center">0.8166</td>
+    <td align="center"><B>0.8292</B></td>
+    <td align="center"><B>0.8166</B></td>
     <td align="center">0.8141</td>
-    <td align="center">0.8154</td>
+    <td align="center"><B>0.8154</B></td>
     <td align="center"><B>0.7797</B></td>
     <td align="center">0.7773</td>
     <td align="center"><B>0.7785</B></td>
