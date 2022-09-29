@@ -190,10 +190,10 @@ Q4:[CLS] 什么种类对于方面1是意见2？ [SEP] sentence
   <tr>
     <td align="center"><B>BMRC-ACOS(Ours chinese-bert-wwm)</B></td>
     <td align="center">0.7965</td>
-    <td align="center">0.8295</td>
+    <td align="center"><B>0.8295</B></td>
     <td align="center">0.8126</td>
     <td align="center">0.7832</td>
-    <td align="center">0.8157</td>
+    <td align="center"><B>0.8157</B></td>
     <td align="center">0.7991</td>
     <td align="center">0.7493</td>
     <td align="center"><B>0.7803</B></td>
