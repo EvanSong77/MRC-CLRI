@@ -11,6 +11,8 @@ Use BMRC to complete Aspect Sentiment Quadruple Extraction tasks in ACOS(rest,la
 
 # 英文版MRC(dataset为ACOS和QUAD)
 ## 英文问题模板
+
+# 这种方式效果并不好
 ```bash
 Forward:
 
@@ -45,6 +47,24 @@ Q2:[CLS] What aspects given opinion1 ? [SEP] null sentence
 Q3:[CLS] What category given aspect1 is opinion1 ? [SEP] sentence
 
 Q4:[CLS] What sentiment given aspect1 is opinion1 ? [SEP] sentence
+```
+
+```bash
+Forward:
+
+Q1:[CLS] What aspects ? [SEP] null sentence
+
+Q2:[CLS] What opinion given the aspect aspect1 ? [SEP] null sentence
+
+Backward:
+
+Q1:[CLS] What opinions ? [SEP] null sentence
+
+Q2:[CLS] What aspect given the opinion opinion1 ? [SEP] null sentence
+
+Q3:[CLS] What category given the aspect aspect1 and the opinion opinion1 ? [SEP] sentence
+
+Q4:[CLS] What sentiment given the aspect aspect1 and the opinion opinion1 ? [SEP] sentence
 ```
 
 
