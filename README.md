@@ -30,8 +30,6 @@ Use BMRC to complete Aspect Sentiment Quadruple Extraction tasks in ACOS(rest,la
 
 # 英文版MRC(dataset为ACOS和QUAD)
 ## 英文问题模板
-
-# 这种方式效果并不好
 ```bash
 Forward:
 
