@@ -6,6 +6,25 @@ Use BMRC to complete Aspect Sentiment Quadruple Extraction tasks in ACOS(rest,la
 - 我们的MRC模型既可以适用英文也可以适用中文，针对中英文设计出了中英文两种模板，且在中文效果显著，英文的效果不逊色T5生成式模型
 - 我们的模型在QUAD的两个数据集都达到了SOTA，在ASQE数据集也达到SOTA（超过此前SOTA 严格(4.01%) 不严格(6.69%)）
 
+**首先针对源数据我们发现在转化为下标的时候会有下面这几条数据中label无法与句子中的词匹配到，我们进行了修正**
+  ```python
+  15res train 689 '/waitress' -> 'waitress'
+  15res test 408 'Maitre-D-' -> 'Maitre-D'
+  
+  16res train 867 '/waitress' -> 'waitress'
+  16res dev 92 'Maitre-D-' -> 'Maitre-D'
+  16res dev 93 '·rudeness' -> 'rudeness'
+  16res test 260 "'service" -> "service"
+  
+  # 同时我们还发现一些错误数据
+  15res dev 118、16res train 789 Do n't judge this place prima facie , you have to try it to believe it , a home away from home for the literate heart .####[['place', 'restaurant general', 'positive', 'try it and believe it']]
+  15res dev 187、16res train 329 Service was devine , oysters where a sensual as they come , and the price ca n't be beat ! ! !####[['Service', 'service general', 'positive', 'devine'], ['oysters', 'food quality', 'positive', 'sensual'], ['NULL', 'restaurant prices', 'positive', "can't be beat"]]
+  16res train 1008 DO not try unless you 're just going there to hang out like the rest of the hipsters who apparently have no sense of taste .####[['NULL', 'restaurant miscellaneous', 'negative', 'Do not try']]
+  16res test 252 It was clear he didn ’ t really care .####[['NULL', 'service general', 'negative', 'didn \\’ t really care']]
+  
+  ```
+
+
 # 数据分析
 
 
