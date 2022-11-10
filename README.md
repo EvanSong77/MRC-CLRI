@@ -274,3 +274,102 @@ Q4:[CLS] 什么种类对于方面1是意见2？ [SEP] sentence
     <td align="center"><B>0.7785</B></td>
   </tr>
 </table>
+
+
+
+# 论文数据分析表格
+
+<table>
+  <tr>
+    <td></td>
+    <td colspan="3" align="center">ASQP Rest15</td>
+    <td colspan="3" align="center">ASQP Rest16</td>
+    <td colspan="3" align="center">Chinese-ASQE</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td align="center">train</td>
+    <td align="center">dev</td>
+    <td align="center">test</td>
+    <td align="center">train</td>
+    <td align="center">dev</td>
+    <td align="center">test</td>
+    <td align="center">train</td>
+    <td align="center">dev</td>
+    <td align="center">test</td>
+  </tr>
+  <tr>
+    <td align="center"><B>句子数量</B></td>
+    <td align="center">834</td>
+    <td align="center">209</td>
+    <td align="center">537</td>
+    <td align="center">1264</td>
+    <td align="center">316</td>
+    <td align="center">544</td>
+    <td align="center">2560</td>
+    <td align="center">320</td>
+    <td align="center">319</td>
+  </tr>
+  <tr>
+    <td align="center"><B>句子最大长度</B></td>
+    <td align="center">52</td>
+    <td align="center">70</td>
+    <td align="center">64</td>
+    <td align="center">70</td>
+    <td align="center">52</td>
+    <td align="center">78</td>
+    <td align="center">69</td>
+    <td align="center">50</td>
+    <td align="center">57</td>
+  </tr>
+  <tr>
+    <td align="center"><B>显式四元组数量</B></td>
+    <td align="center">1082</td>
+    <td align="center">287</td>
+    <td align="center">577</td>
+    <td align="center">1543</td>
+    <td align="center">403</td>
+    <td align="center">620</td>
+    <td align="center">1350</td>
+    <td align="center">166</td>
+    <td align="center">192</td>
+  </tr>
+  <tr>
+    <td align="center"><B>隐式aspect四元组数量</B></td>
+    <td align="center">272</td>
+    <td align="center">60</td>
+    <td align="center">218</td>
+    <td align="center">1543</td>
+    <td align="center">104</td>
+    <td align="center">179</td>
+    <td align="center">3766</td>
+    <td align="center">481</td>
+    <td align="center">444</td>
+  </tr>
+  <tr>
+    <td align="center"><B>隐式opinion四元组数量</B></td>
+    <td align="center">0</td>
+    <td align="center">0</td>
+    <td align="center">0</td>
+    <td align="center">0</td>
+    <td align="center">0</td>
+    <td align="center">0</td>
+    <td align="center">146</td>
+    <td align="center">10</td>
+    <td align="center">15</td>
+  </tr>
+    <tr>
+    <td align="center"><B>隐式aspect-opinion四元组数量</B></td>
+    <td align="center">0</td>
+    <td align="center">0</td>
+    <td align="center">0</td>
+    <td align="center">0</td>
+    <td align="center">0</td>
+    <td align="center">0</td>
+    <td align="center">0</td>
+    <td align="center">0</td>
+    <td align="center">0</td>
+  </tr>
+  
+</table>
+
