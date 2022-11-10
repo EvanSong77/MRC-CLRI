@@ -96,7 +96,7 @@ Q4:[CLS] What sentiment given the aspect aspect1 and the opinion opinion1 ? [SEP
 | Seq2Path(k=6) | - | - | 58.06 |
 | Seq2Path(k=8) | - | - | 57.37 |
 | Seq2Path(k=10) | - | - | **58.41** |
-| BMRC-ACOS(Ours SentiWSP) | 60.78 | 57.53 | 59.11 |
+| BMRC-ACOS(Ours SentiWSP) | 60.90 | 60.70 | 60.80 |
 | Tree Generation | **63.96** | **61.74** | **62.83** |
 
 **QUAD**
