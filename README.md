@@ -89,13 +89,14 @@ Q4:[CLS] What sentiment given the aspect aspect1 and the opinion opinion1 ? [SEP
 **ACOS-Restaurant**
 |  | Precision | Recall | F1 |
 | :----:| :----: | :----: | :----: |
-| Double-Propagation-ACOS | 34.67 | 15.08 | 21.04 |
-| JET-ACOS | 59.81 | 28.94 | 39.01 |
-| Extract-Classify-ACOS | 38.54 | 52.96 | 44.61 |
+| ACOS-Baseline | 38.54 | 52.96 | 44.61 |
 | Span-ACOS | **64.37** | 48.91 | 55.58 |
+| BMRC-ACOS(Ours) | 58.91 | 56.66 | 57.76 |
+| Seq2Path(k=4) | - | - | 57.72 |
+| Seq2Path(k=6) | - | - | 58.06 |
 | Seq2Path(k=8) | - | - | 57.37 |
-| BMRC-ACOS(Ours) | 58.91 | **56.66** | **57.76** |
 | Seq2Path(k=10) | - | - | **58.41** |
+| BMRC-ACOS(Ours SentiWSP) | 60.78 | 57.53 | 59.11 |
 | Tree Generation | **63.96** | **61.74** | **62.83** |
 
 **QUAD**
