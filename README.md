@@ -252,26 +252,26 @@ Q4:[CLS] 什么种类对于方面1是意见2？ [SEP] sentence
   <tr>
     <td align="center"><B>BMRC-ACOS(Ours chinese-bert-wwm)</B></td>
     <td align="center">0.7965</td>
-    <td align="center"><B>0.8295</B></td>
+    <td align="center">0.8295</td>
     <td align="center">0.8126</td>
     <td align="center">0.7832</td>
-    <td align="center"><B>0.8157</B></td>
+    <td align="center">0.8157</td>
     <td align="center">0.7991</td>
     <td align="center">0.7493</td>
-    <td align="center"><B>0.7803</B></td>
+    <td align="center">0.7803</td>
     <td align="center">0.7649</td>
   </tr>
     <tr>
     <td align="center"><B>BMRC-ACOS(Ours chinese-roberta-wwm-ext)</B></td>
-    <td align="center"><B>0.8305</B></td>
-    <td align="center">0.8280</td>
-    <td align="center"><B>0.8292</B></td>
-    <td align="center"><B>0.8166</B></td>
-    <td align="center">0.8141</td>
-    <td align="center"><B>0.8154</B></td>
-    <td align="center"><B>0.7797</B></td>
-    <td align="center">0.7773</td>
-    <td align="center"><B>0.7785</B></td>
+    <td align="center"><B>0.8186</B></td>
+    <td align="center"><B>0.8525</B></td>
+    <td align="center"><B>0.8352</B></td>
+    <td align="center"><B>0.8038</B></td>
+    <td align="center"><B>0.8371</B></td>
+    <td align="center"><B>0.8202</B></td>
+    <td align="center"><B>0.7729</B></td>
+    <td align="center"><B>0.8049</B></td>
+    <td align="center"><B>0.7886</B></td>
   </tr>
 </table>
 
