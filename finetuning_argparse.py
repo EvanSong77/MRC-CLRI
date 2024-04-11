@@ -58,22 +58,8 @@ def init_args():
     # pgd hyper parameters
     parser.add_argument("--pgd_k", default=3, type=int)
 
-    # freeLB hyper parameters
-    parser.add_argument('--adv_lr', type=float, default=1e-2)
-    parser.add_argument('--adv_K', type=int, default=3, help="should be at least 1")
-    parser.add_argument('--adv_init_mag', type=float, default=2e-2)
-    parser.add_argument('--adv_norm_type', type=str, default="l2", help="[l2, linf]")
-    parser.add_argument('--adv_max_norm', type=float, default=0, help="set to 0 to be unlimited")
-    parser.add_argument('--base_model', type=str, default="bert")
-
     # Focal Loss parameters
     parser.add_argument('--flp_gamma', type=float, default=2)
-    # LDAM Loss parameters
-    parser.add_argument('--ldam_max_m', type=float, default=0.5)
-    parser.add_argument('--ldam_max_s', type=int, default=30)
-    # LMF Loss parameters（作者根据实验结果认为两个超参最好保持相同）
-    parser.add_argument('--lmf_hp1', type=float, default=0.5)
-    parser.add_argument('--lmf_hp2', type=float, default=0.5)
 
     # optimized parameters
     parser.add_argument('--alpha_start', type=float, default=0.80)

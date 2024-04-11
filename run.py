@@ -114,35 +114,11 @@ def do_test():
     logger.info(test_results)
 
 
-def do_eval():
-    # ##########init model##########
-    logger.info("Building MRC-CLRI Model...")
-    category_list = get_aspect_category(args.task, args.data_type)
-    args.category_dim = len(category_list[0])
-    # category and sentiment num_list
-    res_lists = get_category_sentiment_num_list(args)
-    args.category_num_list = res_lists[0]
-    args.sentiment_num_list = res_lists[-1]
-
-    model = MRCModel(args, len(category_list[0]))
-
-    # load data
-    # dataset
-    dev_dataset = ACOSDataset(tokenizer, args, "dev")
-    test_dataset = ACOSDataset(tokenizer, args, "test")
-    # dataloader
-    dev_dataloader = DataLoader(dataset=dev_dataset, batch_size=args.eval_batch_size, collate_fn=collate_fn)
-    test_dataloader = DataLoader(dataset=test_dataset, batch_size=args.eval_batch_size, collate_fn=collate_fn)
-    logger.info('***** Running Testing *****')
-    # load checkpoint
-    checkpoint = torch.load(args.checkpoint_path)
-    model.load_state_dict(checkpoint['net'])
-    model = model.cuda()
+def do_eval(model, dev_dataloader, test_dataloader):
 
     trainer = ACOSTrainer(logger, model, None, None, tokenizer, args)
     # ##########Dev##########
     logger.info("***** Running Dev *****")
-    # dev_results = trainer.eval(dev_dataloader)
     dev_results = trainer.batch_eval(dev_dataloader)
     if args.do_optimized:
         print_results2(logger, dev_results)
@@ -160,6 +136,28 @@ def do_eval():
 
 
 def do_optimized():
+    # ##########init model##########
+    logger.info("Building MRC-CLRI Model...")
+    category_list = get_aspect_category(args.task, args.data_type)
+    args.category_dim = len(category_list[0])
+    # category and sentiment num_list
+    res_lists = get_category_sentiment_num_list(args)
+    args.category_num_list = res_lists[0]
+    args.sentiment_num_list = res_lists[-1]
+
+    model = MRCModel(args, len(category_list[0]))
+    # load data
+    # dataset
+    dev_dataset = ACOSDataset(tokenizer, args, "dev")
+    test_dataset = ACOSDataset(tokenizer, args, "test")
+    # dataloader
+    dev_dataloader = DataLoader(dataset=dev_dataset, batch_size=args.eval_batch_size, collate_fn=collate_fn)
+    test_dataloader = DataLoader(dataset=test_dataset, batch_size=args.eval_batch_size, collate_fn=collate_fn)
+    # load checkpoint
+    checkpoint = torch.load(args.checkpoint_path)
+    model.load_state_dict(checkpoint['net'])
+    model = model.cuda()
+
     # 先确定beta再确定alpha(alpha=0.8)
     start, end, step = args.alpha_start, args.alpha_end, args.alpha_step
     alpha_list = [round(x, 2) for x in list(np.arange(start, end + step, step))]
@@ -171,7 +169,7 @@ def do_optimized():
     for b in beta_list:
         args.beta = int(b)
         logger.info(f'alpha is {args.alpha}, beta is {b}')
-        dev_results, test_results = do_eval()
+        dev_results, test_results = do_eval(model, dev_dataloader, test_dataloader)
 
         dev_f1_list.append(dev_results['quadruple']['f1'])
         test_f1_list.append(test_results['quadruple']['f1'])
@@ -187,7 +185,7 @@ def do_optimized():
     for a in alpha_list:
         args.alpha = a
         logger.info(f'alpha is {a}, beta is {args.beta}')
-        dev_results, test_results = do_eval()
+        dev_results, test_results = do_eval(model, dev_dataloader, test_dataloader)
 
         dev_f1_list.append(dev_results['quadruple']['f1'])
         test_f1_list.append(test_results['quadruple']['f1'])

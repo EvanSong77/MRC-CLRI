@@ -7,7 +7,7 @@ import numpy as np
 from torch.utils.data import Dataset
 
 from labels import get_aspect_category, get_sentiment
-from question_template import get_Chinese_Template, get_English_Template
+from question_template import get_English_Template
 from samples import DataSample, TokenizedSample
 
 
@@ -182,11 +182,8 @@ class ACOSDataset(Dataset):
         # get quadruples
         sentence_token, quadruple_list = get_quadruples(lines, self.tokenizer, task)
 
-        # 中文模板
-        if task.lower() == "asqe" or task.lower() == "zh_quad":
-            Forward_Q1, Backward_Q1, Forward_Q2, Backward_Q2, Q3, Q4 = get_Chinese_Template()
-        else:  # 英文模板
-            Forward_Q1, Backward_Q1, Forward_Q2, Backward_Q2, Q3, Q4 = get_English_Template()
+        # 英文模板
+        Forward_Q1, Backward_Q1, Forward_Q2, Backward_Q2, Q3, Q4 = get_English_Template()
         # ================================question and answer================================
         for k in range(len(sentence_token)):
             quadruple = quadruple_list[k]
@@ -611,48 +608,3 @@ class ACOSDataset(Dataset):
             tokenized_samples.append(sample)
 
         return tokenized_samples
-
-
-
-if __name__ == '__main__':
-    from transformers import BertTokenizer
-    import csv
-
-    data_name = 'rest16'
-    tokenizer = BertTokenizer.from_pretrained('/home/codewen/codewen_workspace/pretrained-models/bert-base-uncased')
-    data_path = f'/home/codewen/codewen_workspace/ABSA-REPO/data/ASQP/{data_name}/v2/'
-    data_type = ['train', 'dev', 'test']
-    sentiment_dict = {'negative': 0,'neutral': 1, 'positive': 2}
-    for dt in data_type:
-        lines = getJsonl(data_path + f'{dt}.jsonl')
-        # get quadruples
-        sentence_token, quadruple_list = get_quadruples(lines, tokenizer, 'ASQP')
-
-        # the duck con ##fi ##t is always amazing and the f ##oi ##e gr ##as terri ##ne with fig ##s was out of this world .####10,20 21,25	FOOD#QUALITY#2
-        # saul is the best restaurant on smith street and in brooklyn .	0,1 RESTAURANT#GENERAL 2 3,4
-        pair_list = []
-        quad_list = []
-        for i in range(len(sentence_token)):
-            sentence = ' '.join(sentence_token[i])
-            quadruple = quadruple_list[i]
-            quad_strs = [sentence]
-            for quad in quadruple:
-                asp, opi, cate, senti = quad[0], quad[-2], quad[1], sentiment_dict[quad[-1]]
-                if asp != (-1, -1):
-                    asp = (asp[0], asp[-1]+1)
-                if opi != (-1, -1):
-                    opi = (opi[0], opi[-1]+1)
-                pair_str = f'{sentence}####{asp[0]},{asp[-1]} {opi[0]},{opi[-1]}'
-                cate_senti_str = f'{cate}#{senti}'
-                pair_list.append([pair_str, cate_senti_str])
-
-                quad_str = f'{asp[0]},{asp[-1]} {cate} {senti} {opi[0]},{opi[-1]}'
-                quad_strs.append(quad_str)
-            quad_list.append(quad_strs)
-        with open(f'/home/codewen/codewen_workspace/ABSA-REPO/codes/ACOS/Extract-Classify-ACOS/tokenized_data/{data_name}_{dt}_pair.tsv', 'w', newline='') as tsvfile:
-            writer = csv.writer(tsvfile, delimiter='\t')
-            writer.writerows(pair_list)
-        with open(f'/home/codewen/codewen_workspace/ABSA-REPO/codes/ACOS/Extract-Classify-ACOS/tokenized_data/{data_name}_{dt}_quad_bert.tsv', 'w', newline='') as tsvfile:
-            writer = csv.writer(tsvfile, delimiter='\t')
-            writer.writerows(quad_list)
-        print()

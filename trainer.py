@@ -13,10 +13,10 @@ from tqdm import tqdm
 
 from labels import get_aspect_category, get_sentiment
 from losses.acos_losses import calculate_entity_loss, calculate_category_loss, calculate_sentiment_loss, \
-    calculate_SCL_loss, FocalLoss, calculate_LMF_loss
-from metrics1 import ACOSScore
-from question_template import get_English_Template, get_Chinese_Template
-from tools import filter_unpaired, pair_combine, FGM, PGD, FreeLB, batch_pair_combine
+    calculate_SCL_loss, FocalLoss
+from metrics import ACOSScore
+from question_template import get_English_Template
+from tools import filter_unpaired, pair_combine, FGM, PGD, batch_pair_combine
 
 
 class ACOSTrainer:
@@ -29,8 +29,6 @@ class ACOSTrainer:
         self.args = args
         self.fgm = FGM(self.model)
         self.pgd = PGD(self.model)
-        self.freeLB = FreeLB(self.args.adv_K, self.args.adv_lr, self.args.adv_init_mag,
-                             self.args.adv_max_norm, self.args.adv_norm_type, self.args.base_model)
         self.focalLoss = FocalLoss(self.args.flp_gamma)
 
     def train(self, train_dataloader, epoch):
@@ -81,14 +79,9 @@ class ACOSTrainer:
         json_res = []
         acos_score = ACOSScore(self.logger)
         self.model.eval()
-        if self.args.task.lower() == "asqe" or self.args.task.lower() == 'zh_quad':
-            Forward_Q1, Backward_Q1, Forward_Q2, Backward_Q2, Q3, Q4 = get_Chinese_Template()
-            f_asp_imp_start = 7
-            b_opi_imp_start = 7
-        else:
-            Forward_Q1, Backward_Q1, Forward_Q2, Backward_Q2, Q3, Q4 = get_English_Template()
-            f_asp_imp_start = 5
-            b_opi_imp_start = 5
+        Forward_Q1, Backward_Q1, Forward_Q2, Backward_Q2, Q3, Q4 = get_English_Template()
+        f_asp_imp_start = 5
+        b_opi_imp_start = 5
         for batch in tqdm(eval_dataloader):
             asp_predict, opi_predict, asp_opi_predict, triplets_predict, aocs_predict, quadruples_predict = [], [], [], [], [], []
 
@@ -420,7 +413,7 @@ class ACOSTrainer:
             one_json = {'sentence': ' '.join(batch.sentence_token[0]), 'pred': str(quadruples_predict),
                         'gold': str(batch.quadruples[0])}
             json_res.append(one_json)
-        with open(os.path.join(self.args.output_dir, 'pred.json'), 'w', encoding='utf-8') as fP:
+        with open(os.path.join(self.args.output_dir, self.args.task, self.args.data_type, 'pred.json'), 'w', encoding='utf-8') as fP:
             json.dump(json_res, fP, ensure_ascii=False, indent=4)
         return acos_score.compute()
 
@@ -429,14 +422,9 @@ class ACOSTrainer:
         json_res = []
         acos_score = ACOSScore(self.logger)
         self.model.eval()
-        if self.args.task.lower() == "asqe" or self.args.task.lower() == 'zh_quad':
-            Forward_Q1, Backward_Q1, Forward_Q2, Backward_Q2, Q3, Q4 = get_Chinese_Template()
-            f_asp_imp_start = 7
-            b_opi_imp_start = 7
-        else:
-            Forward_Q1, Backward_Q1, Forward_Q2, Backward_Q2, Q3, Q4 = get_English_Template()
-            f_asp_imp_start = 5
-            b_opi_imp_start = 5
+        Forward_Q1, Backward_Q1, Forward_Q2, Backward_Q2, Q3, Q4 = get_English_Template()
+        f_asp_imp_start = 5
+        b_opi_imp_start = 5
         for batch in tqdm(eval_dataloader):
             forward_pair_list, forward_pair_prob, forward_pair_ind_list = [], [], []
 
@@ -853,14 +841,9 @@ class ACOSTrainer:
         # category2id sentiment2id
         id2Category, id2Sentiment = get_aspect_category(self.args.task.lower(), self.args.data_type)[-1], \
             get_sentiment(self.args.task.lower())[-1]
-        if self.args.task.lower() == "asqe" or self.args.task.lower() == 'zh_quad':
-            Forward_Q1, Backward_Q1, Forward_Q2, Backward_Q2, Q3, Q4 = get_Chinese_Template()
-            f_asp_imp_start = 7
-            b_opi_imp_start = 7
-        else:
-            Forward_Q1, Backward_Q1, Forward_Q2, Backward_Q2, Q3, Q4 = get_English_Template()
-            f_asp_imp_start = 5
-            b_opi_imp_start = 5
+        Forward_Q1, Backward_Q1, Forward_Q2, Backward_Q2, Q3, Q4 = get_English_Template()
+        f_asp_imp_start = 5
+        b_opi_imp_start = 5
 
         f_asp_query_list, f_asp_mask_list, f_asp_seg_list = [], [], []
         b_opi_query_list, b_opi_mask_list, b_opi_seg_list = [], [], []
@@ -1387,18 +1370,6 @@ class ACOSTrainer:
         if self.args.use_FocalLoss:
             category_loss = self.focalLoss(category_scores, category_answer.cuda())
             sentiment_loss = self.focalLoss(sentiment_scores, sentiment_answer.cuda())
-        elif self.args.use_LDAMLoss:
-            category_loss = self.category_ldamLoss(category_scores, category_answer.cuda())
-            sentiment_loss = self.sentiment_ldamLoss(sentiment_scores, sentiment_answer.cuda())
-        elif self.args.use_LMFLoss:
-            focal_category_loss = self.focalLoss(category_scores, category_answer.cuda())
-            ldam_category_loss = self.category_ldamLoss(category_scores, category_answer.cuda())
-
-            focal_sentiment_loss = self.focalLoss(sentiment_scores, sentiment_answer.cuda())
-            ldam_sentiment_loss = self.sentiment_ldamLoss(sentiment_scores, sentiment_answer.cuda())
-
-            category_loss = calculate_LMF_loss(focal_category_loss, ldam_category_loss, self.args)
-            sentiment_loss = calculate_LMF_loss(focal_sentiment_loss, ldam_sentiment_loss, self.args)
         else:
             # 交叉熵loss
             category_loss = calculate_category_loss(category_scores, category_answer.cuda())
