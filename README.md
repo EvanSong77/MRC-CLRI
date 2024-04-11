@@ -14,8 +14,7 @@ Query-induced multi-task decomposition and enhanced learning for aspect-based se
 <p align="center">
   <a href="#-introduction">Introduction</a> •
   <a href="#-data">Data</a> •
-  <a href="#-quick-start">Quick Start</a> •
-  <a href="#-trained-model">Trained Model</a> 
+  <a href="#-quick-start">Quick Start</a>
 </p>
 
 
