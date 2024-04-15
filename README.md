@@ -77,7 +77,7 @@ python run.py \
   --task ASQP \
   --data_type rest15 \
   --model_path ../pretrained-models/SentiWSP \
-  --checkpoint_path ./outputs/saves/ASQP/rest15/rest15_test_model.pth \
+  --checkpoint_path ./outputs/saves/ASQP/rest15/rest15_test_model.pkl \
   --do_test
 
 # with Refined Inference
@@ -87,7 +87,7 @@ python run.py \
   --task ASQP \
   --data_type rest15 \
   --model_path ../pretrained-models/SentiWSP \
-  --checkpoint_path ./outputs/saves/ASQP/rest15/rest15_test_model.pth \
+  --checkpoint_path ./outputs/saves/ASQP/rest15/rest15_test_model.pkl \
   --do_test \
   --beta 25 \
   --alpha 0.82
@@ -97,5 +97,5 @@ python run.py \
 ```sh
 python run.py \
   --do_inference \
-  --load_ckpt_name ./outputs/saves/ASQP/rest15/rest15_test_model.pth
+  --load_ckpt_name ./outputs/saves/ASQP/rest15/rest15_test_model.pkl
 ```
