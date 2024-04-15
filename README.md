@@ -53,49 +53,53 @@ Before executing the code, you need to download the pre-trained model [SentiWSP]
 ```sh
 python run.py \
   --train_batch_size 4 \
-  --data_path ./data/ASQP/rest15/v2/ \
-  --task ASQP \
-  --data_type rest15 \
+  --data_path ./data/ACOS/v2/rest/ \
+  --task ACOS \
+  --data_type rest \
   --model_path ../pretrained-models/SentiWSP \
-  --do_train \
   --learning_rate1 3e-5 \
   --learning_rate2 1e-5 \
   --use_category_SCL \
-  --use_sentiment_SCL
+  --use_sentiment_SCL \
+  --contrastive_lr1 3e-5 \
+  --contrastive_lr2 1e-5 \
+  --do_train
 ```
 
 
 - Model Testing: 
 
-We release the ASQP-Rest15 MRC-CLRI model (one seed): `rest15_test_model.pkl` [[Google Drive]](https://drive.google.com/file/d/14FKfm0TqGbcCwt6gUHgt2LqPLaFkARkF/view?usp=drive_link). You can run it with the following command:
+We release the ACOS-Rest MRC-CLRI model (one seed): `rest_test_model.pkl` [[Google Drive]](https://drive.google.com/file/d/1gPX9ETjdtUBUdZrKpyjtIyaKowPbVuz6/view?usp=drive_link). You can run it with the following command:
 
 ```sh
 # without Refined Inference
 python run.py \
   --eval_batch_size 8 \
-  --data_path ./data/ASQP/rest15/v2/ \
-  --task ASQP \
-  --data_type rest15 \
+  --data_path ./data/ACOS/v2/rest/ \
+  --task ACOS \
+  --data_type rest \
   --model_path ../pretrained-models/SentiWSP \
-  --checkpoint_path ./outputs/saves/ASQP/rest15/rest15_test_model.pkl \
+  --checkpoint_path ./outputs/saves/ACOS/rest/rest_test_model.pkl \
   --do_test
+# 'f1': 0.6201716738197425
 
-# with Refined Inference
+# with Refined Inference (Use the hyperparameters from our paper)
 python run.py \
   --eval_batch_size 8 \
-  --data_path ./data/ASQP/rest15/v2/ \
-  --task ASQP \
-  --data_type rest15 \
+  --data_path ./data/ACOS/v2/rest/ \
+  --task ACOS \
+  --data_type rest \
   --model_path ../pretrained-models/SentiWSP \
-  --checkpoint_path ./outputs/saves/ASQP/rest15/rest15_test_model.pkl \
-  --do_test \
+  --checkpoint_path ./outputs/saves/ACOS/rest/rest_test_model.pkl \
   --beta 25 \
-  --alpha 0.82
+  --alpha 0.98 \
+  --do_test
+# 'f1': 0.6271186440677967
 ```
 
 - Model Inference:
 ```sh
 python run.py \
   --do_inference \
-  --load_ckpt_name ./outputs/saves/ASQP/rest15/rest15_test_model.pkl
+  --load_ckpt_name ./outputs/saves/ACOS/rest/rest_test_model.pkl
 ```
