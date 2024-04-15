@@ -51,9 +51,9 @@ def init_args():
 
     # contrastive hyper parameters
     # category
-    parser.add_argument('--contrastive_lr1', default=3e-4, type=float)
+    parser.add_argument('--contrastive_lr1', default=1e-4, type=float)
     # sentiment
-    parser.add_argument('--contrastive_lr2', default=3e-5, type=float)
+    parser.add_argument('--contrastive_lr2', default=1e-5, type=float)
 
     # pgd hyper parameters
     parser.add_argument("--pgd_k", default=3, type=int)

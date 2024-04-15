@@ -38,7 +38,8 @@ def do_train():
     # dataloader
     train_dataloader = DataLoader(dataset=train_dataset, batch_size=args.train_batch_size, shuffle=True, drop_last=True,
                                   collate_fn=collate_fn)
-    dev_dataloader = DataLoader(dataset=dev_dataset, batch_size=args.eval_batch_size, collate_fn=collate_fn)
+    # 训练的时候设置为args.eval_batch_size 若args.eval_batch_size过大，可能会出现cuda out of memory
+    dev_dataloader = DataLoader(dataset=dev_dataset, batch_size=1, collate_fn=collate_fn)
 
     # optimizer
     logger.info('initial optimizer......')
@@ -92,18 +93,11 @@ def do_test():
     args.category_num_list = res_lists[0]
     args.sentiment_num_list = res_lists[-1]
 
-    model = MRCModel(args, len(category_list[0]))
-    model = model.cuda()
-    # load data
+    # # load data
     test_dataset = ACOSDataset(tokenizer, args, "test")
-    # dataloader
+    # # dataloader
     test_dataloader = DataLoader(dataset=test_dataset, batch_size=args.eval_batch_size, collate_fn=collate_fn)
-    # load checkpoint
-    if args.save_path:
-        checkpoint = torch.load(args.save_path)
-    else:
-        checkpoint = torch.load(args.checkpoint_path)
-    model.load_state_dict(checkpoint['net'])
+    model = torch.load(args.checkpoint_path)
     model = model.cuda()
 
     trainer = ACOSTrainer(logger, model, None, None, tokenizer, args)
@@ -145,7 +139,6 @@ def do_optimized():
     args.category_num_list = res_lists[0]
     args.sentiment_num_list = res_lists[-1]
 
-    model = MRCModel(args, len(category_list[0]))
     # load data
     # dataset
     dev_dataset = ACOSDataset(tokenizer, args, "dev")
@@ -153,9 +146,7 @@ def do_optimized():
     # dataloader
     dev_dataloader = DataLoader(dataset=dev_dataset, batch_size=args.eval_batch_size, collate_fn=collate_fn)
     test_dataloader = DataLoader(dataset=test_dataset, batch_size=args.eval_batch_size, collate_fn=collate_fn)
-    # load checkpoint
-    checkpoint = torch.load(args.checkpoint_path)
-    model.load_state_dict(checkpoint['net'])
+    model = torch.load(args.checkpoint_path)
     model = model.cuda()
 
     # 先确定beta再确定alpha(alpha=0.8)
@@ -206,10 +197,8 @@ def do_inference(reviews):
     args.category_num_list = res_lists[0]
     args.sentiment_num_list = res_lists[-1]
 
-    model = MRCModel(args, len(category_list[0]))
     # load checkpoint
-    checkpoint = torch.load(args.checkpoint_path)
-    model.load_state_dict(checkpoint['net'])
+    model = torch.load(args.checkpoint_path)
     model = model.cuda()
 
     # Start do_inference

@@ -465,6 +465,9 @@ class ACOSTrainer:
                 f_asp_start_index_temp = []
                 f_asp_end_index_temp = []
                 for i in range(f_asp_start_ind[b].size(0)):
+                    # 填充部分不需要考虑
+                    if batch.sentence_len[b] + f_asp_imp_start < i:
+                        break
                     if batch.forward_asp_answer_start[b, i] != -1:
                         if f_asp_start_ind[b][i].item() == 1:
                             f_asp_start_index_temp.append(i)
@@ -484,6 +487,7 @@ class ACOSTrainer:
             f_asp_nums = []
             imp_starts = []
             f_opinion_querys, f_opinion_segs, f_opinion_masks = [], [], []
+            f_opinion_lens = []
             for b in range(len(f_asp_start_indexs)):
                 f_asp_nums.append(len(f_asp_start_indexs[b]))
                 for i in range(len(f_asp_start_indexs[b])):
@@ -515,6 +519,7 @@ class ACOSTrainer:
                     f_opinion_querys.append(opinion_query)
                     f_opinion_segs.append(opinion_query_seg)
                     f_opinion_masks.append(opinion_query_mask)
+                    f_opinion_lens.append(len(opinion_query))
 
             batch_f_ao_idxs = []
             if f_opinion_querys:
@@ -536,11 +541,15 @@ class ACOSTrainer:
                 b_f_asp_probs = [asp for asps in f_asp_probs for asp in asps]
                 batch_map_list = [d for c in [[a] * f_asp_nums[a] for a in range(len(f_asp_nums))] for d in c]
                 for b in range(f_opi_end_prob.size(0)):
+                    temp_forward_pair_list, temp_forward_pair_prob, temp_forward_pair_ind_list = [], [], []
                     f_opi_start_prob_temp = []
                     f_opi_end_prob_temp = []
                     f_opi_start_index_temp = []
                     f_opi_end_index_temp = []
                     for k in range(f_opi_start_ind[b].size(0)):
+                        # 填充部分不需要考虑
+                        if f_opinion_lens[b] - 1 < k:
+                            break
                         if f_opinion_segs[b, k].item() == 1:
                             if f_opi_start_ind[b][k].item() == 1:
                                 f_opi_start_index_temp.append(k)
@@ -564,12 +573,18 @@ class ACOSTrainer:
                             asp_ind = [b_f_asp_start_indexs[b] - 6, b_f_asp_end_indexs[b] - 6]
                         opi_ind = [f_opi_start_index[idx] - imp_starts[b] - 1, f_opi_end_index[idx] - imp_starts[b] - 1]
                         temp_prob = b_f_asp_probs[b] * f_opi_prob[idx]
-                        if asp_ind + opi_ind not in forward_pair_list:
+                        if asp_ind + opi_ind not in temp_forward_pair_list:
                             batch_f_ao_idxs.append(batch_map_list[b])
-                            forward_pair_list.append([asp] + [opi])
-                            forward_pair_prob.append(temp_prob)
-                            forward_pair_ind_list.append(asp_ind + opi_ind)
-
+                            temp_forward_pair_list.append([asp] + [opi])
+                            temp_forward_pair_prob.append(temp_prob)
+                            temp_forward_pair_ind_list.append(asp_ind + opi_ind)
+                    forward_pair_list.append(temp_forward_pair_list)
+                    forward_pair_prob.append(temp_forward_pair_prob)
+                    forward_pair_ind_list.append(temp_forward_pair_ind_list)
+            # 进行合并
+            forward_pair_list = [f_p for f_ps in forward_pair_list for f_p in f_ps]
+            forward_pair_prob = [f_p for f_ps in forward_pair_prob for f_p in f_ps]
+            forward_pair_ind_list = [f_p for f_ps in forward_pair_ind_list for f_p in f_ps]
             # backward q_1
             b_opi_start_indexs, b_opi_end_indexs, b_opi_probs = [], [], []
             for b in range(b_opi_end_prob.size(0)):
@@ -578,6 +593,9 @@ class ACOSTrainer:
                 b_opi_start_index_temp = []
                 b_opi_end_index_temp = []
                 for i in range(b_opi_start_ind[b].size(0)):
+                    # 填充部分不需要考虑
+                    if batch.sentence_len[b] + b_opi_imp_start < i:
+                        break
                     if batch.backward_opi_answer_start[b, i] != -1:
                         if b_opi_start_ind[b][i].item() == 1:
                             b_opi_start_index_temp.append(i)
@@ -597,6 +615,7 @@ class ACOSTrainer:
             b_opi_nums = []
             imp_starts = []
             b_aspect_querys, b_aspect_segs, b_aspect_masks = [], [], []
+            b_aspect_lens = []
             for b in range(len(b_opi_start_indexs)):
                 b_opi_nums.append(len(b_opi_start_indexs[b]))
                 for i in range(len(b_opi_start_indexs[b])):
@@ -628,6 +647,7 @@ class ACOSTrainer:
                     b_aspect_querys.append(aspect_query)
                     b_aspect_segs.append(aspect_query_seg)
                     b_aspect_masks.append(aspect_query_mask)
+                    b_aspect_lens.append(len(aspect_query_mask))
 
             batch_b_ao_idxs = []
             if b_aspect_querys:
@@ -649,11 +669,15 @@ class ACOSTrainer:
                 b_b_opi_probs = [opi for opis in b_opi_probs for opi in opis]
                 f_batch_map_list = [d for c in [[a] * b_opi_nums[a] for a in range(len(b_opi_nums))] for d in c]
                 for b in range(b_asp_end_prob.size(0)):
+                    temp_backward_pair_list, temp_backward_pair_prob, temp_backward_pair_ind_list = [], [], []
                     b_asp_start_prob_temp = []
                     b_asp_end_prob_temp = []
                     b_asp_start_index_temp = []
                     b_asp_end_index_temp = []
                     for k in range(b_asp_start_ind[b].size(0)):
+                        # 填充部分不需要考虑
+                        if b_aspect_lens[b] - 1 < k:
+                            break
                         if b_aspect_segs[b, k].item() == 1:
                             if b_asp_start_ind[b][k].item() == 1:
                                 b_asp_start_index_temp.append(k)
@@ -678,12 +702,18 @@ class ACOSTrainer:
                         else:
                             opi_ind = [b_b_opi_start_indexs[b] - 6, b_b_opi_end_indexs[b] - 6]
                         temp_prob = b_asp_prob[idx] * b_b_opi_probs[b]
-                        if asp_ind + opi_ind not in backward_pair_ind_list:
+                        if asp_ind + opi_ind not in temp_backward_pair_ind_list:
                             batch_b_ao_idxs.append(f_batch_map_list[b])
-                            backward_pair_list.append([asp] + [opi])
-                            backward_pair_prob.append(temp_prob)
-                            backward_pair_ind_list.append(asp_ind + opi_ind)
-
+                            temp_backward_pair_list.append([asp] + [opi])
+                            temp_backward_pair_prob.append(temp_prob)
+                            temp_backward_pair_ind_list.append(asp_ind + opi_ind)
+                    backward_pair_list.append(temp_backward_pair_list)
+                    backward_pair_prob.append(temp_backward_pair_prob)
+                    backward_pair_ind_list.append(temp_backward_pair_ind_list)
+            # 进行合并
+            backward_pair_list = [b_p for b_ps in backward_pair_list for b_p in b_ps]
+            backward_pair_prob = [b_p for b_ps in backward_pair_prob for b_p in b_ps]
+            backward_pair_ind_list = [b_p for b_ps in backward_pair_ind_list for b_p in b_ps]
             if self.args.use_Forward:
                 batch_final_idxs = []
                 final_asp_list, final_opi_list, final_asp_ind_list, final_opi_ind_list = [], [], [], []
@@ -730,6 +760,7 @@ class ACOSTrainer:
                     self.args.beta)
 
             # category sentiment
+            batch_quad_idxs = []
             ao_category_querys, ao_category_segs, ao_category_masks = [], [], []
             ao_sentiment_querys, ao_sentiment_segs, ao_sentiment_masks = [], [], []
             for idx in range(len(final_asp_list)):
@@ -760,7 +791,9 @@ class ACOSTrainer:
                         [word.lower() if word not in ['[CLS]', '[SEP]'] else word for word in Q4[6:9]])
 
                 # 拼接opinion
+                batch_quad_idx = []
                 for idy in range(predict_opinion_num):
+                    batch_quad_idxs.append(batch_final_idxs[idx])
                     category_query2 = category_query + final_opi_list[idx][idy]
                     sentiment_query2 = sentiment_query + final_opi_list[idx][idy]
                     if self.args.task.lower() == "asqe" or self.args.task.lower() == 'zh_quad':
@@ -795,7 +828,6 @@ class ACOSTrainer:
                     ao_sentiment_querys.append(sentiment_query2)
                     ao_sentiment_segs.append(sentiment_query_seg)
                     ao_sentiment_masks.append(sentiment_query_mask)
-
             if ao_category_querys:
                 # 进行padding
                 ao_category_querys = pad_sequence(ao_category_querys, batch_first=True, padding_value=0).cuda()
@@ -818,7 +850,7 @@ class ACOSTrainer:
                 ao_batch_map_list = [d for c in [[a] * ao_nums[a] for a in range(len(ao_nums))] for d in c]
                 final_opi_ind_list = [opi for opis in final_opi_ind_list for opi in opis]
                 # 三元组、四元组组合
-                quadruples_predicts = []
+                quadruples_predicts = [[] for _ in range(len(batch.quadruples))]
                 for idx in range(len(final_opi_ind_list)):
                     asp_f, opi_f = [], []
                     asp_f.append(final_asp_ind_list[ao_batch_map_list[idx]][0])
@@ -826,10 +858,11 @@ class ACOSTrainer:
                     opi_f.append(final_opi_ind_list[idx][0])
                     opi_f.append(final_opi_ind_list[idx][1])
                     quadruple_predict = [asp_f, category_predicted[idx].item(), opi_f, sentiment_predicted[idx].item()]
-                    if quadruple_predict not in quadruples_predicts:
-                        quadruples_predicts.append(quadruple_predict)
-
-                acos_score.update2(batch.quadruples, quadruples_predicts)
+                    if quadruple_predict not in quadruples_predicts[batch_quad_idxs[idx]]:
+                        quadruples_predicts[batch_quad_idxs[idx]].append(quadruple_predict)
+            else:
+                quadruples_predicts = [[] for _ in range(len(batch.quadruples))]
+            acos_score.update2(batch.quadruples, quadruples_predicts)
 
         end_time = time.time()
         elapsed_time = end_time - start_time

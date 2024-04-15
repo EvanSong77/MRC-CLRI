@@ -168,12 +168,10 @@ class ACOSScore(object):
                     self.true_imp_quadruple += 1
 
     def update2(self, gold_quadruples, pred_quadruples):
-        gold_quadruples = [quad for quads in gold_quadruples for quad in quads]
-        self.gold_quadruple += len(gold_quadruples)
-
-        self.pred_quadruple += len(pred_quadruples)
-
-        for g in gold_quadruples:
-            for p in pred_quadruples:
-                if g == p:
-                    self.true_quadruple += 1
+        for b in range(len(gold_quadruples)):
+            self.gold_quadruple += len(gold_quadruples[b])
+            self.pred_quadruple += len(pred_quadruples[b])
+            for g in gold_quadruples[b]:
+                for p in pred_quadruples[b]:
+                    if g == p:
+                        self.true_quadruple += 1

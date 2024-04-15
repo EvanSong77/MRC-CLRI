@@ -304,9 +304,12 @@ def min_distance(a, b, c, d):
 
 
 def save_model(save_path, save_type, epoch, optimizer, model):
-    state = {'net': model.state_dict(), 'optimizer': optimizer.state_dict(), 'epoch': epoch}
-    save_path = os.path.join(save_path, "{}_model.pth".format(save_type))
-    torch.save(state, save_path)
+    # state = {'net': model.state_dict(), 'optimizer': optimizer.state_dict(), 'epoch': epoch}
+    # save_path = os.path.join(save_path, "{}_model.pth".format(save_type))
+    # torch.save(state, save_path)
+    # 修改为pkl格式
+    save_path = os.path.join(save_path, "{}_model.pkl".format(save_type))
+    torch.save(model, save_path)
     return save_path
 
 

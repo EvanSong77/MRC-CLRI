@@ -47,6 +47,7 @@ Before executing the code, you need to download the pre-trained model [SentiWSP]
 
 ### ⚡️ Running the Code
 
+
 - Model Training:
 
 ```sh
@@ -63,9 +64,13 @@ python run.py \
   --use_sentiment_SCL
 ```
 
-- Model Testing:
+
+- Model Testing: 
+
+We release the ASQP-Rest15 MRC-CLRI model (one seed): `rest15_test_model.pkl` [[Google Drive]](https://drive.google.com/file/d/14FKfm0TqGbcCwt6gUHgt2LqPLaFkARkF/view?usp=drive_link). You can run it with the following command:
 
 ```sh
+# without Refined Inference
 python run.py \
   --eval_batch_size 8 \
   --data_path ./data/ASQP/rest15/v2/ \
@@ -74,6 +79,18 @@ python run.py \
   --model_path ../pretrained-models/SentiWSP \
   --checkpoint_path ./outputs/saves/ASQP/rest15/rest15_test_model.pth \
   --do_test
+
+# with Refined Inference
+python run.py \
+  --eval_batch_size 8 \
+  --data_path ./data/ASQP/rest15/v2/ \
+  --task ASQP \
+  --data_type rest15 \
+  --model_path ../pretrained-models/SentiWSP \
+  --checkpoint_path ./outputs/saves/ASQP/rest15/rest15_test_model.pth \
+  --do_test \
+  --beta 25 \
+  --alpha 0.82
 ```
 
 - Model Inference:
